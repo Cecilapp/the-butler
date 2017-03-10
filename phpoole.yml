@@ -1,0 +1,17 @@
+site:
+  title: Cecil
+  baseline: Your personal butler
+  baseurl: /
+  description: Your personal blog butler.
+  menu:
+    main:
+      download:
+        id: download
+        name: Download
+        url: https://github.com/PHPoole/Cecil
+        weight: 50
+  paginate:
+    disabled: true
+    homepage:
+      section: blog
+theme: hyde
