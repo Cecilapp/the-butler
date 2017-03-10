@@ -1,6 +1,6 @@
 # Cecil
 
-> Your personal blog's butler.
+> Your blog's butler.
 
 ## How to use Cecil?
 
