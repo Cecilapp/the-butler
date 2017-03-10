@@ -1,8 +1,8 @@
 site:
   title: Cecil
-  baseline: Your personal butler
+  baseline: Your blog's butler.
   baseurl: /
-  description: Your personal blog butler.
+  description: Your personal blog's butler.
   menu:
     main:
       download:
