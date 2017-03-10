@@ -2,17 +2,21 @@
 
 > Your blog's butler.
 
-## How to use Cecil?
+## What Cecil can do for you?
 
-### Customize your blog
+### Setup your blog
 
-Edit [phpoole.yml](phpoole.yml).
+Tell to Cecil what is the name of your blog, its URL, etc. with the [phpoole.yml](phpoole.yml) file.
 
-### Create posts
+### Manage your posts
 
-See [post](content/blog/post-1.md) example.
+Put your posts in the `content/blog` directory and let Cecil do the magic.
 
-### Deploy
+### Customize you blog
+
+Copy layouts from `themes/hyde` to `layouts` to alter them.
+
+### Madame est servie
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/PHPoole/Cecil)
 
