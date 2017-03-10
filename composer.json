@@ -1,6 +1,6 @@
 {
   "name": "narno/phpoole-cecil",
-  "description": "Your personal blog butler",
+  "description": "Your personal blog's butler",
   "license": "MIT",
   "type": "project",
   "require": {
