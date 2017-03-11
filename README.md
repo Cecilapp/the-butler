@@ -18,7 +18,7 @@ Copy layouts from `themes/hyde` to `layouts` to alter them.
 
 ### Madame est servie
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/PHPoole/Cecil)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/PHPoole/Cecil) [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/PHPoole/Cecil/tree/heroku)
 
 ## Need Help?
 
