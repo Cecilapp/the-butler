@@ -24,7 +24,6 @@ Copy layouts from `themes/hyde` to `layouts` to alter them.
 
 Read the [PHPoole's documentation](http://phpoole.org/documentation/).
 
-
 ## License
 
 PHPoole is a free software distributed under the terms of the MIT license.
