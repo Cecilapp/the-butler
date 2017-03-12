@@ -1,6 +1,6 @@
 # Cecil
 
-> Cecil is a ready to use static blog, powered by [Hyde](http://hyde.getpoole.com) and [PHPoole](http://phpoole.org).
+> Cecil is a ready to use static blog, powered by [Hyde](https://github.com/PHPoole/PHPoole-theme-hyde) and [PHPoole](http://phpoole.org).
 
 ## How to use?
 
@@ -16,7 +16,7 @@ Put your posts in the `content/blog` directory and let Cecil do the magic.
 
 ### Customize your blog
 
-Copy layouts from `themes/hyde` to `layouts` to alter them.
+Copy layouts files from [`themes/hyde/layouts`](https://github.com/PHPoole/PHPoole-theme-hyde/tree/master/layouts) to `layouts` to alter them (_override_).
 
 ## Need Help?
 
