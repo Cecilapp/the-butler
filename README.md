@@ -1,8 +1,8 @@
 # Cecil
 
-> Your blog's butler.
+> Cecil is a ready to use static blog, powered by [Hyde](http://hyde.getpoole.com) and [PHPoole](http://phpoole.org).
 
-## What Cecil can do for you?
+## How to use?
 
 ### Setup your blog
 
@@ -16,7 +16,7 @@ Put your posts in the `content/blog` directory and let Cecil do the magic.
 
 Copy layouts from `themes/hyde` to `layouts` to alter them.
 
-### Madame est servie
+### Madame est servie !
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/PHPoole/Cecil)
 
