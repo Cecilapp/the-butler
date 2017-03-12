@@ -6,19 +6,17 @@
 
 ### Setup your blog
 
-Tell to Cecil what is the name of your blog, its URL, etc. with the [phpoole.yml](phpoole.yml) file.
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/PHPoole/Cecil)
 
-### Manage your posts
+Then tell to Cecil what is the name of your blog, its URL, etc. through the [phpoole.yml](phpoole.yml) file.
+
+### Write your blog posts
 
 Put your posts in the `content/blog` directory and let Cecil do the magic.
 
-### Customize you blog
+### Customize your blog
 
 Copy layouts from `themes/hyde` to `layouts` to alter them.
-
-### Madame est servie !
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/PHPoole/Cecil)
 
 ## Need Help?
 
