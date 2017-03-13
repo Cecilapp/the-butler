@@ -1,0 +1,4 @@
+---
+layout: redirect.html
+destination: /
+---
