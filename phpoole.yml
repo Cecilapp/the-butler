@@ -3,13 +3,6 @@ site:
   baseline: Your blog's butler.
   baseurl: /
   description: Your blog's butler, powered by PHPoole.
-  menu:
-    main:
-      download:
-        id: download
-        name: Download
-        url: https://github.com/PHPoole/Cecil
-        weight: 50
   paginate:
     disabled: true
     homepage:
