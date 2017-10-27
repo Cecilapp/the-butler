@@ -3,12 +3,4 @@ site:
   baseline: Your blog's butler.
   baseurl: /
   description: Your blog's butler, powered by PHPoole.
-  menu:
-    main:
-      blog:
-        disabled: true
-  paginate:
-    disabled: true
-    homepage:
-      section: blog
 theme: hyde
