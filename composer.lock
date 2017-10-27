@@ -58,16 +58,16 @@
         },
         {
             "name": "narno/phpoole-theme-hyde",
-            "version": "1.5.1",
+            "version": "1.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPoole/PHPoole-theme-hyde.git",
-                "reference": "7d0b87a2c54bf7bed96a36f39de6b50ea757f3aa"
+                "reference": "eb959aa3a40e264f34f2d87812306468ea62e80d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHPoole/PHPoole-theme-hyde/zipball/7d0b87a2c54bf7bed96a36f39de6b50ea757f3aa",
-                "reference": "7d0b87a2c54bf7bed96a36f39de6b50ea757f3aa",
+                "url": "https://api.github.com/repos/PHPoole/PHPoole-theme-hyde/zipball/eb959aa3a40e264f34f2d87812306468ea62e80d",
+                "reference": "eb959aa3a40e264f34f2d87812306468ea62e80d",
                 "shasum": ""
             },
             "require": {
@@ -87,7 +87,7 @@
                 "phpoole",
                 "theme"
             ],
-            "time": "2017-03-13T11:42:35+00:00"
+            "time": "2017-10-27T00:20:02+00:00"
         }
     ],
     "packages-dev": [],
