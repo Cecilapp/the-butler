@@ -1,3 +1,9 @@
 [build]
   command = "chmod +x netlify.sh && bash netlify.sh"
   publish = "_site"
+
+[context.deploy-preview]
+  command = "chmod +x netlify.sh && bash netlify.sh $DEPLOY_PRIME_URL"
+
+[context.branch-deploy]
+  command = "chmod +x netlify.sh && bash netlify.sh $DEPLOY_PRIME_URL"
