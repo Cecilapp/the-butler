@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: PHPoole/Cecil
   branch: master
 media_folder: "static/images"
 public_folder: "/images"
