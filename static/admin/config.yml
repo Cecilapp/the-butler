@@ -1,0 +1,20 @@
+backend:
+  name: github
+  repo: PHPoole/Cecil
+  branch: master
+publish_mode: editorial_workflow
+media_folder: "static/images"
+public_folder: "/images"
+collections:
+  - name: "posts"
+    label: "Posts"
+    folder: "content/blog"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: Title, name: title, widget: string}
+      - {label: Date, name: date, widget: datetime}
+      - {label: Image, name: image, widget: image, required: false}
+      - {label: Text, name: body, widget: markdown}
+      - {label: Tags, name: tags, widget: list, required: false}      
+      - {label: Published?, name: published, widget: boolean, default: false, required: false}
