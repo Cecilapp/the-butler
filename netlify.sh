@@ -12,13 +12,13 @@ curl -sSOL https://phpoole.org/phpoole.phar
 if [[ ! -z $CECIL_TITLE && ! -z $CECIL_BASELINE && ! -z $CECIL_DESCRIPTION ]]; then
   echo "Writing config file"
   cat > phpoole.yml <<EOF
-  site:
-    title: $CECIL_TITLE
-    baseline: $CECIL_BASELINE
-    baseurl: /
-    description: $CECIL_DESCRIPTION
-  theme: hyde
-  EOF
+site:
+  title: $CECIL_TITLE
+  baseline: $CECIL_BASELINE
+  baseurl: /
+  description: $CECIL_DESCRIPTION
+theme: hyde
+EOF
 fi
 
 echo "Running PHPoole"
