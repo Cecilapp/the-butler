@@ -8,15 +8,13 @@
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/PHPoole/Cecil)
 
-Then tell to Cecil what is the name of your blog, its URL, etc. through the [phpoole.yml](phpoole.yml) file.
-
 ### Write your blog posts
 
 Put your posts in the `content/blog` directory and let Cecil do the magic.
 
 ### Customize your blog
 
-Copy layouts files from [`themes/hyde/layouts`](https://github.com/PHPoole/PHPoole-theme-hyde/tree/master/layouts) to `layouts` to alter them (_override_).
+Copy layouts files from [`themes/hyde/layouts/`](https://github.com/PHPoole/PHPoole-theme-hyde/tree/master/layouts) to `layouts/` to alter them (_override_).
 
 ## Need Help?
 
