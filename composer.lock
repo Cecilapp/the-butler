@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "611817e85e944c01e81d64f2ccad802e",
+    "content-hash": "73889593bdb9e65080b649ea38f02d66",
     "packages": [
         {
             "name": "narno/phpoole-installer",
@@ -58,16 +58,16 @@
         },
         {
             "name": "narno/phpoole-theme-hyde",
-            "version": "1.5.3",
+            "version": "1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPoole/PHPoole-theme-hyde.git",
-                "reference": "60e669ce9b6bb97fed5ba58d912be5a4e86e83e0"
+                "reference": "31a66166fdcbd9b67570496ae3eec776f5ff208f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHPoole/PHPoole-theme-hyde/zipball/60e669ce9b6bb97fed5ba58d912be5a4e86e83e0",
-                "reference": "60e669ce9b6bb97fed5ba58d912be5a4e86e83e0",
+                "url": "https://api.github.com/repos/PHPoole/PHPoole-theme-hyde/zipball/31a66166fdcbd9b67570496ae3eec776f5ff208f",
+                "reference": "31a66166fdcbd9b67570496ae3eec776f5ff208f",
                 "shasum": ""
             },
             "require": {
@@ -87,7 +87,7 @@
                 "phpoole",
                 "theme"
             ],
-            "time": "2017-10-27T09:43:23+00:00"
+            "time": "2017-12-23T17:23:28+00:00"
         }
     ],
     "packages-dev": [],
