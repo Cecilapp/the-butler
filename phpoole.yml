@@ -1,6 +1,6 @@
-site:
-  title: Cecil
-  baseline: Your blog's butler.
-  baseurl: /
-  description: Your blog's butler, powered by PHPoole.
 theme: hyde
+site:
+  baseurl: /
+  #title: Cecil
+  #baseline: Your blog's butler.  
+  #description: Your blog's butler, powered by PHPoole.
