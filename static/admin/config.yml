@@ -8,7 +8,7 @@ collections:
   - name: "posts"
     label: "Posts"
     description: >
-      Posts listed in 'Blog' Section and in the RSS feed.
+      Posts listed in the 'Blog' Section and in the RSS feed.
     folder: "content/blog"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
