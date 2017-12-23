@@ -38,7 +38,7 @@ collections:
         file: "content/about.md"
         delete: false
         fields:
-          - {label: "Title", name: "title", widget: "text", default: "About"}
+          - {label: "Title", name: "title", widget: "string", default: "About"}
           - {label: "Text", name: "body", widget: markdown}
           - label: "Menu"
             name: "menu"
@@ -48,5 +48,5 @@ collections:
               name: "main"
               widget: "object"
               fields:
-                - {label: "Weight", name: "weight", widget: "number", default: 101}
+                - {label: "Weight", name: "weight", widget: "number", default: 101, valueType: "int"}
           - {label: "Published?", "name": published, widget: boolean, default: false, required: true}
