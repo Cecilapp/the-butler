@@ -44,9 +44,9 @@ collections:
             name: "menu"
             widget: "object"
             fields:
-              label: "Main"
-              name: "main"
-              widget: "object"
-              fields:
-                - {label: "Weight", name: "weight", widget: "number", default: 101, valueType: "int"}
+              - label: "Main"
+                name: "main"
+                widget: "object"
+                fields:
+                  - {label: "Weight", name: "weight", widget: "number", default: 101, valueType: "int"}
           - {label: "Published?", "name": published, widget: boolean, default: false, required: true}
