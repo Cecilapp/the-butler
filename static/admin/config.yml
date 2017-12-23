@@ -7,13 +7,46 @@ public_folder: "/images"
 collections:
   - name: "posts"
     label: "Posts"
+    description: >
+      Posts listed in the 'Blog' Section and in the RSS feed.
     folder: "content/blog"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - {label: Title, name: title, widget: string}
-      - {label: Date, name: date, widget: datetime}
-      - {label: Image, name: image, widget: image, required: false}
-      - {label: Text, name: body, widget: markdown}
-      - {label: Tags, name: tags, widget: list, required: false}      
-      - {label: Published?, name: published, widget: boolean, default: false, required: false}
+      - {label: "Title", name: "title", widget: string}
+      - {label: "Date", name: "date", widget: datetime}
+      - {label: "Image", name: "image", widget: image, required: false}
+      - {label: "Text", name: "body", widget: markdown}
+      - {label: "Tags", name: "tags", widget: list, required: false}      
+      - {label: "Published?", "name": published, widget: boolean, default: false, required: true}
+  - name: "pages"
+    label: "Pages"
+    description: >
+      Single pages: About, 404, etc.
+    files:
+      - name: "404"
+        label: "404"
+        file: "content/404.md"
+        delete: false
+        fields:
+          - {label: "Title", name: "title", widget: "string", default: "404"}
+          - {label: "Permalink", name: "permalink", widget: "string", default: "404.html"}
+          - {label: "Text", name: "body", widget: markdown}
+          - {label: "Published?", name: "published", widget: hidden, default: true}
+      - name: "about"
+        label: "About"
+        file: "content/about.md"
+        delete: false
+        fields:
+          - {label: "Title", name: "title", widget: "string", default: "About"}
+          - {label: "Text", name: "body", widget: markdown}
+          - label: "Menu"
+            name: "menu"
+            widget: "object"
+            fields:
+              - label: "Main"
+                name: "main"
+                widget: "object"
+                fields:
+                  - {label: "Weight", name: "weight", widget: "number", default: 101, valueType: "int"}
+          - {label: "Published?", "name": published, widget: boolean, default: false, required: true}
