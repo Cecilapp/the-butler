@@ -57,7 +57,7 @@ collections:
     files:
       - name: "config"
         label: "Configuration"
-        file: "phpoole.yaml"
+        file: "phpoole.yml"
         delete: false
         fields:
           - label: "Site"
