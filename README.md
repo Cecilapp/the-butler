@@ -26,6 +26,6 @@ Read the [PHPoole's documentation](http://phpoole.org/documentation/).
 
 ## License
 
-PHPoole is a free software distributed under the terms of the MIT license.
+Cecil is a free software distributed under the terms of the MIT license.
 
 © 2017 [Arnaud Ligny](https://arnaudligny.fr)
