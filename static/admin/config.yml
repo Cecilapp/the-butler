@@ -13,12 +13,12 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - {label: "Title", name: "title", widget: string}
-      - {label: "Date", name: "date", widget: datetime}
-      - {label: "Image", name: "image", widget: image, required: false}
-      - {label: "Text", name: "body", widget: markdown}
-      - {label: "Tags", name: "tags", widget: list, required: false}      
-      - {label: "Published?", "name": published, widget: boolean, default: false, required: true}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Image", name: "image", widget: "image", required: false}
+      - {label: "Text", name: "body", widget: "markdown"}
+      - {label: "Tags", name: "tags", widget: "list", required: false}      
+      - {label: "Published?", name: "published", widget: "boolean", default: false, required: true}
   - name: "pages"
     label: "Pages"
     description: >
@@ -31,15 +31,15 @@ collections:
         fields:
           - {label: "Title", name: "title", widget: "string", default: "404"}
           - {label: "Permalink", name: "permalink", widget: "string", default: "404.html"}
-          - {label: "Text", name: "body", widget: markdown}
-          - {label: "Published?", name: "published", widget: hidden, default: true}
+          - {label: "Text", name: "body", widget: "markdown"}
+          - {label: "Published?", name: "published", widget: "hidden", default: true}
       - name: "about"
         label: "About"
         file: "content/about.md"
         delete: false
         fields:
           - {label: "Title", name: "title", widget: "string", default: "About"}
-          - {label: "Text", name: "body", widget: markdown}
+          - {label: "Text", name: "body", widget: "markdown"}
           - label: "Menu"
             name: "menu"
             widget: "object"
@@ -49,4 +49,23 @@ collections:
                 widget: "object"
                 fields:
                   - {label: "Weight", name: "weight", widget: "number", default: 101, valueType: "int"}
-          - {label: "Published?", "name": published, widget: boolean, default: false, required: true}
+                  - {label: "Published?", name: "published", widget: "boolean", default: false, required: true}
+  - name: "settings"
+    label: "Settings"
+    description: >
+      Blog settings.
+    files:
+      - name: "config"
+        label: "Configuration"
+        file: "phpoole.yml"
+        delete: false
+        fields:
+          - {label: "Theme", name: "theme", widget: "string", default: "hyde"}
+          - label: "Site"
+            name: "site"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string", default: "Cecil"}
+              - {label: "Baseline", name: "baseline", widget: "string", default: "Your blog's butler."}
+              - {label: "Description", name: "description", widget: "string", default: "Your blog's butler, powered by PHPoole."}
+              - {label: "Base URL", name: "baseurl", widget: "string", default: "/"}
