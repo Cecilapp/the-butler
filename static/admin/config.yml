@@ -23,11 +23,11 @@ collections:
     label: "Pages"
     description: >
       Single pages: About, 404, etc.
+    delete: false
     files:
       - name: "404"
         label: "404"
         file: "content/404.md"
-        delete: false
         fields:
           - {label: "Title", name: "title", widget: "string", default: "404"}
           - {label: "Permalink", name: "permalink", widget: "string", default: "404.html"}
@@ -36,7 +36,6 @@ collections:
       - name: "about"
         label: "About"
         file: "content/about.md"
-        delete: false
         fields:
           - {label: "Title", name: "title", widget: "string", default: "About"}
           - {label: "Text", name: "body", widget: "markdown"}
@@ -54,11 +53,13 @@ collections:
     label: "Settings"
     description: >
       Blog settings.
+    delete: false
+    editor:
+      preview: false
     files:
       - name: "config"
         label: "Configuration"
         file: "phpoole.yml"
-        delete: false
         fields:
           - {label: "Theme", name: "theme", widget: "string", default: "hyde"}
           - label: "Site"
