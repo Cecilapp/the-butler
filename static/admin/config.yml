@@ -49,15 +49,14 @@ collections:
                 widget: "object"
                 fields:
                   - {label: "Weight", name: "weight", widget: "number", default: 101, valueType: "int"}
-          - {label: "Published?", "name": published, widget: boolean, default: false, required: true}
-
+                  - {label: "Published?", "name": published, widget: boolean, default: false, required: true}
   - name: "settings"
     label: "Settings"
     description: >
       Blog settings.
     files:
       - name: "config"
-        label: "Congiguration"
+        label: "Configuration"
         file: "phpoole.yaml"
         delete: false
         fields:
