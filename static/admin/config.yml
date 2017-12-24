@@ -64,7 +64,7 @@ collections:
             name: "site"
             widget: "object"
             fields:
-              - {label: "Blog title", name: "title", widget: "string", default: "Cecil"}
+              - {label: "Title", name: "title", widget: "string", default: "Cecil"}
               - {label: "Baseline", name: "baseline", widget: "string", default: "Your blog's butler."}
               - {label: "Description", name: "description", widget: "string", default: "Your blog's butler, powered by PHPoole."}
               - {label: "Base URL", name: "baseurl", widget: "string", default: "/"}
