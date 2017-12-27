@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>{{ site.netlify.cms.title|default('Content Manager') }}</title>
+  <title>{{ page.title|default('Content Manager') }}</title>
   <!-- Include the styles for the Netlify CMS UI, after your own styles -->
   <link rel="stylesheet" href="https://unpkg.com/netlify-cms@{{ site.netlify.cms.version|default('latest') }}/dist/cms.css" />
 </head>
