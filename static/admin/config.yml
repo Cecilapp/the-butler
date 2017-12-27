@@ -75,6 +75,7 @@ collections:
                 widget: "object"
                 fields:
                   - {label: "Posts per page", name: "max", widget: "number", default: 5, valueType: "int", required: true}
+                  - {label: "Pagination path", name: "path", widget: "string", default: "page", required: true}
               - label: "Date"
                 name: "date"
                 widget: "object"
