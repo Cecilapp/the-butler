@@ -25,7 +25,7 @@ collections:
       Single pages: About, 404, etc.
     delete: false
     files:
-      - label: "404 page"
+      - label: "404"
         name: "404"
         file: "content/404.md"
         fields:
@@ -48,7 +48,7 @@ collections:
                 widget: "object"
                 fields:
                   - {label: "Weight", name: "weight", widget: "number", default: 101, valueType: "int"}
-                  - {label: "Published?", name: "published", widget: "boolean", default: false, required: true}
+          - {label: "Published?", name: "published", widget: "boolean", default: false, required: true}
   - label: "Settings"
     name: "settings"
     description: >
