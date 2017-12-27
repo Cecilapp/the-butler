@@ -70,7 +70,6 @@ collections:
               - {label: "Base URL", name: "baseurl", widget: "string", default: "/", required: true}
               - {label: "Use canonical URL", name: "canonicalurl", widget: "boolean", default: true, required: true}
               - {label: "Description", name: "description", widget: "string", default: "Your blog's butler, powered by PHPoole.", required: true}
-
               - label: "Pagintation"
                 name: "paginate"
                 widget: "object"
@@ -82,5 +81,4 @@ collections:
                 fields:
                   - {label: "Format", name: "format", widget: "string", default: "j F Y", required: true}
                   - {label: "Time zone", name: "timezone", widget: "list", default: ["Europe/Paris"], required: true}
-
           - {label: "Theme", name: "theme", widget: "string", default: "hyde"}
