@@ -10,4 +10,9 @@ site:
   date:
     format: 'j F Y'
     timezone: 'Europe/Paris'
+  netlify:
+    cms:
+      version: 'latest'
+    identity:
+      version: 'v1'
 theme: 'hyde'
