@@ -12,6 +12,7 @@ site:
     timezone: 'Europe/Paris'
   netlify:
     cms:
+      path: 'admin'
       version: 'latest'
     identity:
       version: 'v1'
