@@ -82,4 +82,19 @@ collections:
                 fields:
                   - {label: "Format", name: "format", widget: "string", default: "j F Y", required: true}
                   - {label: "Time zone", name: "timezone", widget: "string", default: "Europe/Paris", required: true}
+              - label: "Netlify"
+                name: "netlify"
+                widget: "object"
+                fields:
+                  - label: "CMS"
+                    name: "cms"
+                    widget: "object"
+                    fields:
+                      - {label: "Path", name: "path", widget: "string", default: "admin", required: true}
+                      - {label: "Version", name: "version", widget: "string", default: "latest", required: true}
+                  - label: "Identity"
+                    name: "identity"
+                    widget: "object"
+                    fields:
+                      - {label: "Version", name: "version", widget: "string", default: "v1", required: true}              
           - {label: "Theme", name: "theme", widget: "string", default: "hyde"}
