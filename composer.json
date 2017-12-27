@@ -12,6 +12,6 @@
     }
   ],
   "require": {
-    "narno/phpoole-theme-hyde": "^1.6"
+    "narno/phpoole-theme-hyde": "^1.7"
   }
 }
