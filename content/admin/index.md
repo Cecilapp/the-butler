@@ -1,4 +1,4 @@
 ---
 layout: admin/index.html
-title: 'Content Manager'
+title: 'Content Manager (Netlify CMS)'
 ---
