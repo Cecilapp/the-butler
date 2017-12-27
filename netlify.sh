@@ -16,7 +16,8 @@ if [[ ! -z $CECIL_TITLE && ! -z $CECIL_BASELINE && ! -z $CECIL_DESCRIPTION ]]; t
   sed -i -E "s/(description: ).*/\1$CECIL_DESCRIPTION/" phpoole.yml
 fi
 
-printf "Used config\n" && cat phpoole.yml
+printf "Used config:\n"
+cat phpoole.yml
 
 echo "Running PHPoole"
 php phpoole.phar --version
