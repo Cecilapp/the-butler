@@ -6,7 +6,7 @@ site:
   description: "Your blog's butler, powered by PHPoole."
   paginate:
     max: 5
-    #path: 'page'
+    path: 'page'
   date:
     format: 'j F Y'
     timezone: 'Europe/Paris'
