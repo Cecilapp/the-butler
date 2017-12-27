@@ -1,6 +1,13 @@
 site:
-  baseurl: /
-  title: Cecil
-  baseline: Your blog's butler.  
-  description: Your blog's butler, powered by PHPoole.
-theme: hyde
+  title: 'Cecil'
+  baseline: "Your blog's butler."
+  baseurl: '/'
+  canonicalurl: true
+  description: "Your blog's butler, powered by PHPoole."
+  paginate:
+    max: 5
+    #path: 'page'
+  date:
+    format: 'j F Y'
+    timezone: 'Europe/Paris'
+theme: 'hyde'

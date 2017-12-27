@@ -5,8 +5,8 @@ publish_mode: editorial_workflow
 media_folder: "static/images"
 public_folder: "/images"
 collections:
-  - name: "posts"
-    label: "Posts"
+  - label: "Posts"
+    name: "posts"
     description: >
       Posts listed in the 'Blog' Section and in the RSS feed.
     folder: "content/blog"
@@ -19,22 +19,22 @@ collections:
       - {label: "Text", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list", required: false}      
       - {label: "Published?", name: "published", widget: "boolean", default: false, required: true}
-  - name: "pages"
-    label: "Pages"
+  - label: "Pages"
+    name: "pages"
     description: >
       Single pages: About, 404, etc.
     delete: false
     files:
-      - name: "404"
-        label: "404"
+      - label: "404 page"
+        name: "404"
         file: "content/404.md"
         fields:
           - {label: "Title", name: "title", widget: "string", default: "404"}
           - {label: "Permalink", name: "permalink", widget: "string", default: "404.html"}
           - {label: "Text", name: "body", widget: "markdown"}
           - {label: "Published?", name: "published", widget: "hidden", default: true}
-      - name: "about"
-        label: "About"
+      - label: "About"
+        name: "about"
         file: "content/about.md"
         fields:
           - {label: "Title", name: "title", widget: "string", default: "About"}
@@ -49,24 +49,36 @@ collections:
                 fields:
                   - {label: "Weight", name: "weight", widget: "number", default: 101, valueType: "int"}
                   - {label: "Published?", name: "published", widget: "boolean", default: false, required: true}
-  - name: "settings"
-    label: "Settings"
+  - label: "Settings"
+    name: "settings"
     description: >
       Blog settings.
     delete: false
     editor:
       preview: false
     files:
-      - name: "config"
-        label: "Configuration"
+      - label: "Configuration"
+        name: "config"
         file: "phpoole.yml"
         fields:
           - label: "Site"
             name: "site"
             widget: "object"
             fields:
-              - {label: "Base URL", name: "baseurl", widget: "string", default: "/"}
-              - {label: "Title", name: "title", widget: "string", default: "Cecil"}
-              - {label: "Baseline", name: "baseline", widget: "string", default: "Your blog's butler."}
-              - {label: "Description", name: "description", widget: "string", default: "Your blog's butler, powered by PHPoole."}
+              - {label: "Title", name: "title", widget: "string", default: "Cecil", required: true}
+              - {label: "Baseline", name: "baseline", widget: "string", default: "Your blog's butler.", required: true}
+              - {label: "Base URL", name: "baseurl", widget: "string", default: "/", required: true}
+              - {label: "Use canonical URL", name: "canonicalurl", widget: "boolean", default: true, required: true}
+              - {label: "Description", name: "description", widget: "string", default: "Your blog's butler, powered by PHPoole.", required: true}
+              - label: "Pagintation"
+                name: "paginate"
+                widget: "object"
+                fields:
+                  - {label: "Posts per page", name: "max", widget: "number", default: 5, valueType: "int", required: true}
+              - label: "Date"
+                name: "date"
+                widget: "object"
+                fields:
+                  - {label: "Format", name: "format", widget: "string", default: "j F Y", required: true}
+                  - {label: "Time zone", name: "timezone", widget: "list", default: ["Europe/Paris"], required: true}
           - {label: "Theme", name: "theme", widget: "string", default: "hyde"}
