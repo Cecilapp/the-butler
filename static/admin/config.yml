@@ -80,5 +80,5 @@ collections:
                 widget: "object"
                 fields:
                   - {label: "Format", name: "format", widget: "string", default: "j F Y", required: true}
-                  - {label: "Time zone", name: "timezone", widget: "list", default: ["Europe/Paris"], required: true}
+                  - {label: "Time zone", name: "timezone", widget: "string", default: "Europe/Paris", required: true}
           - {label: "Theme", name: "theme", widget: "string", default: "hyde"}
