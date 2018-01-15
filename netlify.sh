@@ -1,7 +1,7 @@
 echo "Switching to PHP 5.6"
 echo "[[ -e ~/.phpbrew/bashrc ]] && source ~/.phpbrew/bashrc" >> ~/.bashrc
 source ~/.phpbrew/bashrc
-phpbrew list
+#phpbrew list
 phpbrew switch 5.6.33
 
 echo "Installing theme"
