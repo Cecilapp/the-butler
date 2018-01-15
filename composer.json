@@ -1,5 +1,5 @@
 {
-  "name": "narno/phpoole-cecil",
+  "name": "phpoole/cecil",
   "description": "Your blog's butler.",
   "license": "MIT",
   "type": "project",
@@ -12,6 +12,6 @@
     }
   ],
   "require": {
-    "narno/phpoole-theme-hyde": "^1.7"
+    "phpoole/theme-hyde": "^1.8"
   }
 }
