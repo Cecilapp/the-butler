@@ -12,6 +12,6 @@
     }
   ],
   "require": {
-    "phpoole/theme-hyde": "^1.8"
+    "phpoole/theme-hyde": "^1.9"
   }
 }

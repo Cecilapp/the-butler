@@ -4,75 +4,24 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "ffd8f7d0d1b5e0f7673fc422ca2bd3ef",
+    "content-hash": "ada947db23dcdf5d34689022e846ac81",
     "packages": [
         {
-            "name": "narno/phpoole-installer",
-            "version": "1.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/PHPoole/PHPoole-installer.git",
-                "reference": "98e5a49d790b62398bc8dfc01eacaf34047a5516"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/PHPoole/PHPoole-installer/zipball/98e5a49d790b62398bc8dfc01eacaf34047a5516",
-                "reference": "98e5a49d790b62398bc8dfc01eacaf34047a5516",
-                "shasum": ""
-            },
-            "require": {
-                "composer-plugin-api": "^1.0"
-            },
-            "type": "composer-plugin",
-            "extra": {
-                "class": "Narno\\PHPoole\\Composer\\PHPoolePlugin",
-                "branch-alias": {
-                    "dev-master": "1.1.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "Narno\\PHPoole\\Composer": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Arnaud Ligny",
-                    "email": "arnaud@ligny.org",
-                    "homepage": "http://narno.org",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Installer for PHPoole themes and plugins",
-            "keywords": [
-                "installer",
-                "phpoole",
-                "plugins",
-                "themes"
-            ],
-            "abandoned": "phpoole/theme-installer",
-            "time": "2016-06-12T20:01:02+00:00"
-        },
-        {
             "name": "phpoole/theme-hyde",
-            "version": "1.8.0",
+            "version": "1.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPoole/theme-hyde.git",
-                "reference": "2d6ce4fa1ea64ccaff1685ecb6120b976f1b79f0"
+                "reference": "dc778a83e09f5bc7d77604a65b80b01dc821d1e4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHPoole/theme-hyde/zipball/2d6ce4fa1ea64ccaff1685ecb6120b976f1b79f0",
-                "reference": "2d6ce4fa1ea64ccaff1685ecb6120b976f1b79f0",
+                "url": "https://api.github.com/repos/PHPoole/theme-hyde/zipball/dc778a83e09f5bc7d77604a65b80b01dc821d1e4",
+                "reference": "dc778a83e09f5bc7d77604a65b80b01dc821d1e4",
                 "shasum": ""
             },
             "require": {
-                "narno/phpoole-installer": "^1.1"
+                "phpoole/theme-installer": "^1.2"
             },
             "type": "phpoole-theme",
             "extra": {
@@ -91,7 +40,56 @@
                 "phpoole",
                 "theme"
             ],
-            "time": "2018-01-15T17:02:28+00:00"
+            "time": "2018-01-15T23:07:05+00:00"
+        },
+        {
+            "name": "phpoole/theme-installer",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PHPoole/theme-installer.git",
+                "reference": "bcad945ccf467351dcbf2765c99394ba33d6bf2f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PHPoole/theme-installer/zipball/bcad945ccf467351dcbf2765c99394ba33d6bf2f",
+                "reference": "bcad945ccf467351dcbf2765c99394ba33d6bf2f",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "PHPoole\\PHPoole\\Composer\\PHPoolePlugin",
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "PHPoole\\PHPoole\\Composer": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Arnaud Ligny",
+                    "email": "arnaud@ligny.org",
+                    "homepage": "http://narno.org",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Installer for PHPoole themes",
+            "keywords": [
+                "installer",
+                "phpoole",
+                "themes"
+            ],
+            "time": "2018-01-15T17:40:29+00:00"
         }
     ],
     "packages-dev": [],
