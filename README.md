@@ -1,6 +1,6 @@
 # Cecil
 
-> Cecil is a ready to use static blog, powered by [Hyde](https://github.com/PHPoole/PHPoole-theme-hyde), [PHPoole](http://phpoole.org) and [Netlify](https://www.netlify.com).
+> Cecil is a ready to use static blog, based on the [Hyde](https://github.com/PHPoole/theme-hyde) theme, and powered by [PHPoole](https://phpoole.org) and [Netlify](https://www.netlify.com).
 
 ## How to use?
 
@@ -12,17 +12,17 @@ Use the following button to configure and deploy your new blog on Netlify.
 
 ### Write your blog posts
 
-Use [Netlify CMS](https://www.netlifycms.org) to manage your content: `http://your-blog/admin/`.
+Use [Netlify CMS](https://www.netlifycms.org) to manage your content: `https://your-blog.netlify.com/admin/`.
 
-Or do it manually by putting your blog posts in the `content/blog` directory.
+Or do it manually by putting your blog posts in the `content/blog/` directory.
 
 ### Customize your blog
 
-Copy layouts files from [`themes/hyde/layouts/`](https://github.com/PHPoole/PHPoole-theme-hyde/tree/master/layouts) to your own `layouts/` directory to _override_ them.
+Copy layouts files from [`themes/hyde/layouts/`](https://github.com/PHPoole/theme-hyde/tree/master/layouts) to your own `layouts/` directory to _override_ them.
 
 ## Need Help?
 
-Read the [PHPoole's documentation](http://phpoole.org/documentation/).
+Read the [PHPoole's documentation](https://phpoole.org/documentation/).
 
 ## License
 
