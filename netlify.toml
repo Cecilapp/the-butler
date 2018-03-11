@@ -1,6 +1,7 @@
 [build]
   command = "chmod +x netlify.sh && bash netlify.sh"
   publish = "_site"
+  environment = { PHP_VERSION = "7.2" }
 
 [context.deploy-preview]
   command = "chmod +x netlify.sh && bash netlify.sh $DEPLOY_PRIME_URL"
