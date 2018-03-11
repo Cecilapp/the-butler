@@ -1,5 +1,3 @@
-$PHP_VERSION=7.2
-
 echo "Downloading PHPoole"
 curl -sSOL https://phpoole.org/phpoole.phar
 
