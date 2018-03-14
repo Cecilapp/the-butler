@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+{% include 'include/head.html.twig' %}
+  <link rel="stylesheet" href="{{ url(minify('css/style.css')) }}">
+  <body>
+{% include 'include/sidebar.html.twig' %}
+    <div class="content container">
+      <h1 class="page-title">{{ page.title }}</h1>
+{{ page.content }}
+      <form name="contact" method="POST" action="thank-you" netlify>
+        <p>
+          <label>Email: <input class="form-control" type="text" name="name"></label>
+        </p>
+        <p>
+          <label>Message: <textarea class="form-control" name="message"></textarea></label>
+        </p>
+        <p>
+          <button type="submit">Send</button>
+        </p>
+      </form>
+    </div>
+  </body>
+</html>
