@@ -2,6 +2,8 @@
 
 > Cecil is a ready to use static blog, based on the [Hyde](https://github.com/PHPoole/theme-hyde) theme, and powered by [PHPoole](https://phpoole.org) and [Netlify](https://www.netlify.com).
 
+![Cecil preview](static/images/cecil-preview.png)
+
 ## How to use?
 
 ### Setup your blog
