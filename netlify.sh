@@ -9,6 +9,6 @@ if [[ ! -z $CECIL_TITLE && ! -z $CECIL_BASELINE && ! -z $CECIL_DESCRIPTION ]]; t
 fi
 
 php phpoole.phar --version
-if [ -z "$1" ]; then php phpoole.phar build; else echo "URL: $1" && php phpoole.phar build --baseurl=$1 --drafts; fi
+if [ -z "$1" ]; then php phpoole.phar build --quiet; else echo "URL: $1" && php phpoole.phar build --baseurl=$1 --drafts --quiet; fi
 
 exit 0
