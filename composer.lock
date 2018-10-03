@@ -1,23 +1,23 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
     "content-hash": "ada947db23dcdf5d34689022e846ac81",
     "packages": [
         {
             "name": "phpoole/theme-hyde",
-            "version": "1.9.0",
+            "version": "1.9.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPoole/theme-hyde.git",
-                "reference": "dc778a83e09f5bc7d77604a65b80b01dc821d1e4"
+                "reference": "972bd17109a44126dc84e7951e18f02f37340e8e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHPoole/theme-hyde/zipball/dc778a83e09f5bc7d77604a65b80b01dc821d1e4",
-                "reference": "dc778a83e09f5bc7d77604a65b80b01dc821d1e4",
+                "url": "https://api.github.com/repos/PHPoole/theme-hyde/zipball/972bd17109a44126dc84e7951e18f02f37340e8e",
+                "reference": "972bd17109a44126dc84e7951e18f02f37340e8e",
                 "shasum": ""
             },
             "require": {
@@ -40,7 +40,7 @@
                 "phpoole",
                 "theme"
             ],
-            "time": "2018-01-15T23:07:05+00:00"
+            "time": "2018-10-03T08:58:09+00:00"
         },
         {
             "name": "phpoole/theme-installer",
