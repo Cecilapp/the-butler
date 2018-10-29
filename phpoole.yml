@@ -17,6 +17,9 @@ site:
     identity:
       version: 'v1'
   fmpages:
+    admin:
+      layout: admin/index.html
+      title: 'Content Manager (Netlify CMS)'
     redirects:
       layout: _redirects.txt
       permalink: _redirects
