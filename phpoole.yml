@@ -16,4 +16,8 @@ site:
       version: 'latest'
     identity:
       version: 'v1'
+  fmpages:
+    redirects:
+      layout: _redirects.txt
+      permalink: _redirects
 theme: 'hyde'

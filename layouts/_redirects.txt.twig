@@ -1,0 +1,3 @@
+{% for page in site.pages|sortByDate if page.destination is defined %}
+{{ url(page, {'canonical': false}) }}    {{ url(page.destination, {'canonical': false}) }}    301
+{% endfor %}
