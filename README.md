@@ -30,4 +30,4 @@ Read the [PHPoole's documentation](https://phpoole.org/documentation/).
 
 Cecil is a free software distributed under the terms of the MIT license.
 
-© 2017 [Arnaud Ligny](https://arnaudligny.fr)
+© [Arnaud Ligny](https://arnaudligny.fr)
