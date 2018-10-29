@@ -10,7 +10,7 @@ if [[ ! -z $CECIL_TITLE && ! -z $CECIL_BASELINE && ! -z $CECIL_DESCRIPTION ]]; t
 fi
 
 echo "Started PHPoole build"
-if [ -z "$1" ]; then php phpoole.phar build --quiet; else echo "URL: $1" && php phpoole.phar build --baseurl=$1 --drafts --quiet; fi
+if [ -z "$1" ]; then php phpoole.phar build --baseurl=$URL --quiet; else echo "URL: $1" && php phpoole.phar build --baseurl=$1 --drafts --quiet; fi
 echo "Finished PHPoole build"
 
 exit 0
