@@ -1,6 +1,6 @@
 # Cecil
 
-> Cecil is a ready to use static blog, based on the [Hyde](https://github.com/PHPoole/theme-hyde) theme, and powered by [PHPoole](https://phpoole.org) and [Netlify](https://www.netlify.com).
+> A ready to use starter blog, based on the [Hyde](https://github.com/PHPoole/theme-hyde) theme, and powered by [Cecil](https://cecil.app) and [Netlify](https://www.netlify.com).
 
 ![Cecil preview](static/images/cecil-preview.png)
 
@@ -10,7 +10,7 @@
 
 Use the following button to configure and deploy your new blog on Netlify.
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/PHPoole/Cecil)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Cecil/starter-blog)
 
 ### Write your blog posts
 
@@ -20,14 +20,14 @@ Or do it manually by putting your blog posts in the `content/blog/` directory.
 
 ### Customize your blog
 
-Copy layouts files from [`themes/hyde/layouts/`](https://github.com/PHPoole/theme-hyde/tree/master/layouts) to your own `layouts/` directory to _override_ them.
+Copy layouts files from [`themes/hyde/layouts/`](https://github.com/Cecilapp/theme-hyde/tree/master/layouts) to your own `layouts/` directory to _override_ them.
 
 ## Need Help?
 
-Read the [PHPoole's documentation](https://phpoole.org/documentation/).
+Read the [documentation](https://cecil.app/documentation/).
 
 ## License
 
-Cecil is a free software distributed under the terms of the MIT license.
+Cecil starter blog is a free software distributed under the terms of the MIT license.
 
 © [Arnaud Ligny](https://arnaudligny.fr)
