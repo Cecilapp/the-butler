@@ -1,9 +1,9 @@
-echo "Downloading PHPoole"
-curl -sSOL https://phpoole.org/phpoole.phar
-php phpoole.phar --version
+echo "Downloading Cecil"
+curl -sSOL https://cecil.app/cecil.phar
+php cecil.phar --version
 
-echo "Started PHPoole build"
-if [ -z "$1" ]; then php phpoole.phar build --baseurl=$URL --quiet; else echo "URL: $1" && php phpoole.phar build --baseurl=$1 --drafts --quiet; fi
-echo "Finished PHPoole build"
+echo "Started Cecil build"
+if [ -z "$1" ]; then php cecil.phar build --baseurl=$URL --quiet; else echo "URL: $1" && php cecil.phar build --baseurl=$1 --drafts --quiet; fi
+echo "Finished Cecil build"
 
 exit 0

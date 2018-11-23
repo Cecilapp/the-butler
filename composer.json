@@ -1,5 +1,5 @@
 {
-  "name": "phpoole/cecil",
+  "name": "cecil/starter-blog",
   "description": "Your blog's butler.",
   "license": "MIT",
   "type": "project",
@@ -12,6 +12,6 @@
     }
   ],
   "require": {
-    "phpoole/theme-hyde": "^1.9"
+    "cecil/theme-hyde": "^1.11"
   }
 }
