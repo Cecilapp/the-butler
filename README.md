@@ -1,6 +1,6 @@
 # Cecil
 
-> A ready to use starter blog, based on the [Hyde](https://github.com/PHPoole/theme-hyde) theme, and powered by [Cecil](https://cecil.app) and [Netlify](https://www.netlify.com).
+> A ready to use starter blog, based on the [Hyde](https://github.com/poole/hyde) theme, and powered by [Cecil](https://cecil.app) and [Netlify](https://www.netlify.com).
 
 ![Cecil preview](static/images/cecil-preview.png)
 
@@ -10,7 +10,7 @@
 
 Use the following button to configure and deploy your new blog on Netlify.
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Cecil/starter-blog)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Cecilapp/starter-blog)
 
 ### Write your blog posts
 
