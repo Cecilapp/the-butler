@@ -25,14 +25,6 @@ collections:
       Single pages: About, 404, etc.
     delete: false
     files:
-      - label: "404"
-        name: "404"
-        file: "content/404.md"
-        fields:
-          - {label: "Title", name: "title", widget: "string", default: "404"}
-          - {label: "Permalink", name: "permalink", widget: "string", default: "404.html"}
-          - {label: "Text", name: "body", widget: "markdown"}
-          - {label: "Published?", name: "published", widget: "hidden", default: true}
       - label: "About"
         name: "about"
         file: "content/about.md"
