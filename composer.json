@@ -12,6 +12,6 @@
     }
   ],
   "require": {
-    "cecil/theme-hyde": "^1.11"
+    "cecil/theme-hyde": "^1.12"
   }
 }
