@@ -2,7 +2,7 @@
 title: About
 menu:
   main:
-    weight: 1001
+    weight: 999
 published: true
 ---
 
