@@ -2,6 +2,8 @@
 
 > A ready to use starter blog, based on the [Hyde](https://github.com/poole/hyde) theme, and powered by [Cecil](https://cecil.app) and [Netlify](https://www.netlify.com).
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5193c3e6-faae-4922-996e-069768d173a9/deploy-status)](https://app.netlify.com/sites/cecil-demo/deploys)
+
 ![Cecil preview](static/images/cecil-preview.png)
 
 ## How to use?
