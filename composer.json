@@ -12,6 +12,6 @@
     }
   ],
   "require": {
-    "cecil/theme-hyde": "^1.12"
+    "cecil/theme-hyde": "1.13.x-dev"
   }
 }
