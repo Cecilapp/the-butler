@@ -4,24 +4,18 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>{{ page.title|default('Content Manager') }}</title>
-  <!-- Include the styles for the Netlify CMS UI, after your own styles -->
   <link rel="stylesheet" href="https://unpkg.com/netlify-cms@{{ site.netlify.cms.version|default('latest') }}/dist/cms.css" />
 </head>
 <body>
-  <!-- Include the script that builds the page and powers Netlify CMS -->
   <script src="https://unpkg.com/netlify-cms@{{ site.netlify.cms.version|default('latest') }}/dist/netlify-cms.js"></script>
-  <!-- Use Netlify Identity -->
   <script src="https://identity-js.netlify.com/{{ site.netlify.identity.version|default('v1') }}/netlify-identity-widget.js"></script>
   <script>
-  if (window.netlifyIdentity) {
-    window.netlifyIdentity.on("logout", () => {
-      document.location.href = "/";
-    });
-  }
-  </script>
-  <!-- Custom preview -->
-  <script>
-    CMS.registerPreviewStyle("/css/style.css");
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on('logout', () => {
+        document.location.href = '/';
+      });
+    }
+    CMS.registerPreviewStyle('/css/style.css');
   </script>
 </body>
 </html>

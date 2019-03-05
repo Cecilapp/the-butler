@@ -4,14 +4,20 @@ backend:
 publish_mode: editorial_workflow
 media_folder: "static/images"
 public_folder: "/images"
+show_preview_links: true
+slug:
+  encoding: "ascii"
+  clean_accents: true
+  sanitize_replacement: "-"
 collections:
   - label: "Posts"
     name: "posts"
     description: >
-      Posts listed in the 'Blog' Section and in the RSS feed.
+      Posts listed in the 'Blog'.
     folder: "content/blog"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    preview_path: "blog/{{title}}"
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Date", name: "date", widget: "datetime"}
@@ -22,8 +28,9 @@ collections:
   - label: "Pages"
     name: "pages"
     description: >
-      Single pages: About, 404, etc.
+      Single pages.
     delete: false
+    preview_path: "{{title}}"
     files:
       - label: "About"
         name: "about"
@@ -62,8 +69,8 @@ collections:
               - {label: "Base URL", name: "baseurl", widget: "string", default: "/", required: true}
               - {label: "Use canonical URL", name: "canonicalurl", widget: "boolean", default: true, required: true}
               - {label: "Description", name: "description", widget: "string", default: "Your blog's butler, powered by PHPoole.", required: true}
-              - label: "Pagintation"
-                name: "paginate"
+              - label: "Pagination"
+                name: "pagination"
                 widget: "object"
                 fields:
                   - {label: "Posts per page", name: "max", widget: "number", default: 5, valueType: "int", required: true}

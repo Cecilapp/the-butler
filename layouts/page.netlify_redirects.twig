@@ -1,0 +1,3 @@
+{% for page in site.pages if page.redirect is defined %}
+{{ url(page, {'canonical': false}) }}    {{ url(page.redirect, {'canonical': false}) }}    301
+{% endfor %}
