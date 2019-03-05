@@ -1,10 +1,10 @@
 site:
-  title: 'Cecil'
+  title: "Cecil"
   baseline: "Your blog's butler."
   baseurl: '/'
   canonicalurl: true
   description: "Starter blog, with Netlify CMS."
-  paginate:
+  pagination:
     max: 5
     path: 'page'
   date:
@@ -24,9 +24,10 @@ site:
   virtualpages:
     admin:
       layout: admin/index
+      output: html
       title: 'Content Manager (Netlify CMS)'
-    netlify:
-      redirect: https://www.netlify.com
+    home:
+      redirect: /
     _redirects:
       output: netlify_redirects
 theme: 'hyde'
