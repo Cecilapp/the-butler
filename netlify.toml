@@ -12,4 +12,4 @@
 [template.environment]
   CECIL_SITE_TITLE = "Blog's title"
   CECIL_SITE_BASELINE = "Short description (~ 20 characters)"
-  CECIL_SITE_DESCRIPTION = "Full description(~ 250 characters)"
+  CECIL_SITE_DESCRIPTION = "Full description (~ 250 characters)"
