@@ -1,5 +1,5 @@
 ---
-title: The butler
+title: "The butler"
 date: 2019-01-15
 image: /images/butler.jpg
 tags: [Cecil, SSG]
