@@ -15,7 +15,7 @@ Use the following button to import the starter blog in Forestry and start editin
 
 [![Import this project into Forestry](https://assets.forestry.io/import-to-forestryK.svg)](https://app.forestry.io/quick-start?repo=cecilapp/starter-blog)
 
-### Deploy to [Netlify](https://www.netlify.com/)
+### Deploy with [Netlify](https://www.netlify.com/)
 
 Use the following button to configure and deploy your new blog on Netlify (and edit content from GitHub).
 
