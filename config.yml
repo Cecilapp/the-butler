@@ -1,9 +1,9 @@
 site:
-  title: "Cecil"
+  title: "Starter blog"
   baseline: "Your blog's butler."
   baseurl: "/"
   canonicalurl: true
-  description: "Starter blog, with Netlify CMS."
+  description: "A starter blog, powered by Cecil and Netlify CMS."
   pagination:
     max: 5
     path: "page"
