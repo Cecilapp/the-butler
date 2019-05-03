@@ -1,0 +1,29 @@
+---
+label: Post
+hide_body: false
+display_field: title
+fields:
+- type: text
+  name: title
+  label: Title
+  config:
+    required: true
+- type: datetime
+  name: date
+  label: Date
+  config:
+    date_format: YYYY-MM-DD
+    export_format: ''
+    required: true
+  default: now
+- name: image
+  type: file
+  config:
+    maxSize: 250
+  label: Image
+- type: tag_list
+  name: tags
+  label: Tags
+- name: published
+  type: boolean
+  label: Published
