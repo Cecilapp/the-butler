@@ -1,0 +1,15 @@
+---
+label: Page
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: Title
+- type: select
+  name: menu
+  config:
+    source:
+      type: simple
+    options:
+    - main
+  label: Menu
