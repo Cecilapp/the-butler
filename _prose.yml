@@ -1,0 +1,50 @@
+prose:
+  rooturl: 'content'
+  media: 'static/images'
+  metadata:
+    content:
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: "page.md"
+          placeholder: "Title"
+      - name: "layout"
+        field:
+          element: "text"
+          label: "Layout"
+          placeholder: "Layout"
+      - name: "path"
+        field:
+          element: "text"
+          label: "Path"
+          placeholder: "Permalink"
+    content/blog:
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: "post.md"
+          placeholder: "Title"
+      - name: "date"
+        field:
+          element: "text"
+          label: "Date"
+          value: "CURRENT_DATETIME"
+          placeholder: "YYYY-MM-DD HH:MM"
+      - name: "image"
+        field:
+          element: "text"
+          label: "Image"
+          placeholder: "image.jpg"
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Tags"
+          placeholder: "Add tags"
+          alterable: true
+      - name: "path"
+        field:
+          element: "text"
+          label: "Path"
+          placeholder: "Permalink"
