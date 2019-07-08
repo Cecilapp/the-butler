@@ -35,7 +35,7 @@ build:
   - PHP_VERSION=7.2
   preview_output_directory: _site
   output_directory: _site
-  install_dependencies_command: bash forestry-deps.sh
+  install_dependencies_command: bash .forestry/install.sh
   instant_preview_command: php cecil.phar serve -d --host=0.0.0.0 --port=8080
   preview_docker_image: composer:latest
   mount_path: "/usr/src"
