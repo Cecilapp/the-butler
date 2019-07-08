@@ -13,7 +13,7 @@ date: 2019-05-02 22:00:00 +0000
 
 Use the following button to import the starter blog to Forestry CMS and start editing!
 
-[![Import this project into Forestry](https://assets.forestry.io/import-to-forestryK.svg)](https://app.forestry.io/quick-start?repo=cecilapp/starter-blog)
+[![Import this project into Forestry](https://assets.forestry.io/import-to-forestryK.svg)](https://app.forestry.io/quick-start?repo=cecilapp/starter-blog&engine=hugo)
 
 ### Publish with [Netlify](https://www.netlify.com/)
 
