@@ -40,7 +40,6 @@ build:
   preview_output_directory: _site
   output_directory: _site
   instant_preview_command: php cecil.phar serve -d --host=0.0.0.0 --port=8080
-  install_dependencies_command: bash .forestry/install.sh
   preview_docker_image: composer:latest
   mount_path: "/usr/src"
   working_dir: "/usr/src"
