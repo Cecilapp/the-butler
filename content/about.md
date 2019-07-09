@@ -1,7 +1,7 @@
 ---
 title: About
-published: true
 date: 2019-05-02 22:00:00 +0000
+draft: false
 menu:
   main:
     weight: 2
