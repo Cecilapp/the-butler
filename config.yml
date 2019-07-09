@@ -3,7 +3,7 @@ site:
   baseline: "Your blog's butler."
   baseurl: "/"
   canonicalurl: true
-  description: "A starter blog, powered by Cecil and Netlify CMS."
+  description: "A ready to use static blog, powered by Cecil and Hyde."
   pagination:
     max: 5
     path: "page"
