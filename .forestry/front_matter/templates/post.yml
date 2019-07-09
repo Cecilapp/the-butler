@@ -3,19 +3,11 @@ label: Post
 hide_body: false
 display_field: title
 fields:
-- type: text
-  name: title
-  label: Title
-  config:
-    required: true
-- type: datetime
-  name: date
-  label: Date
-  config:
-    date_format: YYYY-MM-DD
-    export_format: ''
-    required: true
-  default: now
+- name: common
+  type: include
+  config: {}
+  template: common
+  label: Common
 - name: image
   type: file
   config:
@@ -24,6 +16,3 @@ fields:
 - type: tag_list
   name: tags
   label: Tags
-- name: published
-  type: boolean
-  label: Published
