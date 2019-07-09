@@ -9,6 +9,7 @@ sections:
   label: Posts
   create: documents
   match: "*"
+  exclude: index.md
   new_doc_ext: md
   templates:
   - post
@@ -17,6 +18,7 @@ sections:
   label: Pages
   create: all
   match: "*"
+  exclude: index.md
   new_doc_ext: md
   templates:
   - page
@@ -27,16 +29,18 @@ use_front_matter_path: false
 file_template: ":filename:"
 instant_preview: true
 build:
-  preview_command: curl -SOL https://cecil.app/cecil.phar && php cecil.phar build -v --baseurl=$DEPLOY_URL
-  publish_command: curl -SOL https://cecil.app/cecil.phar && php cecil.phar build -v
+  preview_command: curl -SOL https://cecil.app/cecil.phar && php cecil.phar build
+    -v --baseurl=$DEPLOY_URL
+  publish_command: curl -SOL https://cecil.app/cecil.phar && php cecil.phar build
+    -v
   preview_env:
   - PHP_VERSION=7.2
   publish_env:
   - PHP_VERSION=7.2
   preview_output_directory: _site
   output_directory: _site
-  install_dependencies_command: bash .forestry/install.sh
   instant_preview_command: php cecil.phar serve -d --host=0.0.0.0 --port=8080
+  install_dependencies_command: bash .forestry/install.sh
   preview_docker_image: composer:latest
   mount_path: "/usr/src"
   working_dir: "/usr/src"

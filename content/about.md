@@ -1,9 +1,10 @@
 ---
 title: About
-menu: main
 published: true
 date: 2019-05-02 22:00:00 +0000
-
+menu:
+  main:
+    weight: 2
 ---
 > A ready to use static blog, powered by [Hyde](https://github.com/Cecilapp/theme-hyde), [Cecil](https://cecil.app) and [Netlify](https://www.netlify.com).
 
