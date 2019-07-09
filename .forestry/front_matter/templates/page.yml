@@ -3,22 +3,11 @@ label: Page
 hide_body: false
 display_field: title
 fields:
-- type: text
-  name: title
-  label: Title
-  config:
-    required: true
-- name: date
-  type: datetime
-  label: Date
-  description: ''
-  config:
-    required: true
-    date_format: YYYY-MM-DD
-    time_format:
-    display_utc:
-    export_format: ''
-  default: now
+- name: common
+  type: include
+  config: {}
+  template: common
+  label: Common
 - type: select
   name: menu
   config:
@@ -27,6 +16,3 @@ fields:
     options:
     - main
   label: Menu
-- name: published
-  type: boolean
-  label: Published
