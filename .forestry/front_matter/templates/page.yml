@@ -1,5 +1,5 @@
 ---
-label: Post
+label: Page
 hide_body: false
 display_field: title
 fields:
@@ -8,11 +8,11 @@ fields:
   config: {}
   template: common
   label: Common
-- name: image
-  type: file
+- type: select
+  name: menu
   config:
-    maxSize: 250
-  label: Image
-- type: tag_list
-  name: tags
-  label: Tags
+    source:
+      type: simple
+    options:
+    - main
+  label: Menu
