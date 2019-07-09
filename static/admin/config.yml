@@ -24,7 +24,7 @@ collections:
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Text", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list", required: false}
-      - {label: "Published?", name: "published", widget: "boolean", default: false, required: true}
+      - {label: "Draft", name: "draft", widget: "boolean", default: true, required: true}
   - label: "Pages"
     name: "pages"
     description: >
@@ -47,7 +47,7 @@ collections:
                 widget: "object"
                 fields:
                   - {label: "Weight", name: "weight", widget: "number", default: 101, valueType: "int"}
-          - {label: "Published?", name: "published", widget: "boolean", default: false, required: true}
+          - {label: "Draft", name: "draft", widget: "boolean", default: true, required: true}
   - label: "Settings"
     name: "settings"
     description: >
