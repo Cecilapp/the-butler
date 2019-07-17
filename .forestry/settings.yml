@@ -22,6 +22,10 @@ sections:
   new_doc_ext: md
   templates:
   - page
+- type: document
+  path: config.yml
+  label: Configuration
+  match: "**/*"
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
