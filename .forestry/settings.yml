@@ -25,6 +25,7 @@ sections:
 - type: document
   path: config.yml
   label: Configuration
+  read_only: true
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
