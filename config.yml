@@ -1,33 +1,32 @@
-site:
-  title: "Starter blog"
-  baseline: "Your blog's butler."
-  baseurl: "/"
-  canonicalurl: true
-  description: "A ready to use static blog, powered by Cecil and Hyde."
-  pagination:
-    max: 5
-    path: "page"
-  date:
-    format: "j F Y"
-    timezone: "Europe/Paris"
-  netlify:
-    cms:
-      path: "admin"
-      version: "latest"
-    identity:
-      version: "v1"
-  output:
-    formats:
-      netlify_redirects:
-        mediatype: "text/plain"
-        extension: ""
-  virtualpages:
-    admin:
-      layout: admin/index
-      output: html
-      title: "Content Manager (Netlify CMS)"
-    home:
-      redirect: /
-    _redirects:
-      output: netlify_redirects
+title: "Starter blog"
+baseline: "Your blog's butler."
+baseurl: "/"
+canonicalurl: true
+description: "A ready to use static blog, powered by Cecil and Hyde."
+pagination:
+  max: 5
+  path: "page"
+date:
+  format: "j F Y"
+  timezone: "Europe/Paris"
+netlify:
+  cms:
+    path: "admin"
+    version: "latest"
+  identity:
+    version: "v1"
+output:
+  formats:
+    netlify_redirects:
+      mediatype: "text/plain"
+      extension: ""
+virtualpages:
+  admin:
+    layout: admin/index
+    output: html
+    title: "Content Manager (Netlify CMS)"
+  home:
+    redirect: /
+  _redirects:
+    output: netlify_redirects
 theme: "hyde"
