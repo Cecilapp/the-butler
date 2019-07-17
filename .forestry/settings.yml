@@ -2,7 +2,7 @@
 new_page_extension: md
 auto_deploy: true
 admin_path: "/static/admin"
-webhook_url: 
+webhook_url:
 sections:
 - type: directory
   path: content/blog
@@ -35,8 +35,10 @@ build:
     -v
   preview_env:
   - PHP_VERSION=7.2
+  - CECIL_VERSION=4.19.0
   publish_env:
   - PHP_VERSION=7.2
+  - CECIL_VERSION=4.19.0
   preview_output_directory: _site
   output_directory: _site
   instant_preview_command: php cecil.phar serve -d --host=0.0.0.0 --port=8080

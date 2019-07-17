@@ -60,40 +60,36 @@ collections:
         name: "config"
         file: "config.yml"
         fields:
-          - label: "Site"
-            name: "site"
+          - {label: "Title", name: "title", widget: "string", default: "Cecil", required: true}
+          - {label: "Baseline", name: "baseline", widget: "string", default: "Your blog's butler.", required: true}
+          - {label: "Base URL", name: "baseurl", widget: "string", default: "/", required: true}
+          - {label: "Use canonical URL", name: "canonicalurl", widget: "boolean", default: true, required: true}
+          - {label: "Description", name: "description", widget: "string", default: "Your blog's butler, powered by PHPoole.", required: true}
+          - label: "Pagination"
+            name: "pagination"
             widget: "object"
             fields:
-              - {label: "Title", name: "title", widget: "string", default: "Cecil", required: true}
-              - {label: "Baseline", name: "baseline", widget: "string", default: "Your blog's butler.", required: true}
-              - {label: "Base URL", name: "baseurl", widget: "string", default: "/", required: true}
-              - {label: "Use canonical URL", name: "canonicalurl", widget: "boolean", default: true, required: true}
-              - {label: "Description", name: "description", widget: "string", default: "Your blog's butler, powered by PHPoole.", required: true}
-              - label: "Pagination"
-                name: "pagination"
-                widget: "object"
-                fields:
-                  - {label: "Posts per page", name: "max", widget: "number", default: 5, valueType: "int", required: true}
-                  - {label: "Pagination path", name: "path", widget: "string", default: "page", required: true}
-              - label: "Date"
-                name: "date"
-                widget: "object"
-                fields:
-                  - {label: "Format", name: "format", widget: "string", default: "j F Y", required: true}
-                  - {label: "Time zone", name: "timezone", widget: "string", default: "Europe/Paris", required: true}
-              - label: "Netlify"
-                name: "netlify"
-                widget: "object"
-                fields:
-                  - label: "CMS"
-                    name: "cms"
-                    widget: "object"
-                    fields:
-                      - {label: "Path", name: "path", widget: "string", default: "admin", required: true}
-                      - {label: "Version", name: "version", widget: "string", default: "latest", required: true}
-                  - label: "Identity"
-                    name: "identity"
-                    widget: "object"
-                    fields:
-                      - {label: "Version", name: "version", widget: "string", default: "v1", required: true}
+              - {label: "Posts per page", name: "max", widget: "number", default: 5, valueType: "int", required: true}
+              - {label: "Pagination path", name: "path", widget: "string", default: "page", required: true}
+          - label: "Date"
+            name: "date"
+            widget: "object"
+            fields:
+              - {label: "Format", name: "format", widget: "string", default: "j F Y", required: true}
+              - {label: "Time zone", name: "timezone", widget: "string", default: "Europe/Paris", required: true}
           - {label: "Theme", name: "theme", widget: "string", default: "hyde"}
+          - label: "Netlify"
+            name: "netlify"
+            widget: "object"
+            fields:
+              - label: "CMS"
+                name: "cms"
+                widget: "object"
+                fields:
+                  - {label: "Path", name: "path", widget: "string", default: "admin", required: true}
+                  - {label: "Version", name: "version", widget: "string", default: "latest", required: true}
+              - label: "Identity"
+                name: "identity"
+                widget: "object"
+                fields:
+                  - {label: "Version", name: "version", widget: "string", default: "v1", required: true}
