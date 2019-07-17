@@ -1,20 +1,15 @@
 title: "Starter blog"
 baseline: "Your blog's butler."
+description: "A ready to use static blog, powered by Cecil and Hyde."
 baseurl: "/"
 canonicalurl: true
-description: "A ready to use static blog, powered by Cecil and Hyde."
-pagination:
-  max: 5
-  path: "page"
+theme: "hyde"
 date:
   format: "j F Y"
   timezone: "Europe/Paris"
-netlify:
-  cms:
-    path: "admin"
-    version: "latest"
-  identity:
-    version: "v1"
+pagination:
+  max: 5
+  path: "page"
 output:
   formats:
     netlify_redirects:
@@ -29,4 +24,9 @@ virtualpages:
     redirect: /
   _redirects:
     output: netlify_redirects
-theme: "hyde"
+netlify:
+  cms:
+    path: "admin"
+    version: "latest"
+  identity:
+    version: "v1"
