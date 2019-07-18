@@ -38,10 +38,10 @@ build:
     -v
   preview_env:
   - PHP_VERSION=7.2
-  - CECIL_VERSION=4.19.1
+  - CECIL_VERSION=4.19.2
   publish_env:
   - PHP_VERSION=7.2
-  - CECIL_VERSION=4.19.1
+  - CECIL_VERSION=4.19.2
   preview_output_directory: _site
   output_directory: _site
   instant_preview_command: php cecil.phar serve -d --host=0.0.0.0 --port=8080
