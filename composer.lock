@@ -1,0 +1,103 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "9fac172442a1871f37f491fdc504e46d",
+    "packages": [
+        {
+            "name": "cecil/theme-hyde",
+            "version": "1.15.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Cecilapp/theme-hyde.git",
+                "reference": "03d80721f25b224242fd377059cd109f6c8e1dd1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Cecilapp/theme-hyde/zipball/03d80721f25b224242fd377059cd109f6c8e1dd1",
+                "reference": "03d80721f25b224242fd377059cd109f6c8e1dd1",
+                "shasum": ""
+            },
+            "require": {
+                "cecil/theme-installer": "^1.3"
+            },
+            "type": "cecil-theme",
+            "extra": {
+                "name": "hyde",
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Cecil Hyde theme",
+            "keywords": [
+                "Hyde",
+                "cecil",
+                "theme"
+            ],
+            "time": "2019-07-30T15:31:34+00:00"
+        },
+        {
+            "name": "cecil/theme-installer",
+            "version": "1.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Cecilapp/theme-installer.git",
+                "reference": "53f9557922f30cba89a91fcab18700394eb52de3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Cecilapp/theme-installer/zipball/53f9557922f30cba89a91fcab18700394eb52de3",
+                "reference": "53f9557922f30cba89a91fcab18700394eb52de3",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Cecil\\Installer\\Composer\\CecilPlugin",
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Cecil\\Installer\\Composer": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Arnaud Ligny",
+                    "email": "arnaud@ligny.org",
+                    "homepage": "https://arnaudligny.fr",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Installer for Cecil themes",
+            "keywords": [
+                "cecil",
+                "installer",
+                "themes"
+            ],
+            "time": "2018-11-21T14:35:40+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
