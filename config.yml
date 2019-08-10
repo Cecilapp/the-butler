@@ -8,8 +8,6 @@ menu:
       weight: 0
     blog:
       weight: 1
-    about:
-      weight: 2
 date:
   format: "j F Y"
   timezone: "Europe/Paris"
