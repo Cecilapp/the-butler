@@ -2,11 +2,17 @@ title: "Starter blog"
 baseline: "Your blog's butler."
 description: "A ready to use static blog, powered by Cecil and Hyde."
 baseurl: "/"
-canonicalurl: true
-theme: "hyde"
+menu:
+  main:
+    index:
+      weight: 0
+    blog:
+      weight: 1
 date:
   format: "j F Y"
   timezone: "Europe/Paris"
+canonicalurl: true
+theme: "hyde"
 pagination:
   max: 5
   path: "page"

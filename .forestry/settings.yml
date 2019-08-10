@@ -41,12 +41,9 @@ build:
   mount_path: "/usr/src"
   working_dir: "/usr/src"
   instant_preview_command: php cecil.phar serve -d --host=0.0.0.0 --port=8080
-  publish_command: curl -SOL https://cecil.app/cecil.phar && php cecil.phar build
-    -v
+  publish_command: curl -SOL https://cecil.app/cecil.phar && php cecil.phar build -v
   publish_env:
   - PHP_VERSION=7.2
   - CECIL_VERSION=4.19.2
   output_directory: _site
-  preview_command: curl -SOL https://cecil.app/cecil.phar && php cecil.phar build
-    -v --baseurl=$DEPLOY_URL
-version: 0.55.6
+  preview_command: curl -SOL https://cecil.app/cecil.phar && php cecil.phar build -v --baseurl=$DEPLOY_URL
