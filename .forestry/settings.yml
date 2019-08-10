@@ -49,4 +49,3 @@ build:
   preview_docker_image: composer:latest
   mount_path: "/usr/src"
   working_dir: "/usr/src"
-version: 0.55.6
