@@ -3,7 +3,7 @@ title: About
 date: 2019-07-09
 menu:
   main:
-    weight: 2
+    weight: 999
 ---
 > A ready to use static blog, powered by [Cecil](https://cecil.app) and [Hyde](https://github.com/Cecilapp/theme-hyde).
 
