@@ -87,11 +87,32 @@ collections:
                 widget: "object"
                 fields:
                   - label: "netlify_redirects"
-                    name: "netlify_redirects"
+                    name: "Redirects"
                     widget: "object"
                     fields:
                       - {label: "mediatype", name: "mediatype", widget: "string", default: "text/plain", required: true}
                       - {label: "extension", name: "extension", widget: "string", default: "", required: true}
+          - label: "Virtual pages"
+            name: "virtualpages"
+            widget: "object"
+            fields:
+              - label: "admin"
+                name: "admin"
+                widget: "object"
+                fields:
+                  - {label: "layout", name: "layout", widget: "string", default: "admin/index", required: true}
+                  - {label: "output", name: "output", widget: "string", default: "html", required: true}
+                  - {label: "title", name: "title", widget: "string", default: "Content Manager (Netlify CMS)", required: true}
+              - label: "home"
+                name: "home"
+                widget: "object"
+                fields:
+                  - {label: "redirect", name: "redirect", widget: "string", default: "/", required: true}
+              - label: "_redirects"
+                name: "_redirects"
+                widget: "object"
+                fields:
+                  - {label: "output", name: "output", widget: "string", default: "netlify_redirects", required: true}
           - label: "Netlify"
             name: "netlify"
             widget: "object"
