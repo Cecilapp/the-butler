@@ -20,8 +20,6 @@ virtualpages:
     layout: admin/index
     output: html
     title: "Content Manager (Netlify CMS)"
-  home:
-    redirect: /
   _redirects:
     output: netlify_redirects
 netlify:
