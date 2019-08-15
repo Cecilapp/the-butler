@@ -86,8 +86,8 @@ collections:
                 name: "formats"
                 widget: "object"
                 fields:
-                  - label: "netlify_redirects"
-                    name: "Redirects"
+                  - label: "Redirects"
+                    name: "netlify_redirects"
                     widget: "object"
                     fields:
                       - {label: "mediatype", name: "mediatype", widget: "string", default: "text/plain", required: true}
