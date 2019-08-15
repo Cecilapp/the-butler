@@ -2,7 +2,7 @@ title: Starter blog
 baseline: Your blog's butler.
 baseurl: /
 canonicalurl: true
-description: A ready to use static blog powered by Cecil and Hyde.
+description: A ready to use static blog powered by Cecil and Hyde...
 pagination:
   max: 5
   path: page
