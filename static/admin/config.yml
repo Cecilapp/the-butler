@@ -62,22 +62,36 @@ collections:
         fields:
           - {label: "Title", name: "title", widget: "string", default: "Cecil", required: true}
           - {label: "Baseline", name: "baseline", widget: "string", default: "Your blog's butler.", required: true}
+          - {label: "Description", name: "description", widget: "string", default: "A ready to use static blog, powered by Cecil and Hyde.", required: true}
           - {label: "Base URL", name: "baseurl", widget: "string", default: "/", required: true}
           - {label: "Use canonical URL", name: "canonicalurl", widget: "boolean", default: true, required: true}
-          - {label: "Description", name: "description", widget: "string", default: "Your blog's butler, powered by PHPoole.", required: true}
-          - label: "Pagination"
-            name: "pagination"
-            widget: "object"
-            fields:
-              - {label: "Posts per page", name: "max", widget: "number", default: 5, valueType: "int", required: true}
-              - {label: "Pagination path", name: "path", widget: "string", default: "page", required: true}
+          - {label: "Theme", name: "theme", widget: "string", default: "hyde"}
           - label: "Date"
             name: "date"
             widget: "object"
             fields:
               - {label: "Format", name: "format", widget: "string", default: "j F Y", required: true}
               - {label: "Time zone", name: "timezone", widget: "string", default: "Europe/Paris", required: true}
-          - {label: "Theme", name: "theme", widget: "string", default: "hyde"}
+          - label: "Pagination"
+            name: "pagination"
+            widget: "object"
+            fields:
+              - {label: "Posts per page", name: "max", widget: "number", default: 5, valueType: "int", required: true}
+              - {label: "Pagination path", name: "path", widget: "string", default: "page", required: true}
+          - label: "Output"
+            name: "output"
+            widget: "object"
+            fields:
+              - label: "Formats"
+                name: "formats"
+                widget: "object"
+                fields:
+                  - label: "netlify_redirects"
+                    name: "netlify_redirects"
+                    widget: "object"
+                    fields:
+                      - {label: "mediatype", name: "mediatype", widget: "string", default: "text/plain", required: true}
+                      - {label: "extension", name: "extension", widget: "string", default: "", required: true}
           - label: "Netlify"
             name: "netlify"
             widget: "object"
