@@ -83,7 +83,7 @@ collections:
                     widget: "object"
                     fields:
                       - {label: "mediatype", name: "mediatype", widget: "string", default: "text/plain", required: true}
-                      - {label: "extension", name: "extension", widget: "string", default: ""}
+                      - {label: "extension", name: "extension", widget: "string", default: "", required: false}
           - label: "Virtual pages"
             name: "virtualpages"
             widget: "object"
