@@ -1,0 +1,15 @@
+{
+  "name": "demo",
+  "regions": ["cdg"],
+  "build": {
+    "env": {
+      "CECIL_BASEURL": "/"
+    }
+  },
+  "version": 2,
+  "builds": [{
+    "src": ".now/build.sh",
+    "use": "@now/static-build",
+    "config": { "distDir": "_site" }
+  }]
+}
