@@ -11,4 +11,4 @@ echo 'Downloading Cecil...'
 curl -SOL https://cecil.app/cecil.phar
 
 # Cecil building...
-php cecil.phar build
+php cecil.phar build -v
