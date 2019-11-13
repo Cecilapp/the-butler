@@ -3,6 +3,8 @@
   "regions": ["cdg"],
   "build": {
     "env": {
+      "PHP_VERSION": "7.3",
+      "CECIL_VERSION": "4.21.2",
       "CECIL_BASEURL": "/"
     }
   },
