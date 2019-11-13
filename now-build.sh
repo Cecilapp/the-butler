@@ -3,6 +3,9 @@
 echo 'Installing PHP...'
 yum install php72-cli
 
+echo 'Installing theme(s)...'
+composer install
+
 echo 'Downloading Cecil...'
 curl -SOL https://cecil.app/cecil.phar
 
