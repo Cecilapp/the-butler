@@ -11,12 +11,12 @@ install:
   - composer install
 # Run Cecil build
 script:
-  - php cecil.phar build -v
+  - php cecil.phar build -v --baseurl="https://cecilapp.github.io/starter-blog/" # delete baseurl if not necessary
 # Deploy to GitHub Pages
 deploy:
   provider: pages
   skip_cleanup: true
-  github_token: $GH_TOKEN
+  github_token: $GH_TOKEN # set this env. variable in Travis CI settings
   local_dir: _site
   keep_history: true
   on:
