@@ -5,12 +5,9 @@ sudo: false
 branches:
   only:
     - master
-# Download Cecil
+# Download Cecil and theme(s)
 install:
-  - curl -SOL https://cecil.app/cecil.phar
-  - php cecil.phar -v
-# Install theme(s)
-before_script:
+  - curl -SOL https://cecil.app/cecil.phar && php cecil.phar -v
   - composer install
 # Run Cecil build
 script:
