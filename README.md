@@ -38,6 +38,10 @@ If your goal is deploying a new blog quickly, and manage content mannually, use 
 
 [![Deploy with ZEIT Now](https://zeit.co/button)](https://zeit.co/new/project?template=https://github.com/Cecilapp/starter-blog)
 
+#### With [Travis CI](https://travis-ci.com/)
+
+See [Travis config file](/.travis.yml).
+
 ### Customize your blog
 
 1. Update configuration by editing `config.yml` file
