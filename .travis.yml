@@ -10,8 +10,6 @@ install:
   - curl -SOL https://cecil.app/cecil.phar && php cecil.phar -v
   - composer install
 # Run Cecil build
-env:
-  - CECIL_BASEURL=https://cecilapp.github.io/starter-blog/ # delete baseurl if not necessary
 script:
   - php cecil.phar build -v
 # Deploy to GitHub Pages
