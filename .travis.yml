@@ -1,0 +1,23 @@
+language: php
+php:
+  - 7.2
+sudo: false
+branches:
+  only:
+    - master
+# Download Cecil and theme(s)
+install:
+  - curl -SOL https://cecil.app/cecil.phar && php cecil.phar -v
+  - composer install
+# Run Cecil build
+script:
+  - php cecil.phar build -v
+# Deploy to GitHub Pages
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GH_TOKEN
+  local_dir: _site
+  keep_history: true
+  on:
+    branch: master
