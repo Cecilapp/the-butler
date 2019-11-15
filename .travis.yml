@@ -8,9 +8,10 @@ branches:
 # Download Cecil
 install:
   - curl -SOL https://cecil.app/cecil.phar
-# Display Cecil version
-before_script:
   - php cecil.phar -v
+# Install theme(s)
+before_script:
+  - composer install
 # Run Cecil build
 script:
   - php cecil.phar build
