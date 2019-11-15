@@ -1,0 +1,25 @@
+language: php
+php:
+  - 7.2
+sudo: false
+branches:
+  only:
+    - master
+# Download Cecil
+install:
+  - curl -SOL https://cecil.app/cecil.phar
+# Display Cecil version
+before_script:
+  - php cecil.phar -v
+# Run Cecil build
+script:
+  - php cecil.phar build
+# Deploy to GitHub Pages
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GH_TOKEN
+  local_dir: _site
+  keep_history: true
+  on:
+    branch: master
