@@ -11,7 +11,7 @@ install:
   - composer install
 # Run Cecil build
 script:
-  - php cecil.phar build
+  - php cecil.phar build -v
 # Deploy to GitHub Pages
 deploy:
   provider: pages
