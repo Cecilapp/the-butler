@@ -1,0 +1,117 @@
+backend:
+  name: git-gateway
+  branch: master
+publish_mode: editorial_workflow
+media_folder: "static/images"
+public_folder: "/images"
+show_preview_links: true
+slug:
+  encoding: "ascii"
+  clean_accents: true
+  sanitize_replacement: "-"
+collections:
+  - label: "Posts"
+    name: "posts"
+    description: >
+      Posts listed in the 'Blog'.
+    folder: "content/blog"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    preview_path: "blog/{{title}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Image", name: "image", widget: "image", required: false}
+      - {label: "Text", name: "body", widget: "markdown"}
+      - {label: "Tags", name: "tags", widget: "list", required: false}
+      - {label: "Draft", name: "draft", widget: "boolean", default: true, required: true}
+  - label: "Pages"
+    name: "pages"
+    description: >
+      Single pages.
+    delete: false
+    preview_path: "{{title}}"
+    files:
+      - label: "About"
+        name: "about"
+        file: "content/about.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string", default: "About"}
+          - {label: "Text", name: "body", widget: "markdown"}
+          - {label: "Menu", name: "menu", widget: "string", default: "main"}
+          - {label: "Draft", name: "draft", widget: "boolean", default: true, required: true}
+  - label: "Settings"
+    name: "settings"
+    description: >
+      Blog settings.
+    delete: false
+    editor:
+      preview: false
+    files:
+      - label: "Configuration"
+        name: "config"
+        file: "config.yml"
+        fields:
+          - {label: "Title", name: "title", widget: "string", default: "Cecil", required: true}
+          - {label: "Baseline", name: "baseline", widget: "string", default: "Your blog's butler.", required: true}
+          - {label: "Description", name: "description", widget: "string", default: "A ready to use static blog, powered by Cecil and Hyde.", required: true}
+          - {label: "Base URL", name: "baseurl", widget: "string", default: "/", required: true}
+          - {label: "Use canonical URL", name: "canonicalurl", widget: "boolean", default: true, required: true}
+          - {label: "Theme", name: "theme", widget: "string", default: "hyde"}
+          - label: "Date"
+            name: "date"
+            widget: "object"
+            fields:
+              - {label: "Format", name: "format", widget: "string", default: "j F Y", required: true}
+              - {label: "Time zone", name: "timezone", widget: "string", default: "Europe/Paris", required: true}
+          - label: "Pagination"
+            name: "pagination"
+            widget: "object"
+            fields:
+              - {label: "Posts per page", name: "max", widget: "number", default: 5, valueType: "int", required: true}
+              - {label: "Pagination path", name: "path", widget: "string", default: "page", required: true}
+          - label: "Output"
+            name: "output"
+            widget: "object"
+            fields:
+              - label: "Formats"
+                name: "formats"
+                widget: "object"
+                fields:
+                  - label: "Redirects"
+                    name: "netlify_redirects"
+                    widget: "object"
+                    fields:
+                      - {label: "mediatype", name: "mediatype", widget: "string", default: "text/plain", required: true}
+                      - {label: "extension", name: "extension", widget: "string", default: "", required: false}
+          - label: "Virtual pages"
+            name: "virtualpages"
+            widget: "object"
+            fields:
+              - label: "admin"
+                name: "admin"
+                widget: "object"
+                fields:
+                  - {label: "layout", name: "layout", widget: "string", default: "admin/index", required: true}
+                  - {label: "output", name: "output", widget: "string", default: "html", required: true}
+                  - {label: "title", name: "title", widget: "string", default: "Content Manager (Netlify CMS)", required: true}
+              - label: "_redirects"
+                name: "_redirects"
+                widget: "object"
+                fields:
+                  - {label: "output", name: "output", widget: "string", default: "netlify_redirects", required: true}
+          - label: "Netlify"
+            name: "netlify"
+            widget: "object"
+            fields:
+              - label: "CMS"
+                name: "cms"
+                widget: "object"
+                fields:
+                  - {label: "Path", name: "path", widget: "string", default: "admin", required: true}
+                  - {label: "Version", name: "version", widget: "string", default: "latest", required: true}
+              - label: "Identity"
+                name: "identity"
+                widget: "object"
+                fields:
+                  - {label: "Version", name: "version", widget: "string", default: "v1", required: true}

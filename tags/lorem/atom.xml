@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <id>/tags/lorem/</id>
+  <title>The Butler - Lorem</title>
+  <subtitle><![CDATA[A ready to use static blog, powered by Cecil and Hyde.]]></subtitle>
+  <link href="/tags/lorem/atom.xml" rel="self" type="application/atom+xml" />
+  <link href="/tags/lorem/" rel="alternate" type="text/html" />
+  <updated>2017-12-27T13:37:00+01:00</updated>
+  <author>
+    <name>The Butler</name>
+    <uri>/</uri>
+  </author>
+    <entry xml:lang="en">
+      <id>/blog/post-2/</id>
+      <title>Post 2</title>
+      <content type="html">
+        <![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>]]>
+      </content>
+      <link href="/blog/post-2/" rel="alternate" type="text/html" />
+      <published>2017-12-27T13:37:00+01:00</published>
+      <updated>2017-12-27T13:37:00+01:00</updated>
+    </entry>
+</feed>
