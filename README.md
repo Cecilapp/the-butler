@@ -28,19 +28,21 @@ Edit content files in `content/blog/` directly from your repository.
 
 ### Deploy
 
-#### With [Netlify](https://www.netlify.com) [![Netlify Status](https://api.netlify.com/api/v1/badges/5193c3e6-faae-4922-996e-069768d173a9/deploy-status)](https://app.netlify.com/sites/cecil-demo/deploys)
-
-If your goal is deploying a new blog quickly, and manage content mannually, use the following button to configure and deploy your new blog on Netlify.
+#### With [Netlify](https://www.netlify.com) ([demo](https://demo.cecil.app))
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Cecilapp/starter-blog)
 
-#### With [ZEIT Now](https://zeit.co)
+#### With [ZEIT Now](https://zeit.co) ([demo](https://cecil-starter-blog.now.sh))
 
 [![Deploy with ZEIT Now](https://zeit.co/button)](https://zeit.co/new/project?template=https://github.com/Cecilapp/starter-blog)
 
-#### With [Travis CI](https://travis-ci.com/)
+#### With [Travis CI](https://travis-ci.com)
 
 See [Travis config file](/.travis.yml).
+
+#### With [GitHub Actions](https://github.com/features/actions) ([demo](https://cecilapp.github.io/starter-blog/))
+
+See [GitHub Actions workflow file](/.github/workflows/build-and-deploy.yml).
 
 ### Customize your blog
 
