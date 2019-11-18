@@ -18,19 +18,17 @@ If your goal is managing content quickly, and decide later where to deploy to it
 
 [![Import this project into Forestry](https://assets.forestry.io/import-to-forestryK.svg)](https://app.forestry.io/quick-start?repo=cecilapp/starter-blog&engine=hugo)
 
-#### With [Netlify CMS](https://www.netlifycms.org)
-
-Open `https://your-blog.netlify.com/admin/` and start editing.
-
 #### Manually
 
 Edit content files in `content/blog/` directly from your repository.
 
 ### Deploy
 
-#### With [Netlify](https://www.netlify.com) ([demo](https://demo.cecil.app))
+#### With [Netlify](https://www.netlify.com) ([demo](https://demo.cecil.app)) + [Netlify CMS](https://www.netlifycms.org) ([demo](https://demo.cecil.app/admin/))
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Cecilapp/starter-blog)
+
+Then open `https://<your-blog>.netlify.com/admin/` and start editing.
 
 #### With [ZEIT Now](https://zeit.co) ([demo](https://cecil-starter-blog.now.sh))
 
