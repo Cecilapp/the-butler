@@ -43,7 +43,7 @@ See [Travis config file](/.travis.yml).
 
 #### With [GitHub Actions](https://github.com/features/actions) ([demo](https://cecilapp.github.io/starter-blog/))
 
-See [GitHub Actions workflow file](/.github/workflows/build-and-deploy.yml).
+See [GitHub Actions workflow file](/.github/workflows.disabled/build-and-deploy.yml) and rename `workflows.disabled`to `workflows` to enable the workflow.
 
 ### Customize your blog
 
