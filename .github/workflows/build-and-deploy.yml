@@ -1,0 +1,26 @@
+name: Build and deploy
+on:
+  push:
+    branches:
+      - master
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout source
+      uses: actions/checkout@v1
+    - name: Install theme(s)
+      uses: pxgamer/composer-action@v2.1.0
+      with:
+        command: install
+    - name: Build site with Cecil
+      uses: Cecilapp/Cecil-Action@2.0.0
+      env:
+        CECIL_VERSION: '4.21.2'
+        CECIL_BASEURL: 'https://cecilapp.github.io/starter-blog/'
+    - name: Deploy site to GitHub Pages
+      uses: Cecilapp/GitHub-Pages-deploy@2.0.0
+      env:
+        EMAIL: arnaud@ligny.org               # must be a verified email
+        GH_TOKEN: ${{ secrets.ACCESS_TOKEN }} # https://github.com/settings/tokens
+        BUILD_DIR: _site/                     # "_site/" by default
