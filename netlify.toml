@@ -8,8 +8,3 @@
 
 [context.branch-deploy]
   command = "chmod +x .netlify/build.sh && bash .netlify/build.sh $DEPLOY_PRIME_URL"
-
-[template.environment]
-  CECIL_TITLE = "Blog's title"
-  CECIL_BASELINE = "Short description (~ 20 characters)"
-  CECIL_DESCRIPTION = "Full description (~ 250 characters)"
