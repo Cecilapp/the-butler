@@ -10,10 +10,10 @@ php cecil.phar --version
 echo "Started Cecil build"
 if [ -z $1 ]
 then
-  php cecil.phar build --baseurl=$URL
+  php cecil.phar build -v --baseurl=$URL
 else
   echo "URL: $1"
-  php cecil.phar build --baseurl=$1 --drafts
+  php cecil.phar build -v --baseurl=$1 --drafts
 fi
 echo "Finished Cecil build"
 
