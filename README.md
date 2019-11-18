@@ -24,11 +24,14 @@ Edit content files in `content/blog/` directly from your repository.
 
 ### Deploy
 
-#### With [Netlify](https://www.netlify.com) ([demo](https://demo.cecil.app)) + [Netlify CMS](https://www.netlifycms.org) ([demo](https://demo.cecil.app/admin/))
+#### With [Netlify](https://www.netlify.com) ([demo](https://demo.cecil.app))
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Cecilapp/starter-blog)
 
-Then open `https://<your-blog>.netlify.com/admin/` and start editing.
+To use [**Netlify CMS**](https://www.netlifycms.org) ([demo](https://demo.cecil.app/admin/)) you must:
+1. enable [Netlify Identity](https://docs.netlify.com/visitor-access/identity/registration-login/#set-registration-preferences)
+2. invite a user
+3. connect to `https://<your-blog>.netlify.com/admin/` with the user credentials
 
 #### With [ZEIT Now](https://zeit.co) ([demo](https://cecil-starter-blog.now.sh))
 
