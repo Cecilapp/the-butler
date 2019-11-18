@@ -17,7 +17,4 @@ else
 fi
 echo "Finished Cecil build"
 
-echo "Cleaning files"
-rm -rf .github/workflows
-
 exit 0
