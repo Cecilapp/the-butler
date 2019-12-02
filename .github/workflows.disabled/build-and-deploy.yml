@@ -16,7 +16,7 @@ jobs:
     - name: Build site with Cecil
       uses: Cecilapp/Cecil-Action@2.0.0
       env:
-        CECIL_VERSION: '4.21.2'
+        CECIL_VERSION: '4.24.2'
         CECIL_BASEURL: 'https://cecilapp.github.io/starter-blog/'
     - name: Deploy site to GitHub Pages
       uses: Cecilapp/GitHub-Pages-deploy@2.0.0
