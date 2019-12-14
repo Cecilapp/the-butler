@@ -1,9 +1,9 @@
 echo "Downloading Cecil"
-if [ -n $CECIL_VERSION ]
+if [ -z $CECIL_VERSION ]
 then
-  curl -sSOL https://cecil.app/download/$CECIL_VERSION/cecil.phar
+  curl -LO https://cecil.app/cecil.phar
 else
-  curl -sSOL https://cecil.app/cecil.phar
+  curl -LO https://cecil.app/download/$CECIL_VERSION/cecil.phar
 fi
 php cecil.phar --version
 
