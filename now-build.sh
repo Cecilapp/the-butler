@@ -1,11 +1,11 @@
 #!/bin/bash
 
 echo 'Installing PHP...'
-if [ -n $PHP_VERSION ]
+if [ -z $PHP_VERSION ]
 then
-  PHP_V=${PHP_VERSION//./}
-else
   PHP_V='72'
+else
+  PHP_V=${PHP_VERSION//./}
 fi
 yum install php$PHP_V-cli
 
@@ -14,11 +14,11 @@ curl -sS https://getcomposer.org/installer | php
 php composer.phar install
 
 echo 'Downloading Cecil...'
-if [ -n $CECIL_VERSION ]
+if [ -z $CECIL_VERSION ]
 then
-  curl -sSOL https://cecil.app/download/$CECIL_VERSION/cecil.phar
+  curl -LO https://cecil.app/cecil.phar
 else
-  curl -sSOL https://cecil.app/cecil.phar
+  curl -LO https://cecil.app/download/$CECIL_VERSION/cecil.phar
 fi
 php cecil.phar --version
 
