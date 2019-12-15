@@ -2,6 +2,6 @@
 title: Home
 ---
 
-# Starter blog
+# The Butler
 
 > A ready to use static blog, powered by [Cecil](https://cecil.app).
