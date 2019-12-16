@@ -5,7 +5,7 @@ keywords: "Cecil, Static Site Generator, SSG"
 author: "Arnaud Ligny"
 baseurl: "/"
 canonicalurl: true
-theme: "hyde"
+theme: "garth"
 date:
   format: "j F Y"
   timezone: "Europe/Paris"

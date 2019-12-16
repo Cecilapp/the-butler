@@ -4,8 +4,44 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9fac172442a1871f37f491fdc504e46d",
+    "content-hash": "a1ca514dbf79589eac51e517cf5dacb5",
     "packages": [
+        {
+            "name": "cecil/theme-garth",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Cecilapp/theme-garth.git",
+                "reference": "68fea3ccce5fb2777dc656748c099321dc199122"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Cecilapp/theme-garth/zipball/68fea3ccce5fb2777dc656748c099321dc199122",
+                "reference": "68fea3ccce5fb2777dc656748c099321dc199122",
+                "shasum": ""
+            },
+            "require": {
+                "cecil/theme-installer": "^1.3"
+            },
+            "type": "cecil-theme",
+            "extra": {
+                "name": "garth",
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Cecil Garth theme",
+            "keywords": [
+                "Garth",
+                "cecil",
+                "theme"
+            ],
+            "time": "2019-12-15T23:18:09+00:00"
+        },
         {
             "name": "cecil/theme-hyde",
             "version": "1.15.2",
