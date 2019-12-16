@@ -6,7 +6,7 @@
 
 ## There is a demo?
 
-:arrow_forward: [demo.cecil.app](https://demo.cecil.app/)
+:arrow_forward: [starter-blog.cecil.app](https://starter-blog.cecil.app)
 
 ## How to use?
 
