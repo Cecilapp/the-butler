@@ -17,7 +17,7 @@
 
 If your goal is managing content quickly, and decide later where to deploy to it, use the following button to import the starter blog to Forestry CMS and start editing immediatelly!
 
-[![Import this project into Forestry](https://assets.forestry.io/import-to-forestryK.svg)](https://app.forestry.io/quick-start?repo=cecilapp/starter-blog&engine=hugo)
+[![Import this project into Forestry](https://assets.forestry.io/import-to-forestryK.svg)](https://app.forestry.io/quick-start?repo=cecilapp/the-butler&engine=hugo)
 
 #### Manually
 
@@ -34,7 +34,7 @@ To use [**Netlify CMS**](https://www.netlifycms.org) ([demo](https://the-butler.
 2. invite a user
 3. connect to `https://<your-blog>.netlify.com/admin/` with the user credentials
 
-#### With [ZEIT Now](https://zeit.co) ([demo](https://cecil-starter-blog.now.sh))
+#### With [ZEIT Now](https://zeit.co) ([demo](https://the-butler.now.sh))
 
 [![Deploy with ZEIT Now](https://zeit.co/button)](https://zeit.co/new/project?template=https://github.com/Cecilapp/the-butler)
 
