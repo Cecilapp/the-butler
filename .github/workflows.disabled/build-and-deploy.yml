@@ -16,8 +16,8 @@ jobs:
     - name: Build site with Cecil
       uses: Cecilapp/Cecil-Action@2.0.0
       env:
-        CECIL_VERSION: '4.24.2'
-        CECIL_BASEURL: 'https://cecilapp.github.io/starter-blog/'
+        CECIL_VERSION: '4.28.3'
+        CECIL_BASEURL: 'https://cecilapp.github.io/the-butler/'
     - name: Deploy site to GitHub Pages
       uses: Cecilapp/GitHub-Pages-deploy@2.0.0
       env:
