@@ -1,86 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://gmpg.org/xfn/11" rel="profile">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
     <title>The Butler &middot; Your blogging assistant.</title>
-    <meta name="description" content="A ready to use static blog, powered by Cecil." />
-    <meta name="keywords" content="Cecil, Static Site Generator, SSG" />
-    <meta name="author" content="Arnaud Ligny">
-    <link rel="canonical" type="text/html" title="The Butler &middot; Your blogging assistant." href="https://cecilapp.github.io/the-butler/">
-    <link rel="alternate" type="application/atom+xml" title="The Butler &middot; Your blogging assistant. (ATOM)" href="https://cecilapp.github.io/the-butler/atom.xml">
-    <link rel="alternate" type="application/rss+xml" title="The Butler &middot; Your blogging assistant. (RSS)" href="https://cecilapp.github.io/the-butler/rss.xml">
-    <meta property="og:locale" content="en_US" />
-    <meta property="og:site_name" content="The Butler" />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="The Butler &middot; Your blogging assistant." />
-    <meta property="og:description" content="A ready to use static blog, powered by Cecil." />
-    <meta property="og:url" content="https://cecilapp.github.io/the-butler/" />
-    <meta property="fb:profile_id" content="516589570" />
-    <meta property="profile:first_name" content="Arnaud" />
-    <meta property="profile:last_name" content="Ligny" />
-    <meta property="profile:username" content="Narno" />
-    <link rel="stylesheet" href="https://cecilapp.github.io/the-butler/styles.min.css">
-    <link rel="shortcut icon" href="https://cecilapp.github.io/the-butler/logo.svg">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://cecilapp.github.io/the-butler/apple-touch-icon-144-precomposed.png">
+    <link rel="shortcut icon" href="https://cecilapp.github.io/the-butler/favicon.ico">
+    <link rel="stylesheet" href="https://cecilapp.github.io/the-butler/css/style.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+    <link rel="canonical" type="text/html" title="Home" href="https://cecilapp.github.io/the-butler/">
+    <link rel="alternate" type="application/atom+xml" title="Home (ATOM)" href="https://cecilapp.github.io/the-butler/atom.xml">
+    <link rel="alternate" type="application/rss+xml" title="Home (RSS)" href="https://cecilapp.github.io/the-butler/rss.xml">
+    <link rel="stylesheet" href="https://cecilapp.github.io/the-butler/css/monokai-sublime.min.css">
+    <script src="https://cecilapp.github.io/the-butler/js/highlight-9.13.1.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    <!-- Netlify Identity -->
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on('init', user => {
+          if (!user) {
+            window.netlifyIdentity.on('login', () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+    </script>
   	<meta name="generator" content="Cecil 4.29.2" />
   </head>
   <body>
-    <header class="header">
-      <div class="container">
-        <a class="logo" href="https://cecilapp.github.io/the-butler/">
-          <img src="https://cecilapp.github.io/the-butler/logo.svg" alt="The Butler logo"/>
-        </a>
-        <nav class="nav">
-          <ul class="list list--nav">
-            <li class="item 0 item--nav item--current">
-              <a href="https://cecilapp.github.io/the-butler/">Home</a>
-            </li>
-            <li class="item 100 item--nav">
-              <a href="https://cecilapp.github.io/the-butler/blog/">Blog</a>
-            </li>
-            <li class="item  item--nav">
-              <a href="https://cecilapp.github.io/the-butler/about/">About</a>
-            </li>
-          </ul>
+    <div class="sidebar">
+      <div class="container sidebar-sticky">
+        <div class="sidebar-about">
+          <h1>
+            <a href="https://cecilapp.github.io/the-butler/">The Butler</a>
+          </h1>
+          <p class="lead">A ready to use static blog, powered by Cecil.</p>
+        </div>
+        <nav class="sidebar-nav">
+          <a class="sidebar-nav-item active item-weight-0" href="https://cecilapp.github.io/the-butler/">Home</a>
+          <a class="sidebar-nav-item item-weight-100" href="https://cecilapp.github.io/the-butler/blog/">Blog</a>
+          <a class="sidebar-nav-item item-weight-" href="https://cecilapp.github.io/the-butler/about/">About</a>
         </nav>
+        <p>Powered by <a href="https://cecil.app/#4.29.2">Cecil</a> &amp; <a href="http://hyde.getpoole.com">Hyde</a>.</p>
       </div>
-    </header>
-    <main class="main container">
-      <div class="content">
-<article class="page typeset">
-  <h1>The Butler</h1>
-<blockquote>
-<p>A ready to use static blog, powered by <a href="https://cecil.app">Cecil</a>.</p>
-</blockquote>
-</article>
-            <article class="article article--post typeset">
-              <h2><a href="https://cecilapp.github.io/the-butler/blog/post-3/">Princess Mononoke</a></h2>
-                        <small class="small post-meta">
-            <span class="label label--category">
-              <a href="https://cecilapp.github.io/the-butler/tags/film/">Film</a>
-            </span>&nbsp;&middot;&nbsp;<time datetime="2019-12-14T01:00:00+01:00" class="time">14 Dec 2019</time>
-          </small>
-              <p><strong><em>Princess Mononoke</em></strong> (<a href="https://en.m.wikipedia.org/wiki/Japanese_language">Japanese</a>: もののけ姫 <a href="https://en.m.wikipedia.org/wiki/Hepburn_romanization">Hepburn</a>: <strong>Mononoke-<a href="https://en.m.wikipedia.org/wiki/Hime">hime</a></strong>, "Spirit/Monster Princess") is a 1997 Japanese <a href="https://en.m.wikipedia.org/wiki/Anime">animated</a> <a href="https://en.m.wikipedia.org/wiki/Fantasy_film">fantasy film</a> written and directed by <a href="https://en.m.wikipedia.org/wiki/Hayao_Miyazaki">Hayao Miyazaki</a>, animated by <a href="https://en.m.wikipedia.org/wiki/Studio_Ghibli">Studio Ghibli</a> for <a href="https://en.m.wikipedia.org/wiki/Tokuma_Shoten">Tokuma Shoten</a>, <a href="https://en.m.wikipedia.org/wiki/Nippon_Television_Network">Nippon Television Network</a> and <a href="https://en.m.wikipedia.org/wiki/Dentsu">Dentsu</a>, and distributed by <a href="https://en.m.wikipedia.org/wiki/Toho">Toho</a>. The film stars the voices of <a href="https://en.m.wikipedia.org/wiki/Yōji_Matsuda">Yōji Matsuda</a>, <a href="https://en.m.wikipedia.org/wiki/Yuriko_Ishida">Yuriko Ishida</a>, <a href="https://en.m.wikipedia.org/wiki/Yūko_Tanaka">Yūko Tanaka</a>, <a href="https://en.m.wikipedia.org/wiki/Kaoru_Kobayashi_(actor)">Kaoru Kobayashi</a>, <a href="https://en.m.wikipedia.org/wiki/Masahiko_Nishimura">Masahiko Nishimura</a>, <a href="https://en.m.wikipedia.org/wiki/Tsunehiko_Kamijo">Tsunehiko Kamijo</a>, <a href="https://en.m.wikipedia.org/wiki/Akihiro_Miwa">Akihiro Miwa</a>, <a href="https://en.m.wikipedia.org/wiki/Mitsuko_Mori">Mitsuko Mori</a> and <a href="https://en.m.wikipedia.org/wiki/Hisaya_Morishige">Hisaya Morishige</a>.</p>
-            </article>
-      <section class="lastposts typeset">
-        <h2>Recent posts</h2>
-        <ul class="list list--posts">
-          <li class="item item--post"></li>
-            <a href="https://cecilapp.github.io/the-butler/blog/post-2/">Doom</a>
-          </li>
-          <li class="item item--post"></li>
-            <a href="https://cecilapp.github.io/the-butler/blog/post-1/">Daft Punk</a>
-          </li>
-        </ul>
-      </section>
-      </div>
-    </main>
-    <footer class="footer">
-      <div class="container">
-        <div class="copyright typeset">
-          <small class="small">&copy; The Butler 2019</small>
+    </div>
+    <div class="content container">
+      <div class="posts">
+        <div class="post">
+          <h1 class="post-title"><a href="https://cecilapp.github.io/the-butler/blog/post-3/">Princess Mononoke</a></h1>
+          <span class="post-date">14 Dec 2019</span>
+          <img src="https://cecilapp.github.io/the-butler/images/Princess_Mononoke_Japanese_poster.png" />
+          <p><strong><em>Princess Mononoke</em></strong> (<a href="https://en.m.wikipedia.org/wiki/Japanese_language">Japanese</a>: もののけ姫 <a href="https://en.m.wikipedia.org/wiki/Hepburn_romanization">Hepburn</a>: <strong>Mononoke-<a href="https://en.m.wikipedia.org/wiki/Hime">hime</a></strong>, "Spirit/Monster Princess") is a 1997 Japanese <a href="https://en.m.wikipedia.org/wiki/Anime">animated</a> <a href="https://en.m.wikipedia.org/wiki/Fantasy_film">fantasy film</a> written and directed by <a href="https://en.m.wikipedia.org/wiki/Hayao_Miyazaki">Hayao Miyazaki</a>, animated by <a href="https://en.m.wikipedia.org/wiki/Studio_Ghibli">Studio Ghibli</a> for <a href="https://en.m.wikipedia.org/wiki/Tokuma_Shoten">Tokuma Shoten</a>, <a href="https://en.m.wikipedia.org/wiki/Nippon_Television_Network">Nippon Television Network</a> and <a href="https://en.m.wikipedia.org/wiki/Dentsu">Dentsu</a>, and distributed by <a href="https://en.m.wikipedia.org/wiki/Toho">Toho</a>. The film stars the voices of <a href="https://en.m.wikipedia.org/wiki/Yōji_Matsuda">Yōji Matsuda</a>, <a href="https://en.m.wikipedia.org/wiki/Yuriko_Ishida">Yuriko Ishida</a>, <a href="https://en.m.wikipedia.org/wiki/Yūko_Tanaka">Yūko Tanaka</a>, <a href="https://en.m.wikipedia.org/wiki/Kaoru_Kobayashi_(actor)">Kaoru Kobayashi</a>, <a href="https://en.m.wikipedia.org/wiki/Masahiko_Nishimura">Masahiko Nishimura</a>, <a href="https://en.m.wikipedia.org/wiki/Tsunehiko_Kamijo">Tsunehiko Kamijo</a>, <a href="https://en.m.wikipedia.org/wiki/Akihiro_Miwa">Akihiro Miwa</a>, <a href="https://en.m.wikipedia.org/wiki/Mitsuko_Mori">Mitsuko Mori</a> and <a href="https://en.m.wikipedia.org/wiki/Hisaya_Morishige">Hisaya Morishige</a>.</p>
+          <footer class="readmore">
+            <a href="https://cecilapp.github.io/the-butler/blog/post-3/#more">Read more ›</a>
+          </footer>
         </div>
       </div>
-    </footer>
-    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:400,400i,700|Neuton:400,700" rel="stylesheet">
+      <div class="lastposts">
+        <h2>Recent posts</h2>
+        <ul>
+          <li><a href="https://cecilapp.github.io/the-butler/blog/post-2/">Doom</a></li>
+          <li><a href="https://cecilapp.github.io/the-butler/blog/post-1/">Daft Punk</a></li>
+        </ul>
+      </div>
+    </div>
   </body>
 </html>
