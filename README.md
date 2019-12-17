@@ -7,7 +7,7 @@
 ## There is a demo?
 
 :arrow_forward: [the-butler.cecil.app](https://the-butler.cecil.app) ([Hyde](https://github.com/Cecilapp/theme-hyde))  
-:arrow_forward: [garth.the-butler.cecil.app](https://garth.the-butler.cecil.app) ([Garth](https://github.com/Cecilapp/theme-garth))
+:arrow_forward: [the-butler-garth.now.sh](https://the-butler-garth.now.sh) ([Garth](https://github.com/Cecilapp/theme-garth))
 
 ## How to use?
 
