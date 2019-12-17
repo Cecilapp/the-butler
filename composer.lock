@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a1ca514dbf79589eac51e517cf5dacb5",
+    "content-hash": "73d04aa64386d6b2817bde6d6c3301b2",
     "packages": [
         {
             "name": "cecil/theme-garth",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Cecilapp/theme-garth.git",
-                "reference": "68fea3ccce5fb2777dc656748c099321dc199122"
+                "reference": "69a6f3aae6d02e523c702770a73893a86a3b6fb2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Cecilapp/theme-garth/zipball/68fea3ccce5fb2777dc656748c099321dc199122",
-                "reference": "68fea3ccce5fb2777dc656748c099321dc199122",
+                "url": "https://api.github.com/repos/Cecilapp/theme-garth/zipball/69a6f3aae6d02e523c702770a73893a86a3b6fb2",
+                "reference": "69a6f3aae6d02e523c702770a73893a86a3b6fb2",
                 "shasum": ""
             },
             "require": {
@@ -40,7 +40,7 @@
                 "cecil",
                 "theme"
             ],
-            "time": "2019-12-15T23:18:09+00:00"
+            "time": "2019-12-17T10:55:23+00:00"
         },
         {
             "name": "cecil/theme-hyde",
