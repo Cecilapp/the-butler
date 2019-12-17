@@ -1,5 +1,5 @@
 {
-  "name": "cecil/starter-blog",
+  "name": "cecil/the-butler",
   "description": "Your blog's butler.",
   "license": "MIT",
   "type": "project",
@@ -12,6 +12,7 @@
     }
   ],
   "require": {
-    "cecil/theme-hyde": "^1.15"
+    "cecil/theme-hyde": "^1.15",
+    "cecil/theme-garth": "^1.0"
   }
 }
