@@ -25,7 +25,7 @@ Edit content files in `content/blog/` directly from your repository.
 
 ### Deploy
 
-#### With [Netlify](https://www.netlify.com) ([demo](https://the-butler.cecil.app))
+#### To [Netlify](https://www.netlify.com) ([demo](https://the-butler.cecil.app))
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Cecilapp/the-butler)
 
@@ -34,9 +34,13 @@ To use [**Netlify CMS**](https://www.netlifycms.org) ([demo](https://the-butler.
 2. invite a user
 3. connect to `https://<your-blog>.netlify.com/admin/` with the user credentials
 
-#### With [ZEIT Now](https://zeit.co) ([demo](https://the-butler.now.sh))
+#### To [ZEIT Now](https://zeit.co) ([demo](https://the-butler.now.sh))
 
-[![Deploy with ZEIT Now](https://zeit.co/button)](https://zeit.co/new/project?template=https://github.com/Cecilapp/the-butler)
+[![Deploy to ZEIT Now](https://zeit.co/button)](https://zeit.co/new/project?template=https://github.com/Cecilapp/the-butler)
+
+#### To [Render](https://render.com) ([demo](https://the-butler.onrender.com))
+
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy)
 
 #### With [Travis CI](https://travis-ci.com)
 
