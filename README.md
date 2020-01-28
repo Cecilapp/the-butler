@@ -6,8 +6,8 @@
 
 ## There is a demo?
 
-:arrow_forward: [the-butler.cecil.app](https://the-butler.cecil.app) ([Hyde](https://github.com/Cecilapp/theme-hyde))  
-:arrow_forward: [the-butler-garth.now.sh](https://the-butler-garth.now.sh) ([Garth](https://github.com/Cecilapp/theme-garth))
+:arrow_forward: [the-butler.cecil.app](https://the-butler.cecil.app) (theme: [Hyde](https://github.com/Cecilapp/theme-hyde))  
+:arrow_forward: [the-butler-garth.now.sh](https://the-butler-garth.now.sh) (theme: [Garth](https://github.com/Cecilapp/theme-garth))
 
 ## How to use?
 
