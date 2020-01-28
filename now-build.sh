@@ -11,7 +11,7 @@ yum install php$PHP_V-cli
 
 echo 'Installing theme(s)...'
 curl -sS https://getcomposer.org/installer | php
-php composer.phar install
+php composer.phar install --prefer-dist --no-dev --no-progress --no-interaction
 
 echo 'Downloading Cecil...'
 if [ -z $CECIL_VERSION ]
