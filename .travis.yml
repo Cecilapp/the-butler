@@ -7,7 +7,7 @@ branches:
     - master
 # Download Cecil and theme(s)
 install:
-  - curl -SOL https://cecil.app/cecil.phar && php cecil.phar -v
+  - curl -sSOL https://cecil.app/cecil.phar && php cecil.phar --version
   - composer install
 # Run Cecil build
 script:
