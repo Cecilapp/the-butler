@@ -27,3 +27,5 @@ netlify:
     version: "latest"
   identity:
     version: "v1"
+optimize:
+  enabled: true
