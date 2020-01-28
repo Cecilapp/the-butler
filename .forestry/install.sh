@@ -9,5 +9,5 @@ php cecil.phar --version
 
 if [ -f "./composer.json" ]; then
   echo "Installing theme(s)"
-  composer install
+  composer install --prefer-dist --no-dev --no-progress --no-interaction
 fi
