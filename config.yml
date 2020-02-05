@@ -15,11 +15,11 @@ output:
       mediatype: "text/plain"
       extension: ""
 virtualpages:
-  admin:
+  - path: admin
     layout: admin/index
     output: html
     title: "Content Manager (Netlify CMS)"
-  _redirects:
+  - path: _redirects
     output: netlify_redirects
 netlify:
   cms:
