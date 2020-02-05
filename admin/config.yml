@@ -4,6 +4,7 @@ backend:
 publish_mode: editorial_workflow
 media_folder: "static/images"
 public_folder: "/images"
+logo_url: https://the-butler.cecil.app/admin/cecil-logo.png
 show_preview_links: true
 slug:
   encoding: "ascii"
