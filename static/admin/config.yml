@@ -84,17 +84,12 @@ collections:
             name: "virtualpages"
             widget: "object"
             fields:
-              - widget: "object"
+              - widget: "list"
                 fields:
                   - {label: "Path", name: "path", widget: "string", required: true}
                   - {label: "Layout", name: "layout", widget: "string", required: false}
                   - {label: "Output", name: "output", widget: "string", required: false}
                   - {label: "Title", name: "title", widget: "string", required: false}
-              - label: "_redirects"
-                name: "_redirects"
-                widget: "object"
-                fields:
-                  - {label: "output", name: "output", widget: "string", default: "netlify_redirects", required: true}
           - label: "Netlify"
             name: "netlify"
             widget: "object"
