@@ -82,14 +82,12 @@ collections:
                       - {label: "extension", name: "extension", widget: "string", default: "", required: false}
           - label: "Virtual pages"
             name: "virtualpages"
-            widget: "object"
+            widget: "list"
             fields:
-              - widget: "list"
-                fields:
-                  - {label: "Path", name: "path", widget: "string", required: true}
-                  - {label: "Layout", name: "layout", widget: "string", required: false}
-                  - {label: "Output", name: "output", widget: "string", required: false}
-                  - {label: "Title", name: "title", widget: "string", required: false}
+              - {label: "Path", name: "path", widget: "string", required: true}
+              - {label: "Layout", name: "layout", widget: "string", required: false}
+              - {label: "Output", name: "output", widget: "string", required: false}
+              - {label: "Title", name: "title", widget: "string", required: false}
           - label: "Netlify"
             name: "netlify"
             widget: "object"
