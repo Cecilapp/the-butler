@@ -5,7 +5,7 @@
   <subtitle><![CDATA[A ready to use static blog, powered by Cecil.]]></subtitle>
   <link href="https://cecilapp.github.io/the-butler/tags/electronic/atom.xml" rel="self" type="application/atom+xml" />
   <link href="https://cecilapp.github.io/the-butler/tags/electronic/" rel="alternate" type="text/html" />
-  <updated>2019-12-14T01:00:00+01:00</updated>
+  <updated>2020-02-05T15:43:00+01:00</updated>
   <author>
     <name>The Butler</name>
     <uri>https://cecilapp.github.io/the-butler/</uri>
@@ -23,7 +23,7 @@
 </blockquote>]]>
     </content>
     <link href="https://cecilapp.github.io/the-butler/blog/post-1/" rel="alternate" type="text/html" />
-    <published>2019-12-14T01:00:00+01:00</published>
-    <updated>2019-12-14T01:00:00+01:00</updated>
+    <published>2020-02-05T15:43:00+01:00</published>
+    <updated>2020-02-05T15:43:00+01:00</updated>
   </entry>
 </feed>
