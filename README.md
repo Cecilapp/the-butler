@@ -27,7 +27,7 @@ Edit content files in `content/blog/` directly from your repository.
 
 #### To [Netlify](https://www.netlify.com) ([demo](https://the-butler.cecil.app))
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Cecilapp/the-butler)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Cecilapp/the-butler&stack=cms)
 
 To use [**Netlify CMS**](https://www.netlifycms.org) ([demo](https://the-butler.cecil.app/admin/)) you must:
 1. enable [Netlify Identity](https://docs.netlify.com/visitor-access/git-gateway/#setup-and-settings) and Git Gateway
