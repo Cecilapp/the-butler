@@ -11,6 +11,7 @@ slug:
   sanitize_replacement: "-"
 collections:
   - label: "Posts"
+    label_singular: "Post"
     name: "posts"
     description: >
       Posts listed in the 'Blog'.
@@ -26,6 +27,7 @@ collections:
       - {label: "Tags", name: "tags", widget: "list", required: false}
       - {label: "Draft", name: "draft", widget: "boolean", default: true, required: true}
   - label: "Pages"
+    label_singular: "Page"
     name: "pages"
     description: >
       Single pages.
@@ -64,12 +66,6 @@ collections:
             fields:
               - {label: "Format", name: "format", widget: "string", default: "j F Y", required: true}
               - {label: "Time zone", name: "timezone", widget: "string", default: "Europe/Paris", required: true}
-          - label: "Pagination"
-            name: "pagination"
-            widget: "object"
-            fields:
-              - {label: "Posts per page", name: "max", widget: "number", default: 5, valueType: "int", required: true}
-              - {label: "Pagination path", name: "path", widget: "string", default: "page", required: true}
           - label: "Output"
             name: "output"
             widget: "object"
@@ -88,13 +84,12 @@ collections:
             name: "virtualpages"
             widget: "object"
             fields:
-              - label: "admin"
-                name: "admin"
-                widget: "object"
+              - widget: "object"
                 fields:
-                  - {label: "layout", name: "layout", widget: "string", default: "admin/index", required: true}
-                  - {label: "output", name: "output", widget: "string", default: "html", required: true}
-                  - {label: "title", name: "title", widget: "string", default: "Content Manager (Netlify CMS)", required: true}
+                  - {label: "Path", name: "path", widget: "string", required: true}
+                  - {label: "Layout", name: "layout", widget: "string", required: false}
+                  - {label: "Output", name: "output", widget: "string", required: false}
+                  - {label: "Title", name: "title", widget: "string", required: false}
               - label: "_redirects"
                 name: "_redirects"
                 widget: "object"
