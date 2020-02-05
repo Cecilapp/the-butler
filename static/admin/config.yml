@@ -15,7 +15,6 @@ collections:
     name: "posts"
     description: >
       Posts listed in the 'Blog'.
-    summary: "{{title}} - {{date}}"
     folder: "content/blog"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
