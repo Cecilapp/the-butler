@@ -67,6 +67,14 @@ collections:
             fields:
               - {label: "Format", name: "format", widget: "string", default: "j F Y", required: true}
               - {label: "Time zone", name: "timezone", widget: "string", default: "Europe/Paris", required: true}
+          - label: "Virtual pages"
+            name: "virtualpages"
+            widget: "list"
+            fields:
+              - {label: "Path", name: "path", widget: "string", required: true}
+              - {label: "Layout", name: "layout", widget: "string", required: false}
+              - {label: "Output", name: "output", widget: "string", required: false}
+              - {label: "Title", name: "title", widget: "string", required: false}
           - label: "Output"
             name: "output"
             widget: "object"
@@ -81,14 +89,6 @@ collections:
                     fields:
                       - {label: "mediatype", name: "mediatype", widget: "string", default: "text/plain", required: true}
                       - {label: "extension", name: "extension", widget: "string", default: "", required: false}
-          - label: "Virtual pages"
-            name: "virtualpages"
-            widget: "list"
-            fields:
-              - {label: "Path", name: "path", widget: "string", required: true}
-              - {label: "Layout", name: "layout", widget: "string", required: false}
-              - {label: "Output", name: "output", widget: "string", required: false}
-              - {label: "Title", name: "title", widget: "string", required: false}
           - label: "Netlify"
             name: "netlify"
             widget: "object"
