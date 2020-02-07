@@ -1,5 +1,5 @@
 {
-  "name": "demo",
+  "name": "the-butler",
   "regions": ["cdg"],
   "build": {
     "env": {
@@ -8,7 +8,6 @@
       "CECIL_BASEURL": "https://the-butler.now.sh/"
     }
   },
-  "version": 2,
   "builds": [{
     "src": "now-build.sh",
     "use": "@now/static-build",
