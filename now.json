@@ -4,7 +4,7 @@
   "build": {
     "env": {
       "PHP_VERSION": "7.2",
-      "CECIL_VERSION": "5.9.0",
+      "CECIL_VERSION": "5.9.2",
       "CECIL_BASEURL": "https://the-butler.now.sh/"
     }
   },

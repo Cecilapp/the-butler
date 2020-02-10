@@ -11,14 +11,14 @@ date:
   timezone: "Europe/Paris"
 output:
   formats:
-    netlify_redirects:
+    - name: netlify_redirects
       mediatype: "text/plain"
       extension: ""
 virtualpages:
   - path: admin
+    title: "Content Manager (Netlify CMS)"
     layout: admin/index
     output: html
-    title: "Content Manager (Netlify CMS)"
   - path: _redirects
     output: netlify_redirects
 netlify:
