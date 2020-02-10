@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "cecil/theme-garth",
-            "version": "1.0.3",
+            "version": "1.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Cecilapp/theme-garth.git",
-                "reference": "3889bc3260bf9b0da7fb13a79a8cacc506f79219"
+                "reference": "790e551dc7537c78d9ee077f4adde6e3e6b61c78"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Cecilapp/theme-garth/zipball/3889bc3260bf9b0da7fb13a79a8cacc506f79219",
-                "reference": "3889bc3260bf9b0da7fb13a79a8cacc506f79219",
+                "url": "https://api.github.com/repos/Cecilapp/theme-garth/zipball/790e551dc7537c78d9ee077f4adde6e3e6b61c78",
+                "reference": "790e551dc7537c78d9ee077f4adde6e3e6b61c78",
                 "shasum": ""
             },
             "require": {
@@ -40,7 +40,7 @@
                 "cecil",
                 "theme"
             ],
-            "time": "2020-01-28T20:45:50+00:00"
+            "time": "2020-02-10T10:52:23+00:00"
         },
         {
             "name": "cecil/theme-hyde",
