@@ -3,7 +3,7 @@ baseline: "Your blogging assistant."
 description: "A ready to use static blog, powered by Cecil."
 keywords: "Cecil, Static Site Generator, SSG"
 author: "Arnaud Ligny"
-baseurl: "/"
+baseurl: "https://rajivsingha.netlify.com/"
 canonicalurl: true
 theme: "hyde"
 date:
