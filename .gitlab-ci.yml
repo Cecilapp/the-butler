@@ -1,16 +1,18 @@
 image: phpdocker/phpdocker:7.2
 cache:
   paths:
-  - vendor/
+    - vendor/
+    - .cache/
 before_script:
   - curl -sSOL https://cecil.app/cecil.phar
   - php cecil.phar --version
   - composer install
 pages:
   script:
-  - php cecil.phar build --verbose --destination=public
+    - echo "$CECIL_BASEURL"
+    - php cecil.phar build --verbose --destination=public
   artifacts:
     paths:
-    - public
+      - public
   only:
-  - master
+    - master
