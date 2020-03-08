@@ -1,0 +1,20 @@
+image: phpdocker/phpdocker:7.2
+
+cache:
+  paths:
+  - vendor/
+
+before_script:
+  - curl -sSOL https://cecil.app/cecil.phar
+  - php cecil.phar --version
+  - composer install
+
+pages:
+  script:
+  - rm -rf _site
+  - php cecil.phar build --verbose
+  artifacts:
+    paths:
+    - _site
+  only:
+  - master
