@@ -19,3 +19,8 @@ fields:
     display_utc: 
     export_format: ''
   default: now
+- name: draft
+  type: boolean
+  label: Draft
+  hidden: false
+  default: true
