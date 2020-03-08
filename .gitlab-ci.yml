@@ -11,10 +11,9 @@ before_script:
 
 pages:
   script:
-  - rm -rf _site
-  - php cecil.phar build --verbose
+  - php cecil.phar build --verbose --destination=public
   artifacts:
     paths:
-    - _site
+    - public
   only:
   - master
