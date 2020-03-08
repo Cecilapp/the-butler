@@ -3,6 +3,7 @@ image: phpdocker/phpdocker:7.2
 cache:
   paths:
   - vendor/
+  - .cache/
 
 before_script:
   - curl -sSOL https://cecil.app/cecil.phar
