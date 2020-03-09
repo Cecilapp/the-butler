@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 Disallow: /404.html
-Sitemap: /sitemap.xml
+Sitemap: https://cecilapp.github.io/the-butler/sitemap.xml
