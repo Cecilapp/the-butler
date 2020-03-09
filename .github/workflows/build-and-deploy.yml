@@ -2,10 +2,7 @@ name: Build and deploy
 on:
   push:
     branches:
-    - master
-    # delete the following 2 lines to enable the Action
-    branches-ignore:
-    - '**'
+      - cecil
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
