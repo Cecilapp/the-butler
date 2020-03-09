@@ -1,12 +1,13 @@
 image: phpdocker/phpdocker:7.2
 cache:
   paths:
+    - composer-cache/
     - vendor/
     - .cache/
 before_script:
   - curl -sSOL https://cecil.app/cecil.phar
   - php cecil.phar --version
-  - composer install
+  - COMPOSER_CACHE_DIR=composer-cache composer install --no-progress --no-suggest
 pages:
   script:
     - php cecil.phar build --verbose --destination=public
