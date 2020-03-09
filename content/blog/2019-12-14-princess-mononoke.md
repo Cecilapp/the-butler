@@ -1,6 +1,6 @@
 ---
 title: "Princess Mononoke"
-date: 2019-12-14
+date: 2020-03-09
 image: /images/Princess_Mononoke_Japanese_poster.png
 tags:
   - Film
