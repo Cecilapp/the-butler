@@ -7,7 +7,7 @@ cache:
 before_script:
   - curl -sSOL https://cecil.app/cecil.phar
   - php cecil.phar --version
-  - COMPOSER_CACHE_DIR=composer-cache composer install --no-progress --no-suggest
+  - COMPOSER_CACHE_DIR=composer-cache composer install --prefer-dist --no-dev --no-progress --no-interaction
 pages:
   script:
     - php cecil.phar build --verbose --destination=public
