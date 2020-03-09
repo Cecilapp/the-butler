@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout source
-      uses: actions/checkout@v1
+      uses: actions/checkout@v2
     - name: Install theme(s)
       uses: pxgamer/composer-action@v2.1.0
       with:
@@ -16,8 +16,8 @@ jobs:
     - name: Build site with Cecil
       uses: Cecilapp/Cecil-Action@2.0.0
       env:
-        CECIL_VERSION: '5.9.2'
-        CECIL_BASEURL: 'https://cecilapp.github.io/the-butler/'
+        CECIL_VERSION: '5.14.4'
+        CECIL_BASEURL: '/'
     - name: Deploy site to GitHub Pages
       uses: Cecilapp/GitHub-Pages-deploy@2.0.0
       env:
