@@ -40,7 +40,7 @@ To use [**Netlify CMS**](https://www.netlifycms.org) ([demo](https://the-butler.
 
 #### To [Render](https://render.com) ([demo](https://the-butler.onrender.com))
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/Cecilapp/the-butler)
 
 #### With [Travis CI](https://travis-ci.com)
 
