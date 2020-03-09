@@ -5,7 +5,18 @@ before_script:
 - php cecil.phar --version
 - COMPOSER_CACHE_DIR=composer-cache composer install --prefer-dist --no-dev --no-progress --no-interaction
 
+test:
+  stage: test
+  script:
+  - php cecil.phar build --verbose --destination=test
+  artifacts:
+    paths:
+    - test
+  except:
+  - master
+
 pages:
+  stage: deploy
   script:
   - php cecil.phar build --destination=public
   artifacts:
