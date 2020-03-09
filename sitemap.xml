@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://cecilapp.github.io/the-butler/</loc>
+    <loc>/</loc>
     <lastmod>2020-03-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cecilapp.github.io/the-butler/blog/princess-mononoke/</loc>
+    <loc>/blog/princess-mononoke/</loc>
     <lastmod>2020-03-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cecilapp.github.io/the-butler/blog/daft-punk/</loc>
+    <loc>/blog/daft-punk/</loc>
     <lastmod>2020-02-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cecilapp.github.io/the-butler/blog/doom/</loc>
+    <loc>/blog/doom/</loc>
     <lastmod>2019-12-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cecilapp.github.io/the-butler/about/</loc>
+    <loc>/about/</loc>
     <lastmod>2019-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
