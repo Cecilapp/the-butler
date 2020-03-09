@@ -1,9 +1,4 @@
 image: phpdocker/phpdocker:7.2
-cache:
-  paths:
-    - composer-cache/
-    - vendor/
-    - .cache/
 before_script:
   - curl -sSOL https://cecil.app/cecil.phar
   - php cecil.phar --version
@@ -16,3 +11,8 @@ pages:
       - public
   only:
     - master
+cache:
+  paths:
+    - composer-cache/
+    - vendor/
+    - .cache/
