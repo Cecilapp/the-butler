@@ -1,13 +1,13 @@
 #!/bin/bash
 
 echo 'Installing PHP...'
+yum list php
 if [ -z $PHP_VERSION ]
 then
   PHP_V='72'
 else
   PHP_V=${PHP_VERSION//./}
 fi
-yum list installed
 yum install php$PHP_V-cli
 
 echo 'Installing theme(s)...'
