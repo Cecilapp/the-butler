@@ -8,6 +8,8 @@ else
   PHP_V=${PHP_VERSION//./}
 fi
 amazon-linux-extras enable php7.2
+yum clean metadata
+yum install php-cli
 #amazon-linux-extras install php$PHP_V-cli
 if [ $? != 0 ]; then exit; fi
 
