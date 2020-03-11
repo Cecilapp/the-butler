@@ -1,6 +1,7 @@
 #!/bin/bash
 
 echo 'Installing PHP...'
+php -v
 yum list php
 if [ -z $PHP_VERSION ]
 then
