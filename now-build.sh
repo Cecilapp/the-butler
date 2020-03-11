@@ -9,6 +9,7 @@ else
   PHP_V=${PHP_VERSION//./}
 fi
 yum install php$PHP_V-cli
+if [ $? != 0 ]; exit 1; fi
 
 echo 'Installing theme(s)...'
 curl -sS https://getcomposer.org/installer | php
