@@ -9,7 +9,7 @@ else
   PHP_V=${PHP_VERSION//./}
 fi
 yum install php$PHP_V-cli
-if [ $? != 0 ]; then exit 1; fi
+if [ $? != 0 ]; then exit; fi
 
 echo "Interrupted Cecil build"; exit 1
 
