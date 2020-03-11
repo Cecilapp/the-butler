@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo 'Installing PHP...'
-amazon-linux-extras list php
+amazon-linux-extras
 if [ -z $PHP_VERSION ]
 then
   PHP_V='72'
