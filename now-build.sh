@@ -1,14 +1,14 @@
 #!/bin/bash
 
 echo 'Installing PHP...'
-amazon-linux-extras
 if [ -z $PHP_VERSION ]
 then
   PHP_V='72'
 else
   PHP_V=${PHP_VERSION//./}
 fi
-amazon-linux-extras install php$PHP_V-cli
+amazon-linux-extras enable php7.2
+#amazon-linux-extras install php$PHP_V-cli
 if [ $? != 0 ]; then exit; fi
 
 echo "Interrupted Cecil build"; exit 1
