@@ -1,8 +1,7 @@
 #!/bin/bash
 
 echo 'Installing PHP...'
-php -v
-yum list php
+yum module list php
 if [ -z $PHP_VERSION ]
 then
   PHP_V='72'
