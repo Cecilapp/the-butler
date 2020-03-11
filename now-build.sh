@@ -5,15 +5,12 @@ if [ -z $PHP_VERSION ]
 then
   PHP_V='72'
 else
-  PHP_V=${PHP_VERSION//./}
+  PHP_V=${PHP_VERSION}
 fi
-amazon-linux-extras enable php7.2
+amazon-linux-extras enable php$PHP_V
 yum clean metadata
 yum install php-cli
-#amazon-linux-extras install php$PHP_V-cli
 if [ $? != 0 ]; then exit; fi
-
-echo "Interrupted Cecil build"; exit 1
 
 echo 'Installing theme(s)...'
 curl -sS https://getcomposer.org/installer | php
