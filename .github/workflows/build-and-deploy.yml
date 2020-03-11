@@ -19,8 +19,8 @@ jobs:
         CECIL_VERSION: '5.14.4'
         CECIL_BASEURL: '/'
     - name: Deploy site to GitHub Pages
-      uses: Cecilapp/GitHub-Pages-deploy@2.0.0
+      uses: Cecilapp/GitHub-Pages-deploy@2.0.1
       env:
-        EMAIL: arnaud@ligny.org               # must be a verified email
-        GH_TOKEN: ${{ secrets.ACCESS_TOKEN }} # https://github.com/settings/tokens
-        BUILD_DIR: _site/                     # "_site/" by default
+        EMAIL: arnaud@ligny.org
+        GH_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        BUILD_DIR: _site
