@@ -8,9 +8,10 @@ else
   PHP_V=${PHP_VERSION}
 fi
 amazon-linux-extras enable php$PHP_V
-yum clean metadata
-yum install php-cli
 if [ $? != 0 ]; then exit; fi
+yum clean metadata
+yum install php-cli php-dom php-simplexml
+php --version
 
 echo 'Installing theme(s)...'
 curl -sS https://getcomposer.org/installer | php
