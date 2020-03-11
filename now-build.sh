@@ -7,7 +7,7 @@ then
 else
   PHP_V=${PHP_VERSION//./}
 fi
-yum list installed | grep php
+yum list installed
 yum install php$PHP_V-cli
 
 echo 'Installing theme(s)...'
