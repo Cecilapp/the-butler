@@ -10,8 +10,12 @@ if [ $? != 0 ]; then exit; fi
 yum install php-cli php-mbstring php-intl php-gd php-dom php-xml
 php --version
 
+echo "Installing images optim' lib..."
 yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
 yum install jpegoptim
+yum install pngquant
+yum install gifsicle
+yum install webp
 
 echo 'Installing theme(s)...'
 curl -sS https://getcomposer.org/installer | php
