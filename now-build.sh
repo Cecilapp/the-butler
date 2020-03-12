@@ -15,7 +15,6 @@ yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.r
 yum install jpegoptim
 yum install pngquant
 yum install gifsicle
-yum install webp
 
 echo 'Installing theme(s)...'
 curl -sS https://getcomposer.org/installer | php
