@@ -1,16 +1,15 @@
 #!/bin/bash
 
-echo 'Installing PHP...'
 if [ -z $PHP_VERSION ]
 then
   PHP_V='72'
 else
   PHP_V=${PHP_VERSION}
 fi
+echo 'Installing PHP $PHP_V...'
 amazon-linux-extras install php$PHP_V
 if [ $? != 0 ]; then exit; fi
-yum clean metadata
-yum install php-cli php-dom php-simplexml
+yum install php-cli php-mbstring php-intl php-gd php-dom php-xml -q
 php --version
 
 echo 'Installing theme(s)...'
