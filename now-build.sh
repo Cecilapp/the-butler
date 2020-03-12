@@ -10,7 +10,7 @@ if [ $? != 0 ]; then exit; fi
 yum install php-cli php-mbstring php-intl php-gd php-dom php-xml
 php --version
 
-yum install epel-release
+yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
 yum install jpegoptim
 
 echo 'Installing theme(s)...'
