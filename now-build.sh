@@ -10,6 +10,8 @@ if [ $? != 0 ]; then exit; fi
 yum install php-cli php-mbstring php-intl php-gd php-dom php-xml
 php --version
 
+yum install jpegoptim
+
 echo 'Installing theme(s)...'
 curl -sS https://getcomposer.org/installer | php
 php composer.phar install --prefer-dist --no-dev --no-progress --no-interaction
