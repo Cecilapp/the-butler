@@ -3,9 +3,10 @@
   "regions": ["cdg"],
   "build": {
     "env": {
-      "PHP_VERSION": "7.2",
+      "PHP_VERSION": "7.3",
       "CECIL_VERSION": "5.14.4",
-      "CECIL_BASEURL": "/"
+      "CECIL_BASEURL": "https://the-butler-garth.now.sh/",
+      "CECIL_THEME": "garth"
     }
   },
   "builds": [{
