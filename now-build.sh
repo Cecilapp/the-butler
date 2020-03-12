@@ -4,7 +4,7 @@ if [ -z $PHP_VERSION ]
 then
   PHP_VERSION='7.2'
 fi
-echo 'Installing PHP ${PHP_VERSION}...'
+echo "Installing PHP $PHP_VERSION..."
 amazon-linux-extras install php$PHP_V
 if [ $? != 0 ]; then exit; fi
 yum install php-cli php-mbstring php-intl php-gd php-dom php-xml -q
