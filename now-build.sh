@@ -10,7 +10,7 @@ if [ $? != 0 ]; then exit; fi
 yum install php-cli php-mbstring php-intl php-gd php-dom php-xml
 php --version
 
-yum install https://extras.getpagespeed.com/release-latest.rpm
+yum install epel-release
 yum install jpegoptim
 
 echo 'Installing theme(s)...'
