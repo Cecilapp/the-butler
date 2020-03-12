@@ -7,7 +7,7 @@ then
 else
   PHP_V=${PHP_VERSION}
 fi
-amazon-linux-extras enable php$PHP_V
+amazon-linux-extras enable php$PHP_V -q
 if [ $? != 0 ]; then exit; fi
 yum clean metadata
 yum install php-cli php-dom php-simplexml
