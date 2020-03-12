@@ -7,7 +7,7 @@ fi
 echo "Installing PHP $PHP_VERSION..."
 amazon-linux-extras install php$PHP_VERSION
 if [ $? != 0 ]; then exit; fi
-yum install php-cli php-mbstring php-intl php-gd php-dom php-xml -q
+yum install php-cli php-mbstring php-intl php-gd php-dom php-xml
 php --version
 
 echo 'Installing theme(s)...'
