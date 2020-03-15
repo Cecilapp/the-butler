@@ -12,14 +12,27 @@
   <script src="https://identity-js.netlify.com/{{ site.netlify.identity.version|default('v1') }}/netlify-identity-widget.js"></script>
   <script>
     if (window.netlifyIdentity) {
-      window.netlifyIdentity.on('login', () => {
-        document.location.href = '/admin/';
+      window.netlifyIdentity.on('init', user => {
+        if (!user) {
+          window.netlifyIdentity.on('login', () => {
+            document.location.href = '/admin/';
+          });
+        }
       });
+      window.netlifyIdentity.on('logout', () => {
+        document.location.href = '/';
+      });
+    }
+  </script>
+  <!--
+  <script>
+    if (window.netlifyIdentity) {
       window.netlifyIdentity.on('logout', () => {
         document.location.href = '/';
       });
     }
     CMS.registerPreviewStyle('/css/style.css');
   </script>
+  -->
 </body>
 </html>
