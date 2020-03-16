@@ -7,7 +7,7 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     container:
-      image: php:7.2-cli-alpine
+      image: php:7.2-cli
     steps:
     - name: Setup container
       run: |
