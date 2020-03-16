@@ -4,7 +4,7 @@ on:
     branches:
       - cecil
 env:
-  INTL: 'yes' # 'yes' if internationalization extensions are required
+  INTL: 'no' # 'yes' if internationalization extensions are required
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
