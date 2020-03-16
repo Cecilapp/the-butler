@@ -16,10 +16,9 @@ jobs:
         mv composer.phar /usr/local/bin/composer
         echo "Install PHP extensions"
         apk update
-        apk add gettext-dev icu-dev
-        docker-php-ext-install -j$(nproc) iconv mbstring intl gettext
-        docker-php-ext-configure gd --with-freetype-dir=/usr/include/ --with-jpeg-dir=/usr/include/
-        docker-php-ext-install -j$(nproc) gd
+        apk add --no-cache gettext-dev icu-dev
+        docker-php-ext-install -j$(nproc) gettext
+        docker-php-ext-install -j$(nproc) intl
     - name: Checkout source
       uses: actions/checkout@v2
       with:
