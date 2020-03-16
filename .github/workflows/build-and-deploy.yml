@@ -21,9 +21,8 @@ jobs:
         fetch-depth: 1
     - name: Install theme(s)
       run: |
-        #curl -sS https://getcomposer.org/installer | php
-        #mv composer.phar /usr/local/bin/composer
-        composer install --prefer-dist --no-dev --no-progress --no-interaction
+        curl -sS https://getcomposer.org/installer | php
+        composer.phar install --prefer-dist --no-dev --no-progress --no-interaction
     - name: Build site with Cecil
       env:
         CECIL_VERSION: '5.14.4'
