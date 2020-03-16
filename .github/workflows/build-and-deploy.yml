@@ -2,7 +2,7 @@ name: Build and deploy
 on:
   push:
     branches:
-      - cecil
+      - master
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -10,7 +10,7 @@ jobs:
     - name: Checkout source
       uses: actions/checkout@v2
     - name: Install theme(s)
-      uses: pxgamer/composer-action@v2.1.0
+      uses: docker://composer:latest
       with:
         command: install --prefer-dist --no-dev --no-progress --no-interaction
     - name: Build site with Cecil
