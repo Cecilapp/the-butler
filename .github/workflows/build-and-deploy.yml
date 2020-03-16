@@ -7,7 +7,7 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     container:
-      image: php:7.2-cli
+      image: php:7.2-cli-alpine
     steps:
     - name: Setup container
       run: |
@@ -15,8 +15,8 @@ jobs:
         curl -sS https://getcomposer.org/installer | php 
         mv composer.phar /usr/local/bin/composer
         echo "Install PHP extensions"
-        apt-get update
-        apt-get install gettext-dev icu-dev
+        apk update
+        apk add gettext-dev icu-dev
         docker-php-ext-install -j$(nproc) iconv intl xml mbstring gettext
         docker-php-ext-configure gd --with-freetype-dir=/usr/include/ --with-jpeg-dir=/usr/include/
         docker-php-ext-install -j$(nproc) gd
