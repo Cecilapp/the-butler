@@ -4,7 +4,7 @@ on:
     branches:
       - cecil
 env:
-  INTL: false
+  INTL: 'no'
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -12,7 +12,7 @@ jobs:
       image: php:7.2-cli-alpine
     steps:
     - name: Install PHP extensions
-      if: ${{INTL}}
+      if: env.INTL == 'yes'
       run: |
         apk update
         apk add --no-cache gettext-dev icu-dev
