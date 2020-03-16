@@ -6,16 +6,30 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    container:
+      image: php:7.2-cli-alpine
     steps:
     - name: Checkout source
       uses: actions/checkout@v2
+      with:
+        fetch-depth: 1
     - name: Install theme(s)
       run: composer install --prefer-dist --no-dev --no-progress --no-interaction
     - name: Build site with Cecil
-      uses: Cecilapp/Cecil-Action@2.0.0
       env:
         CECIL_VERSION: '5.14.4'
         CECIL_BASEURL: '/'
+      run: |
+        if [[ -z "$CECIL_VERSION" ]]; then
+          echo "### Downloading Cecil"
+          curl -sSOL https://cecil.app/cecil.phar
+        else
+          echo "### Downloading Cecil $CECIL_VERSION"
+          curl -sSOL https://cecil.app/download/$CECIL_VERSION/cecil.phar
+        fi
+        echo "### Building Cecil static site"
+        php cecil.phar build -v
+        echo "### Cecil Action done"
     - name: Deploy site to GitHub Pages
       uses: Cecilapp/GitHub-Pages-deploy@2.0.1
       env:
