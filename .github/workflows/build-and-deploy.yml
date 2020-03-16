@@ -25,7 +25,7 @@ jobs:
     - name: Install theme(s)
       run: |
         curl -sS https://getcomposer.org/installer | php
-        composer.phar install --prefer-dist --no-dev --no-progress --no-interaction
+        php composer.phar install --prefer-dist --no-dev --no-progress --no-interaction
     - name: Build site with Cecil
       env:
         CECIL_VERSION: '5.14.4'
