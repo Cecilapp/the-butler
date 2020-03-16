@@ -10,9 +10,7 @@ jobs:
     - name: Checkout source
       uses: actions/checkout@v2
     - name: Install theme(s)
-      uses: docker://composer:latest
-      with:
-        command: composer install --prefer-dist --no-dev --no-progress --no-interaction
+      run: composer install --prefer-dist --no-dev --no-progress --no-interaction
     - name: Build site with Cecil
       uses: Cecilapp/Cecil-Action@2.0.0
       env:
