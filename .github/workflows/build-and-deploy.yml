@@ -16,7 +16,7 @@ jobs:
         mv composer.phar /usr/local/bin/composer
         echo "Install PHP extensions"
         apt-get update
-        apt-get add --no-cache gettext-dev icu-dev
+        apt-get add gettext-dev icu-dev
         docker-php-ext-install -j$(nproc) iconv intl xml mbstring gettext
         docker-php-ext-configure gd --with-freetype-dir=/usr/include/ --with-jpeg-dir=/usr/include/
         docker-php-ext-install -j$(nproc) gd
