@@ -12,7 +12,7 @@ jobs:
     - name: Install theme(s)
       uses: pxgamer/composer-action@v2.1.0
       with:
-        command: install
+        command: install --prefer-dist --no-dev --no-progress --no-interaction
     - name: Build site with Cecil
       uses: Cecilapp/Cecil-Action@2.0.0
       env:
