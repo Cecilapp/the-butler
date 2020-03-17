@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - master
+      - cecil
 env:
   INTL: 'no' # 'yes' if internationalization extensions are required
 jobs:
