@@ -7,7 +7,7 @@ env:
   INTL: 'no' # 'yes' if internationalization extensions are required
 jobs:
   build:
-    name: Build and deploy
+    name: Build
     runs-on: ubuntu-latest
     container:
       image: php:7.2-cli-alpine
