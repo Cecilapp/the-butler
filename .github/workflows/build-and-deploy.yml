@@ -6,7 +6,7 @@ on:
 env:
   INTL: 'no' # 'yes' if internationalization extensions are required
 jobs:
-  build-and-deploy:
+  build:
     name: Build and deploy
     runs-on: ubuntu-latest
     container:
@@ -47,6 +47,14 @@ jobs:
       with:
         name: site
         path: _site
+  deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    steps:
+    - name: Download site from Artifacts
+      uses: actions/download-artifact@v1
+      with:
+        name: _site
     - name: Deploy site to GitHub Pages
       uses: Cecilapp/GitHub-Pages-deploy@2.0.1
       env:
