@@ -45,7 +45,7 @@ jobs:
     - name: Upload site to Artifacts
       uses: actions/upload-artifact@v1
       with:
-        name: site
+        name: _site
         path: _site
   deploy:
     name: Deploy
