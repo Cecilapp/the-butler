@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-  <id>https://cecilapp.github.io/the-butler/tags/animated/</id>
+  <id>/tags/animated/</id>
   <title>The Butler - Animated</title>
   <subtitle><![CDATA[A ready to use static blog, powered by Cecil.]]></subtitle>
-  <link href="https://cecilapp.github.io/the-butler/tags/animated/atom.xml" rel="self" type="application/atom+xml" />
-  <link href="https://cecilapp.github.io/the-butler/tags/animated/" rel="alternate" type="text/html" />
+  <link href="/tags/animated/atom.xml" rel="self" type="application/atom+xml" />
+  <link href="/tags/animated/" rel="alternate" type="text/html" />
   <updated>2020-03-09T01:00:00+01:00</updated>
   <author>
     <name>The Butler</name>
-    <uri>https://cecilapp.github.io/the-butler/</uri>
+    <uri>/</uri>
   </author>
   <entry xml:lang="en">
-    <id>https://cecilapp.github.io/the-butler/blog/princess-mononoke/</id>
+    <id>/blog/princess-mononoke/</id>
     <title>Princess Mononoke</title>
     <content type="html">
       <![CDATA[<p><strong><em>Princess Mononoke</em></strong> (<a href="https://en.m.wikipedia.org/wiki/Japanese_language">Japanese</a>: もののけ姫 <a href="https://en.m.wikipedia.org/wiki/Hepburn_romanization">Hepburn</a>: <strong>Mononoke-<a href="https://en.m.wikipedia.org/wiki/Hime">hime</a></strong>, &quot;Spirit/Monster Princess&quot;) is a 1997 Japanese <a href="https://en.m.wikipedia.org/wiki/Anime">animated</a> <a href="https://en.m.wikipedia.org/wiki/Fantasy_film">fantasy film</a> written and directed by <a href="https://en.m.wikipedia.org/wiki/Hayao_Miyazaki">Hayao Miyazaki</a>, animated by <a href="https://en.m.wikipedia.org/wiki/Studio_Ghibli">Studio Ghibli</a> for <a href="https://en.m.wikipedia.org/wiki/Tokuma_Shoten">Tokuma Shoten</a>, <a href="https://en.m.wikipedia.org/wiki/Nippon_Television_Network">Nippon Television Network</a> and <a href="https://en.m.wikipedia.org/wiki/Dentsu">Dentsu</a>, and distributed by <a href="https://en.m.wikipedia.org/wiki/Toho">Toho</a>. The film stars the voices of <a href="https://en.m.wikipedia.org/wiki/Yōji_Matsuda">Yōji Matsuda</a>, <a href="https://en.m.wikipedia.org/wiki/Yuriko_Ishida">Yuriko Ishida</a>, <a href="https://en.m.wikipedia.org/wiki/Yūko_Tanaka">Yūko Tanaka</a>, <a href="https://en.m.wikipedia.org/wiki/Kaoru_Kobayashi_(actor)">Kaoru Kobayashi</a>, <a href="https://en.m.wikipedia.org/wiki/Masahiko_Nishimura">Masahiko Nishimura</a>, <a href="https://en.m.wikipedia.org/wiki/Tsunehiko_Kamijo">Tsunehiko Kamijo</a>, <a href="https://en.m.wikipedia.org/wiki/Akihiro_Miwa">Akihiro Miwa</a>, <a href="https://en.m.wikipedia.org/wiki/Mitsuko_Mori">Mitsuko Mori</a> and <a href="https://en.m.wikipedia.org/wiki/Hisaya_Morishige">Hisaya Morishige</a>.</p>
-<!-- excerpt -->
+<span id="more"></span>
 <p><em>Princess Mononoke</em> is set in the late <a href="https://en.m.wikipedia.org/wiki/Muromachi_period">Muromachi period</a> (approximately 1336 to 1573) of Japan with fantasy elements. The story follows the young <a href="https://en.m.wikipedia.org/wiki/Emishi">Emishi</a> prince Ashitaka's involvement in a struggle between the gods of a forest and the humans who consume its resources. The term &quot;<a href="https://en.m.wikipedia.org/wiki/Mononoke">Mononoke</a>&quot; (<a href="https://en.wiktionary.org/wiki/物の怪">物の怪</a>) or もののけ is not a name, but a Japanese word for a spirit or monster: supernatural, shape-shifting beings.</p>
 <p>The film was released in Japan on July 12, 1997, and in the United States on October 29, 1999. It was a critical and commercial <a href="https://en.m.wikipedia.org/wiki/Blockbuster_(entertainment)">blockbuster</a>, becoming the highest-grossing film in Japan of 1997, and also held Japan's box office record for domestic films until 2001's <em><a href="https://en.m.wikipedia.org/wiki/Spirited_Away">Spirited Away</a></em>, another Miyazaki film. It was <a href="https://en.m.wikipedia.org/wiki/Dubbing_(filmmaking)">dubbed</a> into English and distributed in North America by <a href="https://en.m.wikipedia.org/wiki/Miramax">Miramax</a>, and despite a poor box office performance there, it sold well on DVD and video, greatly increasing Ghibli's popularity and influence outside Japan.</p>
 <blockquote>
 <p>Source: <a href="https://en.m.wikipedia.org/wiki/Princess_Mononoke">https://en.m.wikipedia.org/wiki/Princess_Mononoke</a></p>
 </blockquote>]]>
     </content>
-    <link href="https://cecilapp.github.io/the-butler/blog/princess-mononoke/" rel="alternate" type="text/html" />
+    <link href="/blog/princess-mononoke/" rel="alternate" type="text/html" />
     <published>2020-03-09T01:00:00+01:00</published>
     <updated>2020-03-09T01:00:00+01:00</updated>
   </entry>
