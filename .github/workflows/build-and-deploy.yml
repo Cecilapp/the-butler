@@ -42,6 +42,11 @@ jobs:
         echo "### Building Cecil static site"
         php cecil.phar build -v
         echo "### Cecil Action done"
+    - name: Upload site to Artifacts
+      uses: actions/upload-artifact@v1
+      with:
+        name: site
+        path: _site
     - name: Deploy site to GitHub Pages
       uses: Cecilapp/GitHub-Pages-deploy@2.0.1
       env:
