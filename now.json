@@ -4,7 +4,7 @@
   "build": {
     "env": {
       "PHP_VERSION": "7.2",
-      "CECIL_VERSION": "5.14.4",
+      "CECIL_VERSION": "5.18.1",
       "CECIL_BASEURL": "/"
     }
   },

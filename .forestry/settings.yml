@@ -33,7 +33,7 @@ file_template: ":filename:"
 build:
   preview_env:
   - PHP_VERSION=7.2
-  - CECIL_VERSION=5.14.4
+  - CECIL_VERSION=5.18.1
   preview_output_directory: _site
   install_dependencies_command: bash .forestry/install.sh
   preview_docker_image: phpdocker/phpdocker:7.2
