@@ -14,5 +14,5 @@
   CECIL_BASELINE = "Short description (~ 20 characters)"
   CECIL_DESCRIPTION = "Full description (~ 250 characters)"
   CECIL_AUTHOR = "Your name"
-  CECIL_BASEURL = "/"
-  CECIL_THEME = "hyde or garth"
+  CECIL_BASEURL = "URL (use '/' by default)"
+  CECIL_THEME = "Theme (use 'hyde' or 'garth')"
