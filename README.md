@@ -17,7 +17,7 @@
 
 If your goal is managing content quickly, and decide later where to deploy to it, use the following button to import the starter blog to Forestry CMS and start editing immediatelly!
 
-[![Import this project into Forestry](https://assets.forestry.io/import-to-forestryK.svg)](https://app.forestry.io/quick-start?repo=cecilapp/the-butler)
+[![Import this project into Forestry](https://assets.forestry.io/import-to-forestryK.svg)](https://app.forestry.io/quick-start?repo=cecilapp/the-butler&preview=https://raw.githubusercontent.com/Cecilapp/the-butler/master/static/images/cecil-preview.png)
 
 #### Manually
 
