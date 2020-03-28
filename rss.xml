@@ -3,20 +3,20 @@
   <channel>
     <title>The Butler</title>
     <description><![CDATA[A ready to use static blog, powered by Cecil.]]></description>
-    <lastBuildDate>2020-03-28T23:21:31+01:00</lastBuildDate>
+    <lastBuildDate>2020-03-29T00:15:43+01:00</lastBuildDate>
     <link>https://cecilapp.github.io/the-butler/</link>
     <item>
       <guid>https://cecilapp.github.io/the-butler/_redirects</guid>
       <title>Page Title</title>
       <description><![CDATA[]]></description>
-      <pubDate>2020-03-28T23:21:31+01:00</pubDate>
+      <pubDate>2020-03-29T00:15:43+01:00</pubDate>
       <link>https://cecilapp.github.io/the-butler/_redirects</link>
     </item>
     <item>
       <guid>https://cecilapp.github.io/the-butler/admin/</guid>
       <title>Content Manager (Netlify CMS)</title>
       <description><![CDATA[]]></description>
-      <pubDate>2020-03-28T23:21:31+01:00</pubDate>
+      <pubDate>2020-03-29T00:15:43+01:00</pubDate>
       <link>https://cecilapp.github.io/the-butler/admin/</link>
     </item>
     <item>
