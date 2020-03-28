@@ -48,14 +48,7 @@ See [Travis config file](/.travis.yml).
 
 #### With [GitHub Actions](https://github.com/features/actions) ([demo](https://cecilapp.github.io/the-butler/))
 
-Edit [GitHub Actions workflow file](/.github/workflows/build-and-deploy.yml) and replace `cecil` by `master` to enable the workflow:
-
-```ymal
-on:
-  push:
-    branches:
-      - master
-```
+Edit [GitHub Actions workflow file](/.github/workflows.disabled/build-and-deploy.yml) and rename `workflows.disabled` to `workflows` to enable the workflow.
 
 ### Customize your blog
 
