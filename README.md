@@ -46,6 +46,10 @@ To use [**Netlify CMS**](https://www.netlifycms.org) ([demo](https://the-butler.
 
 See [Travis config file](/.travis.yml).
 
+#### With [GitLab CI](https://about.gitlab.com/stages-devops-lifecycle/continuous-integration/) ([demo](https://narno.gitlab.io/the-butler/))
+
+See [GitLab config file](/.gitlab-ci.yml).
+
 #### With [GitHub Actions](https://github.com/features/actions) ([demo](https://cecilapp.github.io/the-butler/))
 
 Edit [GitHub Actions workflow file](/.github/workflows.disabled/build-and-deploy.yml) and rename `workflows.disabled` to `workflows` to enable the workflow.
