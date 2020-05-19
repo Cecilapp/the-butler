@@ -5,8 +5,7 @@
     "env": {
       "PHP_VERSION": "7.2",
       "CECIL_VERSION": "5.28.1",
-      "CECIL_BASEURL": "/",
-      "CECIL_THEME": "garth"
+      "CECIL_BASEURL": "/"
     }
   },
   "builds": [{
