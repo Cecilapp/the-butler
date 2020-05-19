@@ -8,7 +8,7 @@ before_script:
 test:
   stage: test
   script:
-  - php cecil.phar build --verbose --destination=test
+  - php cecil.phar build --verbose --output=test
   artifacts:
     paths:
     - test
@@ -18,7 +18,7 @@ test:
 pages:
   stage: deploy
   script:
-  - php cecil.phar build --destination=public
+  - php cecil.phar build --output=public
   artifacts:
     paths:
     - public
