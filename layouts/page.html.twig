@@ -4,7 +4,7 @@
 {{ parent() }}
     <!-- Netlify Identity -->
     <script src="https://identity.netlify.com/{{ site.netlify.identity.version|default('v1') }}/netlify-identity-widget.js"></script>
-    {% filter minifyJS %}<script>
+    {% apply minify_js %}<script>
       if (window.netlifyIdentity) {
         window.netlifyIdentity.on('init', user => {
           if (!user) {
@@ -14,7 +14,7 @@
           }
         });
       }
-    </script>{% endfilter %}
+    </script>{% endapply %}
 
 {% if page.forestry_instant_preview_id is defined %}
     <!-- Forestry.io Instant Preview -->
