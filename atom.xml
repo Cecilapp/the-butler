@@ -5,31 +5,11 @@
   <subtitle><![CDATA[A ready to use static blog, powered by Cecil.]]></subtitle>
   <link href="https://cecilapp.github.io/the-butler/atom.xml" rel="self" type="application/atom+xml" />
   <link href="https://cecilapp.github.io/the-butler/" rel="alternate" type="text/html" />
-  <updated>2020-04-04T12:45:29+02:00</updated>
+  <updated>2020-03-09T01:00:00+01:00</updated>
   <author>
     <name>The Butler</name>
     <uri>https://cecilapp.github.io/the-butler/</uri>
   </author>
-  <entry xml:lang="en">
-    <id>https://cecilapp.github.io/the-butler/_redirects</id>
-    <title>Page Title</title>
-    <content type="html">
-      <![CDATA[]]>
-    </content>
-    <link href="https://cecilapp.github.io/the-butler/_redirects" rel="alternate" type="text/html" />
-    <published>2020-04-04T12:45:29+02:00</published>
-    <updated>2020-04-04T12:45:29+02:00</updated>
-  </entry>
-  <entry xml:lang="en">
-    <id>https://cecilapp.github.io/the-butler/admin/</id>
-    <title>Content Manager (Netlify CMS)</title>
-    <content type="html">
-      <![CDATA[]]>
-    </content>
-    <link href="https://cecilapp.github.io/the-butler/admin/" rel="alternate" type="text/html" />
-    <published>2020-04-04T12:45:29+02:00</published>
-    <updated>2020-04-04T12:45:29+02:00</updated>
-  </entry>
   <entry xml:lang="en">
     <id>https://cecilapp.github.io/the-butler/blog/princess-mononoke/</id>
     <title>Princess Mononoke</title>

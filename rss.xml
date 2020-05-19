@@ -3,22 +3,8 @@
   <channel>
     <title>The Butler</title>
     <description><![CDATA[A ready to use static blog, powered by Cecil.]]></description>
-    <lastBuildDate>2020-04-04T12:45:29+02:00</lastBuildDate>
+    <lastBuildDate>2020-03-09T01:00:00+01:00</lastBuildDate>
     <link>https://cecilapp.github.io/the-butler/</link>
-    <item>
-      <guid>https://cecilapp.github.io/the-butler/_redirects</guid>
-      <title>Page Title</title>
-      <description><![CDATA[]]></description>
-      <pubDate>2020-04-04T12:45:29+02:00</pubDate>
-      <link>https://cecilapp.github.io/the-butler/_redirects</link>
-    </item>
-    <item>
-      <guid>https://cecilapp.github.io/the-butler/admin/</guid>
-      <title>Content Manager (Netlify CMS)</title>
-      <description><![CDATA[]]></description>
-      <pubDate>2020-04-04T12:45:29+02:00</pubDate>
-      <link>https://cecilapp.github.io/the-butler/admin/</link>
-    </item>
     <item>
       <guid>https://cecilapp.github.io/the-butler/blog/princess-mononoke/</guid>
       <title>Princess Mononoke</title>
