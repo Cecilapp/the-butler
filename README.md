@@ -34,9 +34,9 @@ To use [**Netlify CMS**](https://www.netlifycms.org) ([demo](https://the-butler.
 2. invite a user
 3. connect to `https://<your-blog>.netlify.com/admin/` with the user credentials
 
-#### To [ZEIT Now](https://zeit.co) ([demo](https://the-butler.now.sh))
+#### To [Vercel](https://vercel.com) ([demo](https://vercel.cecil.app))
 
-[![Deploy to ZEIT Now](https://zeit.co/button)](https://zeit.co/new/project?template=https://github.com/Cecilapp/the-butler)
+[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/Cecilapp/the-butler)
 
 #### To [Render](https://render.com) ([demo](https://the-butler.onrender.com))
 
