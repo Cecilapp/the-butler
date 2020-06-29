@@ -1,6 +1,4 @@
 {
-  "name": "the-butler",
-  "regions": ["cdg"],
   "build": {
     "env": {
       "PHP_VERSION": "7.2",
