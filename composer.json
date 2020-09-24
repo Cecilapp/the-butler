@@ -13,6 +13,6 @@
   ],
   "require": {
     "cecil/theme-hyde": "^1.16",
-    "cecil/theme-garth": "^1.1"
+    "cecil/theme-garth": "^1.2"
   }
 }
