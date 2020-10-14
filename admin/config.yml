@@ -5,7 +5,7 @@ backend:
 publish_mode: editorial_workflow
 media_folder: "static/images"
 public_folder: "/images"
-logo_url: https://the-butler.cecil.app/admin/cecil-logo-netlify.png
+logo_url: https://cecil.app/images/cecil-logo-netlify-cms.png
 show_preview_links: true
 slug:
   encoding: "ascii"
@@ -73,24 +73,3 @@ collections:
             fields:
               - {label: "Format", name: "format", widget: "string", default: "j F Y", required: true}
               - {label: "Time zone", name: "timezone", widget: "string", default: "Europe/Paris", required: true}
-          - label: "Virtual pages"
-            name: "virtualpages"
-            label_singular: "Virtual page"
-            widget: "list"
-            fields:
-              - {label: "Path", name: "path", widget: "string", required: true}
-              - {label: "Layout", name: "layout", widget: "string", required: false}
-              - {label: "Output", name: "output", widget: "string", required: false}
-              - {label: "Title", name: "title", widget: "string", required: false}
-          - label: "Output"
-            name: "output"
-            widget: "object"
-            fields:
-              - label: "Formats"
-                name: "formats"
-                label_singular: "Format"
-                widget: "list"
-                fields:
-                  - {label: "Name", name: "name", widget: "string", required: true}
-                  - {label: "Media type", name: "mediatype", widget: "string", required: true, hint: "ie: 'text/html'."}
-                  - {label: "Extension", name: "extension", widget: "string", required: false, hint: "ie: 'html'."}
