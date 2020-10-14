@@ -1,7 +1,7 @@
 ---
 title: "Draft example"
 date: 2020-10-14
-image: /images/cecil-logo.png
+image: /images/butler.jpg
 draft: true
 ---
 
