@@ -10,6 +10,7 @@ date:
   timezone: Europe/Paris
 theme:
   - hyde
+  - netlify
   - netlify-cms
 postprocess:
   enabled: true
