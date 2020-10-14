@@ -89,8 +89,9 @@ collections:
                 name: "formats"
                 widget: "list"
                 fields:
-                  - {label: "mediatype", name: "mediatype", widget: "string", hint: "ex: text/plain", required: true}
-                  - {label: "extension", name: "extension", widget: "string", required: false}
+                  - {label: "Name", name: "name", widget: "string", required: true}
+                  - {label: "Media type", name: "mediatype", widget: "string", hint: "ex: text/plain", required: true}
+                  - {label: "Extension", name: "extension", widget: "string", required: false}
           - label: "Netlify"
             name: "netlify"
             widget: "object"
