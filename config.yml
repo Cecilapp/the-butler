@@ -1,23 +1,15 @@
-output:
-  formats:
-    - name: netlify_redirects
-      mediatype: text/plain
-      extension: ""
+title: The Butler
 baseline: Your blogging assistant
 description: A ready to use static blog, powered by Cecil.
-theme:
-  - hyde
-  - netlify-cms
+baseurl: /
+canonicalurl: true
 keywords: Cecil, Static Site Generator, SSG
 author: Arnaud Ligny
 date:
   format: j F Y
   timezone: Europe/Paris
+theme:
+  - hyde
+  - netlify-cms
 postprocess:
   enabled: true
-title: The Butler
-virtualpages:
-  - path: _redirects
-    output: netlify_redirects
-baseurl: /
-canonicalurl: true
