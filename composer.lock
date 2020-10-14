@@ -141,16 +141,16 @@
         },
         {
             "name": "cecil/theme-netlifycms",
-            "version": "1.0.0",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Cecilapp/theme-netlifycms.git",
-                "reference": "3bdeedba50b5bc8b75eaeb805670cbbe6dc60359"
+                "reference": "dbedc53f1e72fb413f520f877ddf4cd7ed90da09"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Cecilapp/theme-netlifycms/zipball/3bdeedba50b5bc8b75eaeb805670cbbe6dc60359",
-                "reference": "3bdeedba50b5bc8b75eaeb805670cbbe6dc60359",
+                "url": "https://api.github.com/repos/Cecilapp/theme-netlifycms/zipball/dbedc53f1e72fb413f520f877ddf4cd7ed90da09",
+                "reference": "dbedc53f1e72fb413f520f877ddf4cd7ed90da09",
                 "shasum": ""
             },
             "require": {
@@ -179,7 +179,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2020-10-14T20:16:41+00:00"
+            "time": "2020-10-14T20:39:43+00:00"
         }
     ],
     "packages-dev": [],
