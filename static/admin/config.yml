@@ -64,9 +64,9 @@ collections:
           - {label: "Title", name: "title", widget: "string", default: "Cecil", required: true}
           - {label: "Baseline", name: "baseline", widget: "string", default: "Your blog's butler.", required: true}
           - {label: "Description", name: "description", widget: "string", default: "A ready to use static blog, powered by Cecil and Hyde.", required: true}
-          - {label: "Base URL", name: "baseurl", widget: "string", default: "/", required: true}
+          - {label: "Base URL", name: "baseurl", widget: "string", default: "/", required: true, hint: "With a trailing slash."}
           - {label: "Use canonical URL", name: "canonicalurl", widget: "boolean", default: true, required: true}
-          - {label: "Theme", name: "theme", widget: "string", default: "hyde"}
+          - {label: "Theme", name: "theme", widget: "select", options: ["hyde", "garth"]}
           - label: "Date"
             name: "date"
             widget: "object"
@@ -90,8 +90,8 @@ collections:
                 widget: "list"
                 fields:
                   - {label: "Name", name: "name", widget: "string", required: true}
-                  - {label: "Media type", name: "mediatype", widget: "string", hint: "ex: text/plain", required: true}
-                  - {label: "Extension", name: "extension", widget: "string", required: false}
+                  - {label: "Media type", name: "mediatype", widget: "string", required: true, hint: "ie: 'text/html'."}
+                  - {label: "Extension", name: "extension", widget: "string", required: false, hint: "ie: 'html'."}
           - label: "Netlify"
             name: "netlify"
             widget: "object"
