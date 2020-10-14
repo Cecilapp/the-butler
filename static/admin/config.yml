@@ -1,6 +1,7 @@
 backend:
   name: git-gateway
   branch: master
+  squash_merges: true
 publish_mode: editorial_workflow
 media_folder: "static/images"
 public_folder: "/images"
@@ -12,8 +13,8 @@ slug:
   sanitize_replacement: "-"
 collections:
   - label: "Posts"
-    label_singular: "Post"
     name: "posts"
+    label_singular: "Post"
     description: >
       Blog posts.
     folder: "content/blog"
@@ -27,9 +28,14 @@ collections:
       - {label: "Text", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list", required: false}
       - {label: "Draft", name: "draft", widget: "boolean", default: true, required: true}
+    sortable_fields: ['title', 'date']
+    view_filters:
+      - label: Draft
+        field: draft
+        pattern: true
   - label: "Pages"
-    label_singular: "Page"
     name: "pages"
+    label_singular: "Page"
     description: >
       Single pages.
     delete: false
