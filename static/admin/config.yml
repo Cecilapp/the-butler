@@ -87,7 +87,7 @@ collections:
             fields:
               - label: "Formats"
                 name: "formats"
-                widget: "object"
+                widget: "list"
                 fields:
                   - label: "Redirects"
                     name: "netlify_redirects"
