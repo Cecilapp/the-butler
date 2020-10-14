@@ -5,7 +5,9 @@ keywords: "Cecil, Static Site Generator, SSG"
 author: "Arnaud Ligny"
 baseurl: "/"
 canonicalurl: true
-theme: "hyde"
+theme:
+  - hyde
+  - netlify-cms
 date:
   format: "j F Y"
   timezone: "Europe/Paris"
@@ -15,17 +17,7 @@ output:
       mediatype: "text/plain"
       extension: ""
 virtualpages:
-  - path: admin
-    title: "Content Manager (Netlify CMS)"
-    layout: admin/index
-    output: html
   - path: _redirects
     output: netlify_redirects
-netlify:
-  cms:
-    path: "admin"
-    version: "latest"
-  identity:
-    version: "v1"
 postprocess:
   enabled: true
