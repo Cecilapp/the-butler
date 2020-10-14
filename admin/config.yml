@@ -93,8 +93,8 @@ collections:
                     name: "netlify_redirects"
                     widget: "object"
                     fields:
-                      - {label: "mediatype", name: "mediatype", widget: "string", default: "text/plain", required: true}
-                      - {label: "extension", name: "extension", widget: "string", default: "", required: false}
+                      - {label: "mediatype", name: "mediatype", widget: "string", hint: "ex: text/plain", required: true}
+                      - {label: "extension", name: "extension", widget: "string", required: false}
           - label: "Netlify"
             name: "netlify"
             widget: "object"
