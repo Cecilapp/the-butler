@@ -75,6 +75,7 @@ collections:
               - {label: "Time zone", name: "timezone", widget: "string", default: "Europe/Paris", required: true}
           - label: "Virtual pages"
             name: "virtualpages"
+            label_singular: "Virtual page"
             widget: "list"
             fields:
               - {label: "Path", name: "path", widget: "string", required: true}
@@ -87,6 +88,7 @@ collections:
             fields:
               - label: "Formats"
                 name: "formats"
+                label_singular: "Format"
                 widget: "list"
                 fields:
                   - {label: "Name", name: "name", widget: "string", required: true}
