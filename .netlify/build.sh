@@ -13,5 +13,7 @@ else
   php cecil.phar build -v --baseurl=$URL
 fi
 
-echo "Finished Cecil build"
-exit 0
+# build success? can deploy?
+if [ $? = 0 ]; then echo "Finished Cecil build"; exit 0; fi
+
+echo "Interrupted Cecil build"; exit 1
