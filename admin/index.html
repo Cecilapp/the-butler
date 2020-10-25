@@ -1,4 +1,5 @@
-<!DOCTYPE html><html><head><meta charset=utf-8><meta content="width=device-width, initial-scale=1.0" name=viewport><title>Content Manager (Netlify CMS)</title><link href=https://unpkg.com/netlify-cms@latest/dist/cms.css rel=stylesheet><meta content="Cecil 5.33.5" name=generator> <body><script src=https://unpkg.com/netlify-cms@latest/dist/netlify-cms.js></script> <script src=https://identity-js.netlify.com/v1/netlify-identity-widget.js></script> <script>if (window.netlifyIdentity) {
+<!DOCTYPE html><html><head><meta charset=utf-8><meta content="width=device-width, initial-scale=1.0" name=viewport><title>Content Manager (Netlify CMS)</title><link href=https://unpkg.com/netlify-cms@latest/dist/cms.css rel=stylesheet><meta content="Cecil 5.33.5" name=generator> <body><script src=https://unpkg.com/netlify-cms@latest/dist/netlify-cms.js></script> <script src=https://identity-js.netlify.com/v1/netlify-identity-widget.js></script> <script>// Identity
+      if (window.netlifyIdentity) {
         window.netlifyIdentity.on('init', user => {
           if (!user) {
             window.netlifyIdentity.on('login', () => {
@@ -10,4 +11,20 @@
           document.location.href = '/';
         });
       }
-      CMS.registerPreviewStyle('/css/style.css');</script>
+      // Preview: Style
+      //CMS.registerPreviewStyle('/css/style.css');
+      // Preview: Templates
+      var Episode = createClass({
+        render: function() {
+          var entry = this.props.entry;
+          return h('div', {},
+            h('h1', {}, entry.getIn(['data', 'title'])),
+            h('div', {}, entry.getIn(['data', 'date'])),
+            h('div', {"className": "text"}, this.props.widgetFor('body')),
+            h('div', {},
+              h('audio', {controls: "controls", "src": entry.getIn(['data', 'episode', 'file'])}),
+            )
+          );
+        }
+      });
+      CMS.registerPreviewTemplate("episodes", Episode);</script>
