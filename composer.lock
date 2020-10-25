@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "946ca13a95828c23a4241ef5968102b3",
+    "content-hash": "8cb147ee45e05ab1c71e3a8051e8673b",
     "packages": [
         {
             "name": "cecil/theme-garth",
@@ -50,16 +50,16 @@
         },
         {
             "name": "cecil/theme-hyde",
-            "version": "1.16.0",
+            "version": "1.17.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Cecilapp/theme-hyde.git",
-                "reference": "3297cfb3ae222886ab99d95307d50286820a5424"
+                "reference": "bc458d72fedc0bb841546cf535a89823d5c2f2f2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Cecilapp/theme-hyde/zipball/3297cfb3ae222886ab99d95307d50286820a5424",
-                "reference": "3297cfb3ae222886ab99d95307d50286820a5424",
+                "url": "https://api.github.com/repos/Cecilapp/theme-hyde/zipball/bc458d72fedc0bb841546cf535a89823d5c2f2f2",
+                "reference": "bc458d72fedc0bb841546cf535a89823d5c2f2f2",
                 "shasum": ""
             },
             "require": {
@@ -88,7 +88,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2020-05-19T17:36:25+00:00"
+            "time": "2020-10-25T00:33:51+00:00"
         },
         {
             "name": "cecil/theme-installer",
@@ -141,16 +141,16 @@
         },
         {
             "name": "cecil/theme-netlify",
-            "version": "1.0.0",
+            "version": "1.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Cecilapp/theme-netlify.git",
-                "reference": "dfb37074f2789d2627fbb835539e5ddce72e473d"
+                "reference": "dcdfd2ecdcd5ed9f6c7d7bcd5f82d5a8aacfca58"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Cecilapp/theme-netlify/zipball/dfb37074f2789d2627fbb835539e5ddce72e473d",
-                "reference": "dfb37074f2789d2627fbb835539e5ddce72e473d",
+                "url": "https://api.github.com/repos/Cecilapp/theme-netlify/zipball/dcdfd2ecdcd5ed9f6c7d7bcd5f82d5a8aacfca58",
+                "reference": "dcdfd2ecdcd5ed9f6c7d7bcd5f82d5a8aacfca58",
                 "shasum": ""
             },
             "require": {
@@ -179,20 +179,20 @@
                     "type": "custom"
                 }
             ],
-            "time": "2020-10-14T23:13:48+00:00"
+            "time": "2020-10-25T00:23:45+00:00"
         },
         {
             "name": "cecil/theme-netlifycms",
-            "version": "1.2.0",
+            "version": "1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Cecilapp/theme-netlifycms.git",
-                "reference": "65f8ca194a3e15b7d6a303129b16e00e64cb8565"
+                "reference": "fbeaf4b9ab018aa2bd6bddcd0b09d9c951e79ab7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Cecilapp/theme-netlifycms/zipball/65f8ca194a3e15b7d6a303129b16e00e64cb8565",
-                "reference": "65f8ca194a3e15b7d6a303129b16e00e64cb8565",
+                "url": "https://api.github.com/repos/Cecilapp/theme-netlifycms/zipball/fbeaf4b9ab018aa2bd6bddcd0b09d9c951e79ab7",
+                "reference": "fbeaf4b9ab018aa2bd6bddcd0b09d9c951e79ab7",
                 "shasum": ""
             },
             "require": {
@@ -221,7 +221,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2020-10-14T22:44:46+00:00"
+            "time": "2020-10-15T11:46:43+00:00"
         }
     ],
     "packages-dev": [],

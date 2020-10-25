@@ -3,7 +3,7 @@ baseline: Your blogging assistant
 description: A ready to use static blog, powered by Cecil.
 baseurl: /
 canonicalurl: true
-keywords: Cecil, Static Site Generator, SSG
+keywords: [Cecil, Static Site Generator, SSG]
 author: Arnaud Ligny
 date:
   format: j F Y
