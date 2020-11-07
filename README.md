@@ -65,6 +65,6 @@ Read the [Cecil's documentation](https://cecil.app/documentation/).
 
 ## License
 
-Starter blog is a free software distributed under the terms of the MIT license.
+The Butler is a free software distributed under the terms of the MIT license.
 
 © [Arnaud Ligny](https://arnaudligny.fr)
