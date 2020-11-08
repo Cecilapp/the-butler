@@ -6,7 +6,7 @@
 
 ## There is a demo?
 
-:arrow_forward: [the-butler.cecil.app](https://the-butler.cecil.app) (theme: [Hyde](https://github.com/Cecilapp/theme-hyde#readme))  
+:arrow_forward: [the-butler-demo.cecil.app](https://the-butler-demo.cecil.app) (theme: [Hyde](https://github.com/Cecilapp/theme-hyde#readme))  
 :arrow_forward: [the-butler-garth.now.sh](https://the-butler-garth.now.sh) (theme: [Garth](https://github.com/Cecilapp/theme-garth#readme))
 
 ## How to use?
@@ -25,11 +25,11 @@ Edit content files in `content/blog/` directly from your repository.
 
 ### Deploy
 
-#### To [Netlify](https://www.netlify.com) ([demo](https://the-butler.cecil.app))
+#### To [Netlify](https://www.netlify.com) ([demo](https://the-butler-demo.cecil.app))
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Cecilapp/the-butler&stack=cms)
 
-To use [**Netlify CMS**](https://www.netlifycms.org) ([demo](https://the-butler.cecil.app/admin/)) you must:
+To use [**Netlify CMS**](https://www.netlifycms.org) ([demo](https://the-butler-demo.cecil.app/admin/)) you must:
 1. enable [Netlify Identity](https://docs.netlify.com/visitor-access/git-gateway/#setup-and-settings) and Git Gateway
 2. invite a user
 3. connect to `https://<your-blog>.netlify.com/admin/` with the user credentials
