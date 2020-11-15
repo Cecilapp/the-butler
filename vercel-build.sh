@@ -13,7 +13,7 @@ php --version
 if [ "$INSTALL_OPTIM" = true ]; then
   echo "================================================================================"
   echo "Installing images optim' lib..."
-  yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
+  yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
   yum install jpegoptim
   yum install pngquant
   yum install gifsicle
