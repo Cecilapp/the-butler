@@ -5,3 +5,25 @@ services:
   buildCommand: curl -LO https://cecil.app/cecil.phar && composer install && php cecil.phar build -v
   staticPublishPath: _site
   pullRequestPreviewsEnabled: true
+  headers:
+  - path: /*
+    name: X-Frame-Options
+    value: DENY
+  - path: /*
+    name: X-XSS-Protection
+    value: 1; mode=block
+  - path: /*
+    name: X-Content-Type-Options
+    value: nosniff
+  - path: /css/*
+    name: Cache-Control
+    value: public, max-age=360000
+  - path: /fonts/*
+    name: Cache-Control
+    value: public, max-age=360000
+  - path: /images/*
+    name: Cache-Control
+    value: public, max-age=360000
+  - path: /js/*
+    name: Cache-Control
+    value: public, max-age=360000
