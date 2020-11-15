@@ -14,6 +14,7 @@ if [ "$INSTALL_OPTIM" = true ]; then
   echo "================================================================================"
   echo "Installing images optim' lib..."
   yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+  subscription-manager repos --enable "rhel-*-optional-rpms" --enable "rhel-*-extras-rpms"  --enable "rhel-ha-for-rhel-*-server-rpms"
   yum install jpegoptim
   yum install pngquant
   yum install gifsicle
