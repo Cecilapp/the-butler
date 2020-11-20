@@ -1,7 +1,8 @@
+os: linux
 language: php
 php:
   - 7.2
-sudo: false
+# master only
 branches:
   only:
     - master
@@ -15,9 +16,8 @@ script:
 # Deploy to GitHub Pages
 deploy:
   provider: pages
-  skip_cleanup: true
-  github_token: $GH_TOKEN # set this env. variable in Travis CI settings
+  edge: true
+  token: $GH_TOKEN # set this env. variable in Travis CI settings
   local_dir: _site
-  keep_history: true
   on:
     branch: master
