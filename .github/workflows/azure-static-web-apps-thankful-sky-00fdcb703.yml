@@ -27,10 +27,10 @@ jobs:
           action: "upload"
           ###### Repository/Build Configurations - These values can be configured to match you app requirements. ######
           # For more information regarding Static Web App workflow configurations, please visit: https://aka.ms/swaworkflowconfig
+          app_build_command: "sh .netlify/build.sh"
           app_location: "/" # App source code path
           api_location: "api" # Api source code path - optional
           output_location: "_site" # Built app content directory - optional
-          app_build_command: "bash .netlify/build.sh"
           ###### End of Repository/Build Configurations ######
 
   close_pull_request_job:
