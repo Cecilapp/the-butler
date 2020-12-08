@@ -1,5 +1,5 @@
 echo "Installing theme(s)"
-composer install
+php composer.phar install
 
 echo "Downloading Cecil"
 curl -sSOL https://cecil.app/cecil.phar
