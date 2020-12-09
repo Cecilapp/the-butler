@@ -68,7 +68,7 @@ jobs:
         name: _site
 
     - name: Deploy site to GitHub Pages
-      uses: Cecilapp/GitHub-Pages-deploy@2
+      uses: Cecilapp/GitHub-Pages-deploy@v2
       env:
         EMAIL: arnaud@ligny.org
         GH_TOKEN: ${{ secrets.ACCESS_TOKEN }}
