@@ -52,7 +52,7 @@ See [GitLab config file](/.gitlab-ci.yml).
 
 #### With [GitHub Actions](https://github.com/features/actions) ([demo](https://cecilapp.github.io/the-butler/))
 
-Edit [GitHub Actions workflow file](/.github/workflows.disabled/build-and-deploy.yml) and rename `workflows.disabled` to `workflows` to enable the workflow.
+See [GitHub Actions workflow file](/.github/workflows/build-and-deploy.yml).
 
 ### Customize your blog
 
