@@ -37,6 +37,7 @@ jobs:
     - name: Build site with Cecil
       env:
         CECIL_VERSION: '5.36.0'
+        CECIL_BASEURL: ${{ secrets.CECIL_BASEURL }}
       run: |
         if [[ -z "$CECIL_VERSION" ]]; then
           echo "### Downloading Cecil"
