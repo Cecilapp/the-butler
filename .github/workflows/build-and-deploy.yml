@@ -54,7 +54,8 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: _site
-        path: _site
+        path: _site/
+        if-no-files-found: error
 
   deploy:
     name: Deploy
@@ -66,6 +67,7 @@ jobs:
       uses: actions/download-artifact@v2
       with:
         name: _site
+        path: _site/
 
     - name: Deploy site to GitHub Pages
       uses: Cecilapp/GitHub-Pages-deploy@2.0.1
