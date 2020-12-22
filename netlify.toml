@@ -1,13 +1,15 @@
 [build]
-  command = "chmod +x .netlify/build.sh && bash .netlify/build.sh"
   publish = "_site"
-  environment = { PHP_VERSION = "7.2", CECIL_VERSION = "5.36.0" }
+  command = "chmod +x .netlify/build.sh && bash .netlify/build.sh"
+[build.environment]
+  PHP_VERSION = "7.2"
+  CECIL_VERSION = "5.36.0"
 
-[context.deploy-preview]
-  command = "chmod +x .netlify/build.sh && bash .netlify/build.sh preview"
+[context.deploy-preview.environment]
+  CECIL_ENV = "preview"
 
-[context.branch-deploy]
-  command = "chmod +x .netlify/build.sh && bash .netlify/build.sh preview"
+[context.branch-deploy.environment]
+  CECIL_ENV = "branch"
 
 [template.environment]
   CECIL_TITLE = "Blog's title"
