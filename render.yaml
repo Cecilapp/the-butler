@@ -2,7 +2,7 @@ services:
 - type: web
   name: The Butler
   env: static
-  buildCommand: curl -LO https://cecil.app/download/5.42.4/cecil.phar && composer install --prefer-dist --no-dev --no-progress --no-interaction && php cecil.phar build -v
+  buildCommand: curl -LO https://cecil.app/download/5.42.5/cecil.phar && composer install --prefer-dist --no-dev --no-progress --no-interaction && php cecil.phar build -v
   staticPublishPath: _site
   pullRequestPreviewsEnabled: true
   headers:
