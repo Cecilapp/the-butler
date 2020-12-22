@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
     inputs:
       intl:
-        description: 'Installs internationalization extensions'     
+        description: 'Installs internationalization extensions'
         default: 'no'
 
 env:
@@ -41,7 +41,7 @@ jobs:
 
     - name: Build site with Cecil
       env:
-        CECIL_VERSION: '5.36.0'
+        CECIL_VERSION: '5.42.4'
         CECIL_BASEURL: ${{ secrets.CECIL_BASEURL }}
       run: |
         if [[ -z "$CECIL_VERSION" ]]; then

@@ -1,7 +1,7 @@
 image: phpdocker/phpdocker:7.2
 
 before_script:
-- curl -sSOL https://cecil.app/download/5.36.0/cecil.phar
+- curl -sSOL https://cecil.app/download/5.42.4/cecil.phar
 - php cecil.phar --version
 - COMPOSER_CACHE_DIR=composer-cache composer install --prefer-dist --no-dev --no-progress --no-interaction
 
