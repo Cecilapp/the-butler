@@ -42,17 +42,17 @@ To use [**Netlify CMS**](https://www.netlifycms.org) ([demo](https://the-butler-
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/Cecilapp/the-butler)
 
-#### With [Travis CI](https://travis-ci.com) ([demo](https://cecilapp.github.io/the-butler/))
+#### With [GitHub Actions](https://github.com/features/actions) ([demo](https://cecilapp.github.io/the-butler/))
 
-See [Travis config file](/.travis.yml).
+See [GitHub Actions workflow file](/.github/workflows/build-and-deploy.yml).
 
 #### With [GitLab CI](https://about.gitlab.com/stages-devops-lifecycle/continuous-integration/) ([demo](https://narno.gitlab.io/the-butler/))
 
 See [GitLab config file](/.gitlab-ci.yml).
 
-#### With [GitHub Actions](https://github.com/features/actions) ([demo](https://cecilapp.github.io/the-butler/))
+#### With [Travis CI](https://travis-ci.com)
 
-See [GitHub Actions workflow file](/.github/workflows/build-and-deploy.yml).
+See [Travis config file](/.travis.yml).
 
 ### Customize your blog
 
