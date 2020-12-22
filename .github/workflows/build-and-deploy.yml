@@ -1,9 +1,14 @@
-name: Deploy to GitHub Pages
+name: Build and deploy to GitHub Pages
 
 on:
   push:
     branches:
       - master
+  workflow_dispatch:
+    inputs:
+      intl:
+        description: 'Installs internationalization extensions'     
+        default: 'no'
 
 env:
   INTL: 'no' # 'yes' if internationalization extensions are required
@@ -14,10 +19,10 @@ jobs:
     runs-on: ubuntu-latest
     container:
       image: php:7.2-cli-alpine
-    steps:
 
+    steps:
     - name: Install PHP extensions
-      if: env.INTL == 'yes'
+      if: ${{ env.INTL == 'yes' || github.event.inputs.intl == 'yes' }}
       run: |
         apk update
         apk add --no-cache gettext-dev icu-dev
@@ -61,8 +66,8 @@ jobs:
     name: Deploy
     needs: build
     runs-on: ubuntu-latest
-    steps:
 
+    steps:
     - name: Download site from Artifacts
       uses: actions/download-artifact@v2
       with:
@@ -70,8 +75,9 @@ jobs:
         path: _site/
 
     - name: Deploy site to GitHub Pages
-      uses: Cecilapp/GitHub-Pages-deploy@2.0.1
+      uses: Cecilapp/GitHub-Pages-deploy@v3
       env:
-        EMAIL: arnaud@ligny.org
-        GH_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        BUILD_DIR: _site
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        email: arnaud@ligny.org
+        build_dir: _site  # optional
