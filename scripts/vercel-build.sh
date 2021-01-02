@@ -23,7 +23,7 @@ fi
 echo "================================================================================"
 echo 'Installing theme(s)...'
 curl -sS https://getcomposer.org/installer | php
-php composer.phar install --prefer-dist --no-dev --no-progress --no-interaction
+php composer.phar install -d=../ --prefer-dist --no-dev --no-progress --no-interaction
 
 echo "================================================================================"
 echo 'Downloading Cecil...'
