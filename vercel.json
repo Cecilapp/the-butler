@@ -9,6 +9,6 @@
   "builds": [{
     "src": "./scripts/vercel-build.sh",
     "use": "@vercel/static-build",
-    "config": { "distDir": "_site" }
+    "config": { "distDir": "../_site" }
   }]
 }
