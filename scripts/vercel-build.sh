@@ -20,10 +20,12 @@ if [ "$INSTALL_OPTIM" = true ]; then
   yum install libwebp-tools
 fi
 
+cd ..
+
 echo "================================================================================"
 echo 'Installing theme(s)...'
 curl -sS https://getcomposer.org/installer | php
-php composer.phar install --working-dir=../ --prefer-dist --no-dev --no-progress --no-interaction
+php composer.phar install --prefer-dist --no-dev --no-progress --no-interaction
 
 echo "================================================================================"
 echo 'Downloading Cecil...'
@@ -37,8 +39,8 @@ php cecil.phar --version
 # Cecil building...
 echo "================================================================================"
 if [ -z $VERCEL_URL ]; then
-  php cecil.phar build -v ../
+  php cecil.phar build -v
 else
   echo "URL: https://$VERCEL_URL"
-  php cecil.phar build -v --baseurl=https://$VERCEL_URL ../
+  php cecil.phar build -v --baseurl=https://$VERCEL_URL
 fi
