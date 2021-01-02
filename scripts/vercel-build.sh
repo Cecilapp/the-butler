@@ -20,6 +20,7 @@ if [ "$INSTALL_OPTIM" = true ]; then
   yum install libwebp-tools
 fi
 
+echo "cd .. (/vercel/workpath0/)"
 cd ..
 
 echo "================================================================================"
