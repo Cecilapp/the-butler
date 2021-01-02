@@ -45,3 +45,5 @@ else
   echo "URL: https://$VERCEL_URL"
   php cecil.phar build -v --baseurl=https://$VERCEL_URL
 fi
+
+ls -l
