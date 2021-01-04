@@ -7,7 +7,6 @@
     }
   },
   "builds": [{
-    "src": "vercel-build.sh",
     "use": "@vercel/static-build",
     "config": { "distDir": "_site" }
   }]
