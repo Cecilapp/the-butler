@@ -3,3 +3,5 @@ _site/
 .cecil/
 .cache/
 themes/*
+cecil.phar
+composer.phar

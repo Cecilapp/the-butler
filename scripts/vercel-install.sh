@@ -1,12 +1,11 @@
 #!/bin/bash
 
 echo "================================================================================"
-echo "Installing PHP $PHP_VERSION..."
 if [ -z $PHP_VERSION ]; then
   PHP_VERSION='7.2'
 fi
+echo "Installing PHP $PHP_VERSION..."
 amazon-linux-extras install php$PHP_VERSION
-if [ $? != 0 ]; then exit; fi
 yum install php-cli php-mbstring php-intl php-gd php-dom php-xml
 php --version
 
@@ -33,12 +32,3 @@ else
   curl -sSOL https://cecil.app/download/$CECIL_VERSION/cecil.phar
 fi
 php cecil.phar --version
-
-# Cecil building...
-echo "================================================================================"
-if [ -z $VERCEL_URL ]; then
-  php cecil.phar build -v
-else
-  echo "URL: https://$VERCEL_URL"
-  php cecil.phar build -v --baseurl=https://$VERCEL_URL
-fi
