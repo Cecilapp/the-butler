@@ -1,6 +1,5 @@
 echo "Downloading Cecil"
-if [ -z $CECIL_VERSION ]
-then
+if [ -z $CECIL_VERSION ]; then
   curl -sSOL https://cecil.app/cecil.phar
 else
   curl -sSOL https://cecil.app/download/$CECIL_VERSION/cecil.phar
