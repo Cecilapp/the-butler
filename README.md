@@ -13,7 +13,7 @@
 
 ### Managing content
 
-#### With [Forestry](https://forestry.io)
+#### [Forestry](https://forestry.io) CMS
 
 If your goal is managing content quickly, and decide later where to deploy to it, use the following button to import the starter blog to Forestry CMS and start editing immediatelly!
 
@@ -23,34 +23,43 @@ If your goal is managing content quickly, and decide later where to deploy to it
 
 Edit content files in `content/blog/` directly from your repository.
 
-### Deploy
+### Build & deploy
 
-#### To [Netlify](https://www.netlify.com) ([demo](https://the-butler-demo.cecil.app))
+#### Locally
+
+Run the following command in a terminal:
+
+```bash
+bash ./scripts/build.sh
+```
+
+#### [Netlify](https://www.netlify.com) ([demo](https://the-butler-demo.cecil.app))
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Cecilapp/the-butler&stack=cms)
 
 To use [**Netlify CMS**](https://www.netlifycms.org) ([demo](https://the-butler-demo.cecil.app/admin/)) you must:
+
 1. enable [Netlify Identity](https://docs.netlify.com/visitor-access/git-gateway/#setup-and-settings) and Git Gateway
 2. invite a user
 3. connect to `https://<your-blog>.netlify.com/admin/` with the user credentials
 
-#### To [Vercel](https://vercel.com) ([demo](https://vercel.cecil.app))
+#### [Vercel](https://vercel.com) ([demo](https://vercel.cecil.app))
 
 [![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/Cecilapp/the-butler)
 
-#### To [Render](https://render.com) ([demo](https://the-butler.onrender.com))
+#### [Render](https://render.com) ([demo](https://the-butler.onrender.com))
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/Cecilapp/the-butler)
 
-#### With [GitHub Actions](https://github.com/features/actions) ([demo](https://cecilapp.github.io/the-butler/))
+#### [GitHub Actions](https://github.com/features/actions) ([demo](https://cecilapp.github.io/the-butler/))
 
 See [GitHub Actions workflow file](/.github/workflows/build-and-deploy.yml).
 
-#### With [GitLab CI](https://about.gitlab.com/stages-devops-lifecycle/continuous-integration/) ([demo](https://narno.gitlab.io/the-butler/))
+#### [GitLab CI](https://about.gitlab.com/stages-devops-lifecycle/continuous-integration/) ([demo](https://narno.gitlab.io/the-butler/))
 
 See [GitLab config file](/.gitlab-ci.yml).
 
-#### With [Travis CI](https://travis-ci.com)
+#### [Travis CI](https://travis-ci.com)
 
 See [Travis config file](/.travis.yml).
 
