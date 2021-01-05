@@ -20,11 +20,6 @@ if [ "$INSTALL_OPTIM" = true ]; then
 fi
 
 echo "================================================================================"
-echo 'Installing theme(s)...'
-curl -sS https://getcomposer.org/installer | php
-php composer.phar install --prefer-dist --no-dev --no-progress --no-interaction
-
-echo "================================================================================"
 echo 'Downloading Cecil...'
 if [ -z $CECIL_VERSION ]; then
   curl -sSOL https://cecil.app/cecil.phar
@@ -32,3 +27,8 @@ else
   curl -sSOL https://cecil.app/download/$CECIL_VERSION/cecil.phar
 fi
 php cecil.phar --version
+
+echo "================================================================================"
+echo 'Installing theme(s)...'
+curl -sS https://getcomposer.org/installer | php
+php composer.phar install --prefer-dist --no-dev --no-progress --no-interaction
