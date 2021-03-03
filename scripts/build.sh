@@ -1,3 +1,9 @@
+# What this script do?
+#  1. install Cecil if `cecil.phar` is not found (force a specific version with `CECIL_VERSION`)
+#  2. install Composer if `composer.phar` is not found
+#  3. install theme(s) if `composer.json` is found
+#  4. run `php cecil.phar build -v`
+
 if [ ! -f "./cecil.phar" ]; then
   echo "Downloading Cecil"
   if [ -z $CECIL_VERSION ]; then
