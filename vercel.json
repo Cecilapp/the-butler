@@ -2,8 +2,7 @@
   "build": {
     "env": {
       "PHP_VERSION": "7.2",
-      "INSTALL_OPTIM": "false",
-      "CECIL_VERSION": "5.42.5"
+      "INSTALL_OPTIM": "false"
     }
   },
   "builds": [{
