@@ -2,11 +2,10 @@ image: phpdocker/phpdocker:7.2
 
 before_script:
 - |
+  echo "Downloading Cecil $CECIL_VERSION"
   if [[ -z "$CECIL_VERSION" ]]; then
-    echo "### Downloading Cecil"
     curl -sSOL https://cecil.app/cecil.phar
   else
-    echo "### Downloading Cecil $CECIL_VERSION"
     curl -sSOL https://cecil.app/download/$CECIL_VERSION/cecil.phar
   fi
 - COMPOSER_CACHE_DIR=composer-cache composer install --prefer-dist --no-dev --no-progress --no-interaction
