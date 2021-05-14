@@ -8,6 +8,7 @@ before_script:
   else
     curl -sSOL https://cecil.app/download/$CECIL_VERSION/cecil.phar
   fi
+- php cecil.phar --version
 - COMPOSER_CACHE_DIR=composer-cache composer install --prefer-dist --no-dev --no-progress --no-interaction
 
 test:
