@@ -41,7 +41,6 @@ jobs:
 
     - name: Build site with Cecil
       env:
-        #CECIL_VERSION: '5.42.5'
         CECIL_BASEURL: ${{ secrets.CECIL_BASEURL }}
       run: |
         echo "### Downloading Cecil $CECIL_VERSION"
@@ -50,6 +49,7 @@ jobs:
         else
           curl -sSOL https://cecil.app/download/$CECIL_VERSION/cecil.phar
         fi
+        php cecil.phar --version
         echo "### Building Cecil static site"
         php cecil.phar build -v
         echo "### Cecil Action done"
