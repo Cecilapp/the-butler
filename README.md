@@ -6,8 +6,8 @@
 
 ## There is a demo?
 
-:arrow_forward: [the-butler-demo.cecil.app](https://the-butler-demo.cecil.app) (theme: [Hyde](https://github.com/Cecilapp/theme-hyde#readme))  
-:arrow_forward: [the-butler-garth.now.sh](https://the-butler-garth.now.sh) (theme: [Garth](https://github.com/Cecilapp/theme-garth#readme))
+:arrow_forward: [the-butler-demo.cecil.app](https://the-butler-demo.cecil.app) (theme: [Hyde](https://github.com/Cecilapp/theme-hyde#readme), host: [Netlify](https://www.netlify.com))  
+:arrow_forward: [the-butler-garth.vercel.app](https://the-butler-garth.vercel.app) (theme: [Garth](https://github.com/Cecilapp/theme-garth#readme), host: [Vercel](https://vercel.com))
 
 ## How to use?
 
@@ -50,6 +50,10 @@ To use [**Netlify CMS**](https://www.netlifycms.org) ([demo](https://the-butler-
 #### [Render](https://render.com) ([demo](https://the-butler.onrender.com))
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/Cecilapp/the-butler)
+
+#### [Cloudflare Pages](https://pages.cloudflare.com) ([demo](https://the-butler.pages.dev))
+
+See [`build.sh`](/scripts/build.sh).
 
 #### [GitHub Actions](https://github.com/features/actions) ([demo](https://cecilapp.github.io/the-butler/))
 
