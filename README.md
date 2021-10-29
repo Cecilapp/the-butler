@@ -59,7 +59,7 @@ See [`build.sh`](/scripts/build.sh).
 
 See [GitHub Actions workflow file](/.github/workflows/build-and-deploy.yml).
 
-#### [GitLab CI](https://about.gitlab.com/stages-devops-lifecycle/continuous-integration/) ([demo](https://narno.gitlab.io/the-butler/))
+#### [GitLab CI](https://about.gitlab.com/stages-devops-lifecycle/continuous-integration/) ([demo](https://aligny.gitlab.io/the-butler/))
 
 See [GitLab config file](/.gitlab-ci.yml).
 
