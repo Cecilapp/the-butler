@@ -1,12 +1,18 @@
 #!/bin/bash
 
 echo "================================================================================"
-if [ -z $VERCEL_URL ]; then
-  php cecil.phar build -v
+if [[ $VERCEL_ENV == "production" ]]; then
+  CMD="cecil.phar build -v --config=config_prod.yml --postprocess"
 else
-  php cecil.phar build -v --baseurl=https://$VERCEL_URL
-  echo "URL: https://$VERCEL_URL"
+  CMD="cecil.phar build -vv --drafts"
 fi
+
+if [ -z $VERCEL_URL ]; then
+    php $CMD
+  else
+    php $CMD --baseurl=https://$VERCEL_URL
+    echo "URL: https://$VERCEL_URL"
+  fi
 
 # build success? can deploy?
 if [ $? = 0 ]; then
