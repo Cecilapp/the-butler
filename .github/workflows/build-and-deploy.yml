@@ -4,37 +4,17 @@ on:
   push:
     branches:
       - master
-  workflow_dispatch:
-    inputs:
-      intl:
-        description: 'Installs internationalization extensions'
-        default: 'no'
-
-env:
-  INTL: 'no' # 'yes' if internationalization extensions are required
 
 jobs:
   build:
     name: Build
     runs-on: ubuntu-latest
-    container:
-      image: php:7.2-cli-alpine
-
     steps:
-    - name: Install PHP extensions
-      run: |
-        apk update
-        apk add --no-cache libpng libpng-dev jpeg-dev libjpeg libjpeg-turbo libjpeg-turbo-dev libwebp-dev zlib-dev libxpm-dev
-        docker-php-ext-configure gd
-        docker-php-ext-install gd
-    
-    - name: Install PHP INTL extensions
-      if: ${{ env.INTL == 'yes' || github.event.inputs.intl == 'yes' }}
-      run: |
-        apk update
-        apk add --no-cache gettext-dev icu-dev
-        docker-php-ext-install -j$(nproc) gettext
-        docker-php-ext-install -j$(nproc) intl
+    - name: Setup PHP
+      uses: shivammathur/setup-php@v2
+      with:
+        php-version: '7.4'
+        extensions: mbstring, gd, imagick, intl, gettext
 
     - name: Checkout source
       uses: actions/checkout@v2
