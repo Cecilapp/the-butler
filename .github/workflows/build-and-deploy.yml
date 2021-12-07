@@ -18,28 +18,11 @@ jobs:
 
     - name: Checkout source
       uses: actions/checkout@v2
-      with:
-        fetch-depth: 1
 
-    - name: Install theme(s)
-      run: |
-        curl -sS https://getcomposer.org/installer | php
-        php composer.phar install --prefer-dist --no-dev --no-progress --no-interaction
-
-    - name: Build site with Cecil
+    - name: Build site
       env:
         CECIL_BASEURL: ${{ secrets.CECIL_BASEURL }}
-      run: |
-        echo "### Downloading Cecil $CECIL_VERSION"
-        if [[ -z "$CECIL_VERSION" ]]; then
-          curl -sSOL https://cecil.app/cecil.phar
-        else
-          curl -sSOL https://cecil.app/download/$CECIL_VERSION/cecil.phar
-        fi
-        php cecil.phar --version
-        echo "### Building Cecil static site"
-        php cecil.phar build -v
-        echo "### Cecil Action done"
+      uses: Cecilapp/Cecil-Action@v3
 
     - name: Upload site to Artifacts
       uses: actions/upload-artifact@v2
