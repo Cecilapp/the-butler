@@ -2,7 +2,7 @@
 
 echo "================================================================================"
 if [[ $VERCEL_ENV == "production" ]]; then
-  CMD="cecil.phar build -v --config=config_prod.yml --postprocess"
+  CMD="cecil.phar build -v --postprocess"
 else
   CMD="cecil.phar build -vv --drafts"
 fi
