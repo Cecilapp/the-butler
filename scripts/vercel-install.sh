@@ -1,4 +1,5 @@
 #!/bin/bash
+
 if [ -z $PHP_VERSION ]; then
   PHP_VERSION='7.2'
 fi
