@@ -3,7 +3,7 @@ services:
 - type: web
   name: The Butler
   env: static
-  buildCommand: curl -LO https://cecil.app/download/5.42.5/cecil.phar && composer install --prefer-dist --no-dev --no-progress --no-interaction && php cecil.phar build -v
+  buildCommand: curl -LO https://cecil.app/download/cecil.phar && composer install --prefer-dist --no-dev --no-progress --no-interaction && php cecil.phar build -v
   staticPublishPath: _site
   pullRequestPreviewsEnabled: true
   headers:
@@ -18,13 +18,13 @@ services:
     value: nosniff
   - path: /css/*
     name: Cache-Control
-    value: public, max-age=360000
+    value: public, max-age=31536000
   - path: /fonts/*
     name: Cache-Control
-    value: public, max-age=360000
+    value: public, max-age=31536000
   - path: /images/*
     name: Cache-Control
-    value: public, max-age=360000
+    value: public, max-age=31536000
   - path: /js/*
     name: Cache-Control
-    value: public, max-age=360000
+    value: public, max-age=31536000
