@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [ -z $PHP_VERSION ]; then
-  PHP_VERSION='7.2'
+  PHP_VERSION='7.4'
 fi
 echo "================================================================================"
 echo "Installing PHP $PHP_VERSION..."
