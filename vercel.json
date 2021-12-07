@@ -1,10 +1,4 @@
 {
-  "build": {
-    "env": {
-      "PHP_VERSION": "7.2",
-      "INSTALL_OPTIM": "false"
-    }
-  },
   "builds": [{
     "src": "package.json",
     "use": "@vercel/static-build",
