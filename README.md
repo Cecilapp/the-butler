@@ -33,6 +33,8 @@ Run the following command in a terminal:
 bash ./scripts/build.sh
 ```
 
+#### Cloud
+
 | Solution | Demo | Deploy |
 |----------|------|--------|
 | [Netlify](https://www.netlify.com) | <https://the-butler-demo.cecil.app> | [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Cecilapp/the-butler&stack=cms) |
