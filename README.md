@@ -15,7 +15,9 @@
 
 #### Manually
 
-Just edit Markdown files in `content/blog/` directly from your repository.
+Click on the button _[Use this template](https://github.com/Cecilapp/the-butler/generate)_.
+
+Then just edit Markdown files in `content/blog/` directly from your repository.
 
 #### Forestry CMS
 
