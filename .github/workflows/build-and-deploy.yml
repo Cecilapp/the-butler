@@ -24,7 +24,7 @@ jobs:
     - name: Install PHP extensions
       run: |
         apk update
-        apk add --no-cache libpng libpng-dev jpeg-dev libjpeg libjpeg-turbo-dev libwebp-dev zlib-dev libxpm-dev
+        apk add --no-cache libpng libpng-dev jpeg-dev libjpeg libjpeg-turbo libjpeg-turbo-dev libwebp-dev zlib-dev libxpm-dev
         docker-php-ext-configure gd
         docker-php-ext-install gd
     
