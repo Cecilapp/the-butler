@@ -44,7 +44,7 @@ bash ./scripts/build.sh
 | [Render](https://render.com) | <https://the-butler.onrender.com> | [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/Cecilapp/the-butler) |
 | [Cloudflare Pages](https://pages.cloudflare.com) | <https://the-butler.pages.dev> | - Framework preset: `None`<br />- Build command: `sh ./scripts/build.sh`<br />- Build output directory: `_site` |
 | [GitHub](https://github.com/features/actions/) | <https://cecilapp.github.io/the-butler/> | See [GitHub Actions workflow file](/.github/workflows/build-and-deploy.yml). |
-| [GitLab CI](https://about.gitlab.com/stages-devops-lifecycle/continuous-integration/) | <https://aligny.gitlab.io/the-butler/> | See [GitLab config file.](/.gitlab-ci.yml) |
+| [GitLab CI](https://about.gitlab.com/stages-devops-lifecycle/continuous-integration/) | <https://cecilapp.gitlab.io/the-butler/> | See [GitLab config file.](/.gitlab-ci.yml) |
 | [Travis CI](https://travis-ci.com) | N/A | See [Travis config file.](/.travis.yml) |
 
 To use [**Netlify CMS**](https://www.netlifycms.org) ([demo](https://the-butler-demo.cecil.app/admin/)) you must:
