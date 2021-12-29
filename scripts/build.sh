@@ -5,7 +5,7 @@
 #  4. run `php cecil.phar build -v`
 
 if [ ! -f "./cecil.phar" ]; then
-  echo "Downloading Cecil"
+  echo "Downloading Cecil..."
   if [ -z $CECIL_VERSION ]; then
     curl -sSOL https://cecil.app/cecil.phar
   else
@@ -15,7 +15,7 @@ fi
 php cecil.phar --version
 
 if [ -f "./composer.json" ]; then
-  echo "Installing theme(s)"
+  echo "Installing themes..."
   if [ ! -f "./composer.phar" ]; then
     curl -sS https://getcomposer.org/installer | php
   fi
