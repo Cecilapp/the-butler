@@ -42,10 +42,10 @@ bash ./scripts/build.sh
 | [Netlify](https://www.netlify.com) | <https://the-butler-demo.cecil.app> | [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Cecilapp/the-butler&stack=cms) |
 | [Vercel](https://vercel.com) | <https://the-butler.vercel.app> | [![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/Cecilapp/the-butler) |
 | [Render](https://render.com) | <https://the-butler.onrender.com> | [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/Cecilapp/the-butler) |
-| [Cloudflare Pages](https://pages.cloudflare.com) | <https://the-butler.pages.dev> | See [`build.sh`](/scripts/build.sh) |
-| [GitHub](https://github.com/features/actions/) | <https://cecilapp.github.io/the-butler/> | See [GitHub Actions workflow file](/.github/workflows/build-and-deploy.yml) |
-| [GitLab CI](https://about.gitlab.com/stages-devops-lifecycle/continuous-integration/) | <https://aligny.gitlab.io/the-butler/> | See [GitLab config file](/.gitlab-ci.yml) |
-| [Travis CI](https://travis-ci.com) | N/A | See [Travis config file](/.travis.yml) |
+| [Cloudflare Pages](https://pages.cloudflare.com) | <https://the-butler.pages.dev> | - Framework preset: `None`<br />- Build command: `sh ./scripts/build.sh`<br />- Build output directory: `_site` |
+| [GitHub](https://github.com/features/actions/) | <https://cecilapp.github.io/the-butler/> | See [GitHub Actions workflow file](/.github/workflows/build-and-deploy.yml). |
+| [GitLab CI](https://about.gitlab.com/stages-devops-lifecycle/continuous-integration/) | <https://aligny.gitlab.io/the-butler/> | See [GitLab config file.](/.gitlab-ci.yml) |
+| [Travis CI](https://travis-ci.com) | N/A | See [Travis config file.](/.travis.yml) |
 
 To use [**Netlify CMS**](https://www.netlifycms.org) ([demo](https://the-butler-demo.cecil.app/admin/)) you must:
 
