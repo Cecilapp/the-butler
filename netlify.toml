@@ -1,6 +1,6 @@
 [build]
   publish = "_site"
-  command = "chmod +x ./scripts/netlify-build.sh && bash ./scripts/netlify-build.sh"
+  command = "curl -sSOL https://cecil.app/build.sh && bash ./build.sh"
 [build.environment]
   CECIL_ENV = "production"
 

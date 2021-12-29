@@ -1,5 +1,5 @@
 {
   "scripts": {
-    "build": "bash ./scripts/vercel-install.sh && bash ./scripts/vercel-build.sh"
+    "build": "curl -sSOL https://cecil.app/build.sh && bash ./build.sh"
   }
 }
