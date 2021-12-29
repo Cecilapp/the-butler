@@ -1,8 +1,8 @@
-image: phpdocker/phpdocker:7.2
+image: phpdocker/phpdocker:7.4
 
 before_script:
 - |
-  echo "Downloading Cecil $CECIL_VERSION"
+  echo "Downloading Cecil..."
   if [[ -z "$CECIL_VERSION" ]]; then
     curl -sSOL https://cecil.app/cecil.phar
   else
