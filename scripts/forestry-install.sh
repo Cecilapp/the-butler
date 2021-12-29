@@ -1,4 +1,4 @@
-echo "Downloading Cecil"
+echo "Downloading Cecil..."
 if [ -z $CECIL_VERSION ]; then
   curl -sSOL https://cecil.app/cecil.phar
 else
@@ -7,6 +7,6 @@ fi
 php cecil.phar --version
 
 if [ -f "./composer.json" ]; then
-  echo "Installing theme(s)"
+  echo "Installing themes..."
   composer install --prefer-dist --no-dev --no-progress --no-interaction
 fi
