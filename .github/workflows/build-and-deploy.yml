@@ -5,12 +5,13 @@ on:
     branches:
       - master
 
+env:
+  CECIL_BASEURL: ${{ secrets.CECIL_BASEURL }}
+
 jobs:
   build:
     name: Build
     runs-on: ubuntu-latest
-    env:
-      CECIL_BASEURL: ${{ secrets.CECIL_BASEURL }}
     environment: 
       name: github-pages
       url: ${{ steps.deploy_url.outputs.url }}
