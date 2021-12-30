@@ -4,27 +4,27 @@
   X-Content-Type-Options: nosniff
 
 /css/*
-  Cache-Control: private, max-age=360000
+  Cache-Control: public, max-age=31536000
 /fonts/*
-  Cache-Control: private, max-age=360000
+  Cache-Control: public, max-age=31536000
 
+/favicon.*
+  Cache-Control: public, max-age=31536000
 /images/*
-  Cache-Control: private, max-age=360000
+  Cache-Control: public, max-age=31536000
 /videos/*
-  Cache-Control: private, max-age=360000
-/favicon.ico
-  Cache-Control: private, max-age=360000
+  Cache-Control: public, max-age=31536000
 
 /js/*
-  Cache-Control: private, max-age=360000
+  Cache-Control: private, max-age=31536000
 /javascript/*
-  Cache-Control: private, max-age=360000
+  Cache-Control: private, max-age=31536000
 /serviceworker.js
   Cache-Control: private, max-age=0
 
 /manifest.webmanifest
   Content-Type: application/manifest+json
-  Cache-Control: private, max-age=360000
+  Cache-Control: private, max-age=31536000
 
 /admin/*
   Cache-Control: no-cache, no-store, must-revalidate, max-age=0
