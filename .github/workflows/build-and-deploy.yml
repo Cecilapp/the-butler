@@ -12,9 +12,7 @@ jobs:
   build:
     name: Build
     runs-on: ubuntu-latest
-    environment: 
-      name: github-pages
-      url: ${{ steps.deploy_url.outputs.url }}
+
     steps:
     - name: Setup PHP
       uses: shivammathur/setup-php@v2
@@ -39,6 +37,9 @@ jobs:
     name: Deploy
     needs: build
     runs-on: ubuntu-latest
+    environment: 
+      name: github-pages
+      url: ${{ steps.deploy_url.outputs.url }}
 
     steps:
     - name: Download site from Artifacts
