@@ -9,6 +9,11 @@ jobs:
   build:
     name: Build
     runs-on: ubuntu-latest
+    env:
+      CECIL_BASEURL: ${{ secrets.CECIL_BASEURL }}
+    environment: 
+      name: github-pages
+      url: ${{ steps.deploy_url.outputs.url }}
     steps:
     - name: Setup PHP
       uses: shivammathur/setup-php@v2
@@ -20,8 +25,6 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Build site
-      env:
-        CECIL_BASEURL: ${{ secrets.CECIL_BASEURL }}
       uses: Cecilapp/Cecil-Action@v3
 
     - name: Upload site to Artifacts
@@ -50,3 +53,8 @@ jobs:
       with:
         email: arnaud@ligny.org
         build_dir: _site
+
+    - name: Deploy URL
+      if: ${{ success() }}
+      id: deploy_url
+      run: echo "::set-output name=url::$CECIL_BASEURL"
