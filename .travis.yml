@@ -2,17 +2,29 @@ os: linux
 language: php
 php:
   - 7.4
-# master only
+
 branches:
   only:
     - master
-# Download Cecil and theme(s)
+
+# Install Cecil and theme(s)
 install:
-  - curl -sSOL https://cecil.app/cecil.phar && php cecil.phar --version
-  - composer install --prefer-dist --no-dev --no-progress --no-interaction
+  - |
+    echo "Downloading Cecil..."
+    if [[ -z "$CECIL_VERSION" ]]; then
+      curl -sSOL https://cecil.app/cecil.phar
+    else
+      curl -sSOL https://cecil.app/download/$CECIL_VERSION/cecil.phar
+    fi
+  - php cecil.phar --version
+  - |
+    echo "Installing themes..."
+    composer install --prefer-dist --no-dev --no-progress --no-interaction
+
 # Run Cecil build
 script:
   - php cecil.phar build -v
+
 # Deploy to GitHub Pages
 deploy:
   provider: pages
