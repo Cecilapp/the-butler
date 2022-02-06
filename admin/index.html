@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Content Manager (Netlify CMS)</title>
     <link rel="stylesheet" href="https://unpkg.com/netlify-cms@latest/dist/cms.css" />
-    <meta name="generator" content="Cecil 5.80.0" />
+    <meta name="generator" content="Cecil 5.83.4" />
   </head>
   <body>
     <script src="https://unpkg.com/netlify-cms@latest/dist/netlify-cms.js"></script>
@@ -28,16 +28,18 @@
       // Preview: Style
       //CMS.registerPreviewStyle('/css/style.css');
       // Preview: Templates
+      // Podcas Episode
       var Episode = createClass({
         render: function() {
           var entry = this.props.entry;
+          var audio = this.props.getAsset(entry.getIn(['data', 'episode', 'file']));
           return h('div', {},
             h('h1', {}, entry.getIn(['data', 'title'])),
             h('div', {}, entry.getIn(['data', 'date'])),
-            h('div', {"className": "text"}, this.props.widgetFor('body')),
             h('div', {},
-              h('audio', {controls: "controls", "src": entry.getIn(['data', 'episode', 'file'])}),
-            )
+              h('audio', {controls: "controls", "src": audio.toString()}),
+            ),
+            h('div', {"className": "text"}, this.props.widgetFor('body'))
           );
         }
       });
