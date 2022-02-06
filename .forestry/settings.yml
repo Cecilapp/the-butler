@@ -2,7 +2,7 @@
 new_page_extension: md
 auto_deploy: true
 admin_path: "/static/forestry"
-webhook_url: 
+webhook_url:
 sections:
 - type: directory
   path: content/blog
@@ -25,7 +25,7 @@ sections:
 - type: document
   path: config.yml
   label: Configuration
-upload_dir: static/images
+upload_dir: assets/images
 public_path: "/images"
 front_matter_path: ''
 use_front_matter_path: false
