@@ -2,7 +2,7 @@
 
 > A ready to use static blog, powered by [Cecil](https://cecil.app).
 
-![Cecil preview](static/images/cecil-preview.png)
+![Cecil preview](assets/images/cecil-preview.png)
 
 ## There is a demo?
 
