@@ -2,7 +2,7 @@
 
 > A ready to use static blog, powered by [Cecil](https://cecil.app).
 
-[![Cecil preview](assets/images/cecil-preview.png)](https://the-butler.cecil.app)
+[![Cecil preview](assets/images/cecil-preview.png)](https://the-butler.cecil.app "the-butler.cecil.app")
 
 ## There is a demo?
 
@@ -23,7 +23,7 @@ Then just edit Markdown files in `content/blog/` directly from your repository.
 
 If your goal is managing content quickly, and decide later where to deploy to it, use the following button to import the starter blog to [Forestry CMS](https://forestry.io) and start editing immediatelly!
 
-[![Import this project into Forestry](https://assets.forestry.io/import-to-forestryK.svg)](https://cecil.app/cms/forestry/import/)
+[![Import to Forestry](https://assets.forestry.io/import-to-forestryK.svg)](https://cecil.app/cms/forestry/import/ "Import to Forestry")
 
 ### Build & deploy
 
@@ -39,9 +39,9 @@ bash ./scripts/build.sh
 
 | Solution | Demo | Deploy |
 |----------|------|--------|
-| [Netlify](https://www.netlify.com) | <https://the-butler-demo.cecil.app> | [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Cecilapp/the-butler&stack=cms) |
-| [Vercel](https://vercel.com) | <https://the-butler.vercel.app> | [![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/Cecilapp/the-butler) |
-| [Render](https://render.com) | <https://the-butler.onrender.com> | [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/Cecilapp/the-butler) |
+| [Netlify](https://www.netlify.com) | <https://the-butler-demo.cecil.app> | [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Cecilapp/the-butler&stack=cms "Deploy to Netlify") |
+| [Vercel](https://vercel.com) | <https://the-butler.vercel.app> | [![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/Cecilapp/the-butler "Deploy to Vercel") |
+| [Render](https://render.com) | <https://the-butler.onrender.com> | [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/Cecilapp/the-butler "Deploy to Render") |
 | [Cloudflare Pages](https://pages.cloudflare.com) | <https://the-butler.pages.dev> | - Framework preset: `None`<br />- Build command: `curl -sSOL https://cecil.app/build.sh && bash ./build.sh`<br />- Build output directory: `_site` |
 | [GitHub](https://github.com/features/actions/) | <https://cecilapp.github.io/the-butler/> | See [GitHub Actions workflow file](/.github/workflows/build-and-deploy.yml). |
 | [GitLab CI](https://about.gitlab.com/stages-devops-lifecycle/continuous-integration/) | <https://cecilapp.gitlab.io/the-butler/> | See [GitLab config file.](/.gitlab-ci.yml) |
