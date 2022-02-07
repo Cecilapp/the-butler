@@ -2,7 +2,7 @@
 
 > A ready to use static blog, powered by [Cecil](https://cecil.app).
 
-![Cecil preview](assets/images/cecil-preview.png)
+[![Cecil preview](assets/images/cecil-preview.png)](https://the-butler.cecil.app)
 
 ## There is a demo?
 
@@ -56,7 +56,7 @@ To use [**Netlify CMS**](https://www.netlifycms.org) ([demo](https://the-butler-
 ### Customize your blog
 
 1. Change configuration by editing `config.yml` file
-2. Change templates by copying files from `themes/<theme>/layouts/` to your own `layouts/` directory to _override_ them.
+2. Change templates by copying files from `themes/<theme>/layouts/` to your own `layouts/` directory to _override_ them
 
 ## Need Help?
 
@@ -64,6 +64,6 @@ Read the [Cecil's documentation](https://cecil.app/documentation/).
 
 ## License
 
-The Butler is a free software distributed under the terms of the MIT license.
+_The Butler_ is a free software distributed under the terms of the MIT license.
 
 © [Arnaud Ligny](https://arnaudligny.fr)
