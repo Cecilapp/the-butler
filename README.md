@@ -23,7 +23,7 @@ Then just edit Markdown files in `content/blog/` directly from your repository.
 
 The easiest way to deploy and manage your blog is certainly with [Netlify](https://www.netlify.com) + [Netlify CMS](https://www.netlifycms.org).
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Cecilapp/the-butler&stack=cms "Deploy to Netlify")
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://cecil.app/hosting/netlify/deploy/ "Deploy to Netlify")
 
 #### Forestry CMS
 
@@ -45,7 +45,7 @@ bash ./scripts/build.sh
 
 | Solution | Demo | Deploy |
 |----------|------|--------|
-| [Netlify](https://www.netlify.com) | <https://the-butler-demo.cecil.app> | [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Cecilapp/the-butler&stack=cms "Deploy to Netlify") |
+| [Netlify](https://www.netlify.com) | <https://the-butler-demo.cecil.app> | [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://cecil.app/hosting/netlify/deploy/ "Deploy to Netlify") |
 | [Vercel](https://vercel.com) | <https://the-butler.vercel.app> | [![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/Cecilapp/the-butler "Deploy to Vercel") |
 | [Render](https://render.com) | <https://the-butler.onrender.com> | [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/Cecilapp/the-butler "Deploy to Render") |
 | [Cloudflare Pages](https://pages.cloudflare.com) | <https://the-butler.pages.dev> | - Framework preset: `None`<br />- Build command: `curl -sSOL https://cecil.app/build.sh && bash ./build.sh`<br />- Build output directory: `_site` |
