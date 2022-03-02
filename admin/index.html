@@ -26,9 +26,9 @@
         });
       }
       // Preview: Style
-      //CMS.registerPreviewStyle('/css/style.css');
+      //CMS.registerPreviewStyle('/styles.css');
       // Preview: Templates
-      // Podcas Episode
+      // Podcast Episode
       var Episode = createClass({
         render: function() {
           var entry = this.props.entry;
@@ -43,7 +43,7 @@
           );
         }
       });
-      CMS.registerPreviewTemplate("episodes", Episode);
+      CMS.registerPreviewTemplate('episodes', Episode);
     </script>
   </body>
 </html>

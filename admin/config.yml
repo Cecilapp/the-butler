@@ -3,7 +3,7 @@ backend:
   branch: master
   squash_merges: true
 publish_mode: editorial_workflow
-media_folder: "static/images"
+media_folder: "assets/images"
 public_folder: "/images"
 logo_url: https://cecil.app/images/cecil-logo-netlify-cms.png
 show_preview_links: true
