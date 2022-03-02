@@ -19,6 +19,12 @@ Click on the button _[Use this template](https://github.com/Cecilapp/the-butler/
 
 Then just edit Markdown files in `content/blog/` directly from your repository.
 
+#### Netlify CMS
+
+The easiest way to deploy and manage your blog is certainly with [Netlify](https://www.netlify.com) + [Netlify CMS](https://www.netlifycms.org).
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Cecilapp/the-butler&stack=cms "Deploy to Netlify")
+
 #### Forestry CMS
 
 If your goal is managing content quickly, and decide later where to deploy to it, use the following button to import the starter blog to [Forestry CMS](https://forestry.io) and start editing immediatelly!
