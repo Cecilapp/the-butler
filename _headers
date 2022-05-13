@@ -1,31 +1,43 @@
+# Security
 /*
   X-Frame-Options: SAMEORIGIN
   X-XSS-Protection: 1; mode=block
   X-Content-Type-Options: nosniff
 
+# Assets
+/favicon*
+  Cache-Control: public, max-age=31536000
+/logo*
+  Cache-Control: public, max-age=31536000
+/assets/*
+  Cache-Control: public, max-age=31536000
+/images/*
+  Cache-Control: public, max-age=31536000
+/logos/*
+  Cache-Control: public, max-age=31536000
+/videos/*
+  Cache-Control: public, max-age=31536000
+/styles*
+  Cache-Control: public, max-age=31536000
+/styles/*
+  Cache-Control: public, max-age=31536000
 /css/*
   Cache-Control: public, max-age=31536000
 /fonts/*
   Cache-Control: public, max-age=31536000
-
-/favicon.*
-  Cache-Control: public, max-age=31536000
-/images/*
-  Cache-Control: public, max-age=31536000
-/videos/*
-  Cache-Control: public, max-age=31536000
-
-/js/*
-  Cache-Control: private, max-age=31536000
 /javascript/*
+  Cache-Control: private, max-age=31536000
+/js/*
   Cache-Control: private, max-age=31536000
 /serviceworker.js
   Cache-Control: private, max-age=0
 
+# Manifest
 /manifest.webmanifest
   Content-Type: application/manifest+json
   Cache-Control: private, max-age=31536000
 
+# Admin
 /admin/*
   Cache-Control: no-cache, no-store, must-revalidate, max-age=0
 /.netlify/*
