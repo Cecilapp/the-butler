@@ -15,7 +15,7 @@
 
 #### Manually
 
-Create your own repository from the GitHub [template](https://github.com/Cecilapp/the-butler/generate), then just edit Markdown files in `content/blog/`.
+Create your own repository from the [GitHub template](https://github.com/Cecilapp/the-butler/generate), then just edit Markdown files in `content/blog/`.
 
 #### Netlify CMS
 
@@ -28,6 +28,13 @@ The easiest way to deploy and manage your blog is certainly with [Netlify](https
 If your goal is managing content quickly, and decide later where to deploy to it, use the following button to import the starter blog to [Forestry CMS](https://forestry.io) and start editing immediatelly!
 
 [![Import to Forestry](https://assets.forestry.io/import-to-forestryK.svg)](https://cecil.app/cms/forestry/import/ "Import to Forestry")
+
+### Customize your blog
+
+1. Change configuration by editing `config.yml` file
+2. Change templates by copying files from `themes/<theme>/layouts/` to your own `layouts/` directory to _override_ them
+   - Hyde: [`themes/hyde/layouts/`](https://github.com/Cecilapp/theme-hyde/tree/master/layouts)
+   - Garth: [`themes/garth/layouts/`](https://github.com/Cecilapp/theme-garth/tree/master/layouts)
 
 ### Build & deploy
 
@@ -56,11 +63,6 @@ To use [**Netlify CMS**](https://www.netlifycms.org) ([demo](https://the-butler-
 1. enable [Netlify Identity](https://docs.netlify.com/visitor-access/git-gateway/#setup-and-settings) and Git Gateway
 2. invite a user
 3. connect to `https://<your-blog>.netlify.com/admin/` with the user credentials
-
-### Customize your blog
-
-1. Change configuration by editing `config.yml` file
-2. Change templates by copying files from `themes/<theme>/layouts/` to your own `layouts/` directory to _override_ them
 
 ## Need Help?
 
