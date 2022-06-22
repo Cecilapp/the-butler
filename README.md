@@ -31,10 +31,10 @@ If your goal is managing content quickly, and decide later where to deploy to it
 
 ### Customize your blog
 
-1. Change configuration by editing `config.yml` file
+1. Change configuration by editing [`config.yml`](https://github.com/Cecilapp/the-butler/blob/master/config.yml) file
 2. Change templates by copying files from `themes/<theme>/layouts/` to your own `layouts/` directory to _override_ them
-   - Hyde: [`themes/hyde/layouts/`](https://github.com/Cecilapp/theme-hyde/tree/master/layouts)
-   - Garth: [`themes/garth/layouts/`](https://github.com/Cecilapp/theme-garth/tree/master/layouts)
+   - [Hyde](https://github.com/Cecilapp/theme-hyde#readme): [`themes/hyde/layouts/`](https://github.com/Cecilapp/theme-hyde/tree/master/layouts)
+   - [Garth](https://github.com/Cecilapp/theme-garth#readme): [`themes/garth/layouts/`](https://github.com/Cecilapp/theme-garth/tree/master/layouts)
 
 ### Build & deploy
 
