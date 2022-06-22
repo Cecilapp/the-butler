@@ -15,9 +15,7 @@
 
 #### Manually
 
-Click on the button _[Use this template](https://github.com/Cecilapp/the-butler/generate)_.
-
-Then just edit Markdown files in `content/blog/` directly from your repository.
+Create your own repository from the GitHub [template](https://github.com/Cecilapp/the-butler/generate), then just edit Markdown files in `content/blog/`.
 
 #### Netlify CMS
 
@@ -66,7 +64,7 @@ To use [**Netlify CMS**](https://www.netlifycms.org) ([demo](https://the-butler-
 
 ## Need Help?
 
-Read the [Cecil's documentation](https://cecil.app/documentation/).
+Read the [Cecil's documentation](https://cecil.app/documentation/) and/or ask help in Cecil's [Discussions](https://github.com/Cecilapp/Cecil/discussions).
 
 ## License
 
