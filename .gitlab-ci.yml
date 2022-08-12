@@ -1,4 +1,4 @@
-image: phpdocker/phpdocker:7.4
+image: phpdocker/phpdocker:8.1
 
 before_script:
 - |
