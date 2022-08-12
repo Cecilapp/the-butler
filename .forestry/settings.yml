@@ -2,10 +2,10 @@
 new_page_extension: md
 auto_deploy: true
 admin_path: "/static/forestry"
-webhook_url: 
+webhook_url:
 sections:
 - type: directory
-  path: content/blog
+  path: pages/blog
   label: Posts
   create: documents
   match: "*"
@@ -14,7 +14,7 @@ sections:
   templates:
   - post
 - type: directory
-  path: content
+  path: pages
   label: Pages
   create: all
   match: "*"

@@ -15,7 +15,7 @@
 
 #### Manually
 
-Create your own repository from the [GitHub template](https://github.com/Cecilapp/the-butler/generate), then just edit Markdown files in `content/blog/`.
+Create your own repository from the [GitHub template](https://github.com/Cecilapp/the-butler/generate), then just edit Markdown files in `pages/blog/`.
 
 #### Netlify CMS
 

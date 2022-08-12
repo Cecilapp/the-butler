@@ -1,8 +1,8 @@
 prose:
-  rooturl: 'content'
+  rooturl: 'pages'
   media: 'static/images'
   metadata:
-    content:
+    pages:
       - name: "title"
         field:
           element: "text"
@@ -30,7 +30,7 @@ prose:
           element: "text"
           label: "Path"
           placeholder: "Permalink"
-    content/blog:
+    pages/blog:
       - name: "title"
         field:
           element: "text"
