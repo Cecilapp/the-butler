@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="/atom.xsl" media="all"?>
+<?xml-stylesheet type="text/xsl" href="https://cecilapp.github.io/the-butler/atom.xsl" media="all"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-  <id>/tags/film/</id>
+  <id>https://cecilapp.github.io/the-butler/tags/film/</id>
   <title>The Butler - Film</title>
   <subtitle><![CDATA[A ready to use static blog, powered by Cecil.]]></subtitle>
-  <link href="/tags/film/atom.xml" rel="self" type="application/atom+xml" />
-  <link href="/tags/film/" rel="alternate" type="text/html" />
+  <link href="https://cecilapp.github.io/the-butler/tags/film/atom.xml" rel="self" type="application/atom+xml" />
+  <link href="https://cecilapp.github.io/the-butler/tags/film/" rel="alternate" type="text/html" />
   <updated>2020-03-09T01:00:00+01:00</updated>
   <author>
     <name>The Butler</name>
-    <uri>/</uri>
+    <uri>https://cecilapp.github.io/the-butler/</uri>
   </author>
   <entry xml:lang="en">
-    <id>/blog/princess-mononoke/</id>
+    <id>https://cecilapp.github.io/the-butler/blog/princess-mononoke/</id>
     <title>Princess Mononoke</title>
     <content type="html">
       <![CDATA[<p><strong><em>Princess Mononoke</em></strong> (<a href="https://en.m.wikipedia.org/wiki/Japanese_language">Japanese</a>: もののけ姫 <a href="https://en.m.wikipedia.org/wiki/Hepburn_romanization">Hepburn</a>: <strong>Mononoke-<a href="https://en.m.wikipedia.org/wiki/Hime">hime</a></strong>, &quot;Spirit/Monster Princess&quot;) is a 1997 Japanese <a href="https://en.m.wikipedia.org/wiki/Anime">animated</a> <a href="https://en.m.wikipedia.org/wiki/Fantasy_film">fantasy film</a> written and directed by <a href="https://en.m.wikipedia.org/wiki/Hayao_Miyazaki">Hayao Miyazaki</a>, animated by <a href="https://en.m.wikipedia.org/wiki/Studio_Ghibli">Studio Ghibli</a> for <a href="https://en.m.wikipedia.org/wiki/Tokuma_Shoten">Tokuma Shoten</a>, <a href="https://en.m.wikipedia.org/wiki/Nippon_Television_Network">Nippon Television Network</a> and <a href="https://en.m.wikipedia.org/wiki/Dentsu">Dentsu</a>, and distributed by <a href="https://en.m.wikipedia.org/wiki/Toho">Toho</a>. The film stars the voices of <a href="https://en.m.wikipedia.org/wiki/Yōji_Matsuda">Yōji Matsuda</a>, <a href="https://en.m.wikipedia.org/wiki/Yuriko_Ishida">Yuriko Ishida</a>, <a href="https://en.m.wikipedia.org/wiki/Yūko_Tanaka">Yūko Tanaka</a>, <a href="https://en.m.wikipedia.org/wiki/Kaoru_Kobayashi_(actor)">Kaoru Kobayashi</a>, <a href="https://en.m.wikipedia.org/wiki/Masahiko_Nishimura">Masahiko Nishimura</a>, <a href="https://en.m.wikipedia.org/wiki/Tsunehiko_Kamijo">Tsunehiko Kamijo</a>, <a href="https://en.m.wikipedia.org/wiki/Akihiro_Miwa">Akihiro Miwa</a>, <a href="https://en.m.wikipedia.org/wiki/Mitsuko_Mori">Mitsuko Mori</a> and <a href="https://en.m.wikipedia.org/wiki/Hisaya_Morishige">Hisaya Morishige</a>.</p>
@@ -23,8 +23,8 @@
 <p>Source: <a href="https://en.m.wikipedia.org/wiki/Princess_Mononoke">https://en.m.wikipedia.org/wiki/Princess_Mononoke</a></p>
 </blockquote>]]>
     </content>
-    <link href="/blog/princess-mononoke/" rel="alternate" type="text/html" />
+    <link href="https://cecilapp.github.io/the-butler/blog/princess-mononoke/" rel="alternate" type="text/html" />
     <published>2020-03-09T01:00:00+01:00</published>
-    <updated>2022-09-08T21:16:08+02:00</updated>
+    <updated>2022-09-08T21:16:51+02:00</updated>
   </entry>
 </feed>
