@@ -2,11 +2,11 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:atom="http://www.w3.org/2005/Atom" version="3.0">
   <xsl:output method="html" version="1.0" encoding="utf-8" indent="yes" />
   <xsl:template match="/">
-    <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
       <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="viewport" content="width=device-width" />
-        <title><xsl:value-of select="rss/channel/title" /> (RSS)</title>
+        <title><xsl:value-of select="atom:feed/atom:title" /> (feed)</title>
         <style type="text/css">
           html {
             margin: 0;
@@ -89,7 +89,7 @@
               <path d="M160 213h-34a82 82 0 0 0 -82 -82v-34a116 116 0 0 1 116 116z" fill="#FFF"/>
               <path d="M184 213A140 140 0 0 0 44 73 V 38a175 175 0 0 1 175 175z" fill="#FFF"/>
             </svg>
-            <a><xsl:attribute name="href"><xsl:value-of select="rss/channel/link[@rel='alternate']/@href" /></xsl:attribute><xsl:value-of select="rss/channel/title" /></a>
+            <a><xsl:attribute name="href"><xsl:value-of select="atom:feed/atom:link[@rel='alternate']/@href" /></xsl:attribute><xsl:value-of select="atom:feed/atom:title" /></a>
           </h1>
           <p>To subscribe to this feed, copy its URL to your feed reader. <a href="https://aboutfeeds.com/#1-what-is-a-feed-aka-rss">What is a feed? (a.k.a. RSS)</a></p>
           <form>
@@ -98,17 +98,17 @@
               <xsl:attribute name="type">url</xsl:attribute>
               <xsl:attribute name="url">URL</xsl:attribute>
               <xsl:attribute name="spellcheck">false</xsl:attribute>
-              <xsl:attribute name="value"><xsl:value-of select="rss/channel/link[@rel='self']/@href" /></xsl:attribute>
+              <xsl:attribute name="value"><xsl:value-of select="atom:feed/atom:link[@rel='self']/@href" /></xsl:attribute>
             </input>
           </form>
         </header>
         <article>
           <h2>Feed’s entries</h2>
           <ol>
-            <xsl:for-each select="rss/channel/item">
+            <xsl:for-each select="atom:feed/atom:entry">
             <li>
-              <h3><a><xsl:attribute name="href"><xsl:value-of select="link/@href" /></xsl:attribute><xsl:value-of select="title" /></a></h3>
-              <small><xsl:value-of select="substring(pubDate, 1, 10)" /></small>
+              <h3><a><xsl:attribute name="href"><xsl:value-of select="atom:link/@href" /></xsl:attribute><xsl:value-of select="atom:title" /></a></h3>
+              <small><xsl:value-of select="substring(atom:published, 1, 10)" /></small>
             </li>
             </xsl:for-each>
           </ol>
