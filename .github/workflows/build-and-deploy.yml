@@ -6,7 +6,7 @@ on:
       - master
 
 env:
-  CECIL_URL: ${{ secrets.CECIL_URL }}
+  CECIL_BASEURL: ${{ secrets.CECIL_BASEURL }}
 
 jobs:
   build:
@@ -59,4 +59,4 @@ jobs:
     - name: Deploy URL
       if: ${{ success() }}
       id: deploy_url
-      run: echo "::set-output name=url::${{ secrets.CECIL_URL }}"
+      run: echo "::set-output name=url::$CECIL_BASEURL"
