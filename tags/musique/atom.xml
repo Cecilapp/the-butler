@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="https://cecilapp.github.io/the-butler/atom.xsl" media="all"?>
+<?xml-stylesheet type="text/xsl" href="/atom.xsl" media="all"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-  <id>https://cecilapp.github.io/the-butler/tags/musique/</id>
+  <id>/tags/musique/</id>
   <title>The Butler - Musique</title>
   <subtitle><![CDATA[A ready to use static blog, powered by Cecil.]]></subtitle>
-  <link href="https://cecilapp.github.io/the-butler/tags/musique/atom.xml" rel="self" type="application/atom+xml" />
-  <link href="https://cecilapp.github.io/the-butler/tags/musique/" rel="alternate" type="text/html" />
+  <link href="/tags/musique/atom.xml" rel="self" type="application/atom+xml" />
+  <link href="/tags/musique/" rel="alternate" type="text/html" />
   <updated>2020-02-05T15:43:00+01:00</updated>
   <author>
     <name>The Butler</name>
-    <uri>https://cecilapp.github.io/the-butler/</uri>
+    <uri>/</uri>
   </author>
   <entry xml:lang="en">
-    <id>https://cecilapp.github.io/the-butler/fr/blog/daft-punk/</id>
+    <id>/fr/blog/daft-punk/</id>
     <title>Daft Punk</title>
     <content type="html">
       <![CDATA[<p><strong>Daft Punk</strong> (prononcé en <a href="https://fr.m.wikipedia.org/wiki/Anglais">anglais</a> : <a href="https://fr.m.wikipedia.org/wiki/Aide:Alphabet_phonétique_international">[dæft pʌŋk]</a>) est un <a href="https://fr.m.wikipedia.org/wiki/Groupe_musical">groupe</a> de <a href="https://fr.m.wikipedia.org/wiki/Musique_électronique">musique électronique</a> <a href="https://fr.m.wikipedia.org/wiki/France">français</a>, originaire de <a href="https://fr.m.wikipedia.org/wiki/Paris">Paris</a>. Composé de <a href="https://fr.m.wikipedia.org/wiki/Thomas_Bangalter">Thomas Bangalter</a> et <a href="https://fr.m.wikipedia.org/wiki/Guy-Manuel_de_Homem-Christo">Guy-Manuel de Homem-Christo</a>, le groupe est actif entre <a href="https://fr.m.wikipedia.org/wiki/1993_en_musique">1993</a> et <a href="https://fr.m.wikipedia.org/wiki/2021_en_musique">2021</a> et participe à la création et à la démocratisation du mouvement de musique électronique baptisé <a href="https://fr.m.wikipedia.org/wiki/French_touch_(musique)">French touch</a>. Le duo fait partie des artistes français s'exportant le mieux à l'étranger et ce, depuis la sortie de leur premier véritable succès, <em><a href="https://fr.m.wikipedia.org/wiki/Da_Funk">Da Funk</a></em>, en 1995. Une des originalités de Daft Punk est la culture de leur notoriété d'artistes indépendants et sans visage, portant toujours en public des casques et des costumes. Ils s'inspirent sur ce point du film <em><a href="https://fr.m.wikipedia.org/wiki/Phantom_of_the_Paradise">Phantom of the Paradise</a></em> de <a href="https://fr.m.wikipedia.org/wiki/Brian_De_Palma">Brian De Palma</a>.</p>
@@ -23,8 +23,8 @@
 <p>Source: <a href="https://fr.m.wikipedia.org/wiki/Daft_Punk">https://fr.m.wikipedia.org/wiki/Daft_Punk</a></p>
 </blockquote>]]>
     </content>
-    <link href="https://cecilapp.github.io/the-butler/fr/blog/daft-punk/" rel="alternate" type="text/html" />
+    <link href="/fr/blog/daft-punk/" rel="alternate" type="text/html" />
     <published>2020-02-05T15:43:00+01:00</published>
-    <updated>2022-09-08T22:49:07+02:00</updated>
+    <updated>2022-09-08T22:48:33+02:00</updated>
   </entry>
 </feed>
