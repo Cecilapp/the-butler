@@ -1,10 +1,19 @@
 title: The Butler
 baseline: Your blogging assistant
 description: A ready to use static blog, powered by Cecil.
-baseurl: /
+baseurl: http://localhost:8000/
 canonicalurl: true
 keywords: [Cecil, Static Site Generator, SSG]
 author: Arnaud Ligny
+language: en
+languages:
+  - code: en
+    locale: en
+  - code: fr
+    locale: fr_FR
+    config:
+      baseline: Votre assistant de blog
+      description: Un blog statique prêt à l'emploi, propulsé par Cecil.
 date:
   format: j F Y
   timezone: Europe/Paris
