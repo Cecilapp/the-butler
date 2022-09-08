@@ -4,4 +4,4 @@ title: Home
 
 # The Butler
 
-> A ready to use static blog, powered by [Cecil](https://cecil.app).
+> _The Butler_ is a ready to use static blog, powered by [Cecil](https://cecil.app).
