@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="/atom.xsl" media="all"?>
+<?xml-stylesheet type="text/xsl" href="https://cecilapp.github.io/the-butler/atom.xsl" media="all"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-  <id>/tags/music/</id>
+  <id>https://cecilapp.github.io/the-butler/tags/music/</id>
   <title>The Butler - Music</title>
   <subtitle><![CDATA[A ready to use static blog, powered by Cecil.]]></subtitle>
-  <link href="/tags/music/atom.xml" rel="self" type="application/atom+xml" />
-  <link href="/tags/music/" rel="alternate" type="text/html" />
+  <link href="https://cecilapp.github.io/the-butler/tags/music/atom.xml" rel="self" type="application/atom+xml" />
+  <link href="https://cecilapp.github.io/the-butler/tags/music/" rel="alternate" type="text/html" />
   <updated>2020-02-05T15:43:00+01:00</updated>
   <author>
     <name>The Butler</name>
-    <uri>/</uri>
+    <uri>https://cecilapp.github.io/the-butler/</uri>
   </author>
   <entry xml:lang="en">
-    <id>/blog/daft-punk/</id>
+    <id>https://cecilapp.github.io/the-butler/blog/daft-punk/</id>
     <title>Daft Punk</title>
     <content type="html">
       <![CDATA[<p><strong>Daft Punk</strong> is a French <a href="https://en.m.wikipedia.org/wiki/Electronic_music">electronic music</a> duo formed in Paris in 1993 by <a href="https://en.m.wikipedia.org/wiki/Guy-Manuel_de_Homem-Christo">Guy-Manuel de Homem-Christo</a> and <a href="https://en.m.wikipedia.org/wiki/Thomas_Bangalter">Thomas Bangalter</a>. They achieved popularity in the late 1990s as part of the <a href="https://en.m.wikipedia.org/wiki/French_house">French house</a> movement; they also had success in the years following, combining elements of <a href="https://en.m.wikipedia.org/wiki/House_music">house music</a> with <a href="https://en.m.wikipedia.org/wiki/Funk">funk</a>, <a href="https://en.m.wikipedia.org/wiki/Techno">techno</a>, <a href="https://en.m.wikipedia.org/wiki/Disco">disco</a>, rock and <a href="https://en.m.wikipedia.org/wiki/Synthpop">synthpop</a>. They have worn ornate helmets and gloves to assume <a href="https://en.m.wikipedia.org/wiki/Robot">robot</a> personas in most public appearances since 1999 and rarely grant interviews or appear on television. The duo were managed from 1996 to 2008 by <a href="https://en.m.wikipedia.org/wiki/Pedro_Winter">Pedro Winter</a> (also known as Busy P), the head of <a href="https://en.m.wikipedia.org/wiki/Ed_Banger_Records">Ed Banger Records</a>.</p>
@@ -23,8 +23,8 @@
 <p>Source: <a href="https://en.m.wikipedia.org/wiki/Daft_Punk">https://en.m.wikipedia.org/wiki/Daft_Punk</a></p>
 </blockquote>]]>
     </content>
-    <link href="/blog/daft-punk/" rel="alternate" type="text/html" />
+    <link href="https://cecilapp.github.io/the-butler/blog/daft-punk/" rel="alternate" type="text/html" />
     <published>2020-02-05T15:43:00+01:00</published>
-    <updated>2022-09-09T00:32:08+02:00</updated>
+    <updated>2022-09-09T00:32:54+02:00</updated>
   </entry>
 </feed>
