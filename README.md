@@ -1,6 +1,6 @@
 # The Butler
 
-> A ready to use static blog, powered by [Cecil](https://cecil.app).
+_The Butler_ is a ready to use static blog, powered by [Cecil](https://cecil.app).
 
 [![Cecil preview](assets/images/cecil-preview.png)](https://the-butler.cecil.app "the-butler.cecil.app")
 
