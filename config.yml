@@ -13,7 +13,7 @@ languages:
     locale: fr_FR
     config:
       baseline: Votre assistant de blog
-      description: Un blog statique prêt à l'emploi, propulsé par Cecil.
+      description: Un blog statique prêt à l’emploi, propulsé par Cecil.
 date:
   format: j F Y
   timezone: Europe/Paris
