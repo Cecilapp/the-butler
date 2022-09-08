@@ -6,7 +6,7 @@ on:
       - master
 
 env:
-  CECIL_BASEURL: ${{ secrets.CECIL_BASEURL }}
+  CECIL_BASEURL: https://cecilapp.github.io/the-butler/
 
 jobs:
   build:
