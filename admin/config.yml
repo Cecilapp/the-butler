@@ -17,7 +17,7 @@ collections:
     label_singular: "Post"
     description: >
       Blog posts.
-    folder: "content/blog"
+    folder: "pages/blog"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     preview_path: "blog/{{title}}"
@@ -43,7 +43,7 @@ collections:
     files:
       - label: "About"
         name: "about"
-        file: "content/about.md"
+        file: "pages/about.md"
         fields:
           - {label: "Title", name: "title", widget: "string", default: "About"}
           - {label: "Text", name: "body", widget: "markdown"}
