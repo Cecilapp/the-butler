@@ -5,6 +5,9 @@ on:
     branches:
       - master
 
+env:
+  CECIL_URL: ${{ secrets.CECIL_URL }}
+
 jobs:
   build:
     name: Build
@@ -22,8 +25,6 @@ jobs:
 
     - name: Build site
       uses: Cecilapp/Cecil-Action@v3
-      env:
-        CECIL_URL: ${{ secrets.CECIL_URL }}
 
     - name: Upload site to Artifacts
       uses: actions/upload-artifact@v2
@@ -58,4 +59,4 @@ jobs:
     - name: Deploy URL
       if: ${{ success() }}
       id: deploy_url
-      run: echo "::set-output name=url::$CECIL_BASEURL"
+      run: echo "::set-output name=url::${{ secrets.CECIL_URL }}"
