@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="https://cecilapp.github.io/the-butler/atom.xsl" media="all"?>
+<?xml-stylesheet type="text/xsl" href="https://cecilapp.github.io/the-butler/xsl/atom.xsl" media="all"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://cecilapp.github.io/the-butler/tags/musique/</id>
   <title>The Butler - Musique</title>
@@ -25,6 +25,6 @@
     </content>
     <link href="https://cecilapp.github.io/the-butler/fr/blog/daft-punk/" rel="alternate" type="text/html" />
     <published>2020-02-05T15:43:00+01:00</published>
-    <updated>2022-09-23T22:19:33+02:00</updated>
+    <updated>2023-01-12T00:32:50+01:00</updated>
   </entry>
 </feed>
