@@ -23,12 +23,6 @@ The easiest way to deploy and manage your blog is certainly with [Netlify](https
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://cecil.app/hosting/netlify/deploy/ "Deploy to Netlify")
 
-#### Forestry CMS
-
-If your goal is managing content quickly, and decide later where to deploy to it, use the following button to import the starter blog to [Forestry CMS](https://forestry.io) and start editing immediatelly!
-
-[![Import to Forestry](https://assets.forestry.io/import-to-forestryK.svg)](https://cecil.app/cms/forestry/import/ "Import to Forestry")
-
 ### Customize your blog
 
 1. Change configuration by editing [`config.yml`](https://github.com/Cecilapp/the-butler/blob/master/config.yml) file
