@@ -6,3 +6,8 @@ draft: true
 ---
 
 This is a draft.
+
+```php
+<?php
+echo 'draft';
+```
