@@ -23,3 +23,27 @@ hyde:
     sticky: true # Content to the bottom of the sidebar
   theme: '' # red, orange, yellow, green, cyan, blue, magenta, brown or cecil
   reverse: false # Reverse layout
+
+body:
+  images:
+    lazy:
+      enabled: true
+    resize:
+      enabled: true
+    responsive:
+      enabled: true
+    webp:
+      enabled: true
+    caption:
+      enabled: true
+assets:
+  images:
+    optimize:
+      enabled: true
+    quality: 75
+    responsive:
+      enabled: true
+      sizes:
+        default: 70vw
+    webp:
+      enabled: true
