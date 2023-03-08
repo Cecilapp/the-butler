@@ -25,6 +25,8 @@ hyde:
   reverse: false # Reverse layout
 
 body:
+  highlight:
+    enabled: true
   images:
     lazy:
       enabled: true
