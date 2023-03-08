@@ -2,6 +2,7 @@ backend:
   name: git-gateway
   branch: master
   squash_merges: true
+local_backend: false # npx netlify-cms-proxy-server
 publish_mode: editorial_workflow
 media_folder: "assets/images"
 public_folder: "/images"
@@ -12,6 +13,7 @@ slug:
   clean_accents: true
   sanitize_replacement: "-"
 collections:
+  # Blog posts
   - label: "Posts"
     name: "posts"
     label_singular: "Post"
@@ -33,6 +35,7 @@ collections:
       - label: Draft
         field: draft
         pattern: true
+  # Single pages
   - label: "Pages"
     name: "pages"
     label_singular: "Page"
@@ -49,6 +52,7 @@ collections:
           - {label: "Text", name: "body", widget: "markdown"}
           - {label: "Menu", name: "menu", widget: "string", default: "main"}
           - {label: "Draft", name: "draft", widget: "boolean", default: true, required: true}
+  # Configuration
   - label: "Settings"
     name: "settings"
     description: >
@@ -67,9 +71,9 @@ collections:
           - {label: "Base URL", name: "baseurl", widget: "string", default: "/", required: true, hint: "With a trailing slash."}
           - {label: "Use canonical URL", name: "canonicalurl", widget: "boolean", default: true, required: true}
           - {label: "Theme", name: "theme", widget: "list", required: true}
-          - label: "Date"
-            name: "date"
-            widget: "object"
-            fields:
-              - {label: "Format", name: "format", widget: "string", default: "j F Y", required: true}
-              - {label: "Time zone", name: "timezone", widget: "string", default: "Europe/Paris", required: true}
+          #- label: "Date"
+          #  name: "date"
+          #  widget: "object"
+          #  fields:
+          #    - {label: "Format", name: "format", widget: "string", default: "j F Y", required: true}
+          #    - {label: "Time zone", name: "timezone", widget: "string", default: "Europe/Paris", required: true}
