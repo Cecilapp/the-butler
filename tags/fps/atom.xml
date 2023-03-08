@@ -6,7 +6,7 @@
   <subtitle><![CDATA[A ready to use static blog, powered by Cecil.]]></subtitle>
   <link href="https://cecilapp.github.io/the-butler/tags/fps/atom.xml" rel="self" type="application/atom+xml" />
   <link href="https://cecilapp.github.io/the-butler/tags/fps/" rel="alternate" type="text/html" />
-  <updated>2019-12-14T01:00:00+01:00</updated>
+  <updated>2019-12-14T00:00:00+00:00</updated>
   <author>
     <name>The Butler</name>
     <uri>https://cecilapp.github.io/the-butler/</uri>
@@ -24,7 +24,7 @@
 </blockquote>]]>
     </content>
     <link href="https://cecilapp.github.io/the-butler/blog/doom/" rel="alternate" type="text/html" />
-    <published>2019-12-14T01:00:00+01:00</published>
-    <updated>2023-03-09T00:13:31+01:00</updated>
+    <published>2019-12-14T00:00:00+00:00</published>
+    <updated>2023-03-08T23:15:00+00:00</updated>
   </entry>
 </feed>
