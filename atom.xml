@@ -25,7 +25,7 @@
     </content>
     <link href="https://cecilapp.github.io/the-butler/blog/princess-mononoke/" rel="alternate" type="text/html" />
     <published>2020-03-09T00:00:00+00:00</published>
-    <updated>2023-03-08T23:26:35+00:00</updated>
+    <updated>2023-03-09T00:06:03+00:00</updated>
   </entry>
   <entry xml:lang="en">
     <id>https://cecilapp.github.io/the-butler/blog/daft-punk/</id>
@@ -41,7 +41,7 @@
     </content>
     <link href="https://cecilapp.github.io/the-butler/blog/daft-punk/" rel="alternate" type="text/html" />
     <published>2020-02-05T14:43:00+00:00</published>
-    <updated>2023-03-08T23:26:35+00:00</updated>
+    <updated>2023-03-09T00:06:03+00:00</updated>
   </entry>
   <entry xml:lang="en">
     <id>https://cecilapp.github.io/the-butler/blog/doom/</id>
@@ -57,7 +57,7 @@
     </content>
     <link href="https://cecilapp.github.io/the-butler/blog/doom/" rel="alternate" type="text/html" />
     <published>2019-12-14T00:00:00+00:00</published>
-    <updated>2023-03-08T23:26:35+00:00</updated>
+    <updated>2023-03-09T00:06:03+00:00</updated>
   </entry>
   <entry xml:lang="en">
     <id>https://cecilapp.github.io/the-butler/about/</id>
@@ -69,13 +69,13 @@
 <h2 id="how-to-use">How to use?</h2>
 <h3 id="managing-content-with-forestry-https-forestry-io">Managing content with <a href="https://forestry.io">Forestry</a></h3>
 <p>If your goal is managing content quickly, and decide later where to deploy to it, use the following button to import the starter blog to Forestry CMS and start editing immediatelly!</p>
-<p><a href="https://cecil.app/cms/forestry/import/"><img src="https://cecilapp.github.io/the-butler/assets/assets.forestry.io/import-to-forestryk.ae770f039f3fd871643ef15c32987c4e.svg" alt="Import this project into Forestry" loading="lazy" width="142" height="32" /></a></p>
+<p><a href="https://cecil.app/cms/forestry/import/"><img src="https://cecilapp.github.io/the-butler/assets/assets.forestry.io/import-to-forestryk.ae770f039f3fd871643ef15c32987c4e.svg" alt="Import this project into Forestry" loading="lazy" decoding="async" width="142" height="32" /></a></p>
 <h3 id="deploy-with-netlify-https-www-netlify-com">Deploy with <a href="https://www.netlify.com">Netlify</a></h3>
 <p>Otherwise, if your goal is deploying a new blog quickly, and manage content mannually, use the following button to configure and deploy your new blog on Netlify.</p>
-<p><a href="https://app.netlify.com/start/deploy?repository=https://github.com/Cecilapp/the-butler&amp;stack=cms"><img src="https://cecilapp.github.io/the-butler/assets/www.netlify.com/img/deploy/button.d0d6fbfa79b0fd75091f61ef2719834e.svg" alt="Deploy to Netlify" loading="lazy" width="179" height="32" /></a></p>]]>
+<p><a href="https://app.netlify.com/start/deploy?repository=https://github.com/Cecilapp/the-butler&amp;stack=cms"><img src="https://cecilapp.github.io/the-butler/assets/www.netlify.com/img/deploy/button.d0d6fbfa79b0fd75091f61ef2719834e.svg" alt="Deploy to Netlify" loading="lazy" decoding="async" width="179" height="32" /></a></p>]]>
     </content>
     <link href="https://cecilapp.github.io/the-butler/about/" rel="alternate" type="text/html" />
     <published>2019-07-09T00:00:00+00:00</published>
-    <updated>2023-03-08T23:26:35+00:00</updated>
+    <updated>2023-03-09T00:06:03+00:00</updated>
   </entry>
 </feed>
