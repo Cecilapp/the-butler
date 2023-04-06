@@ -47,6 +47,6 @@ assets:
     responsive:
       enabled: true
       sizes:
-        default: 70vw
+        default: 100vw
     webp:
       enabled: true
