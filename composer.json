@@ -12,8 +12,8 @@
     }
   ],
   "require": {
-    "cecil/theme-hyde": "^2.2",
-    "cecil/theme-garth": "^1.6",
+    "cecil/theme-hyde": "^2.3",
+    "cecil/theme-garth": "^1.8",
     "cecil/theme-netlify": "^1.4",
     "cecil/theme-netlifycms": "^1.7"
   },

@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8381d9d3d7da00b90c4bc93bc134ee82",
+    "content-hash": "75587c75fe7defa60617bace54434420",
     "packages": [
         {
             "name": "cecil/theme-garth",
-            "version": "1.7.0",
+            "version": "1.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Cecilapp/theme-garth.git",
-                "reference": "10d64df564680992713fe515945fa5a59c8f3b2b"
+                "reference": "81ceb9dc683d8c3dc6fceea72e582c6ca37b1d7a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Cecilapp/theme-garth/zipball/10d64df564680992713fe515945fa5a59c8f3b2b",
-                "reference": "10d64df564680992713fe515945fa5a59c8f3b2b",
+                "url": "https://api.github.com/repos/Cecilapp/theme-garth/zipball/81ceb9dc683d8c3dc6fceea72e582c6ca37b1d7a",
+                "reference": "81ceb9dc683d8c3dc6fceea72e582c6ca37b1d7a",
                 "shasum": ""
             },
             "require": {
@@ -42,7 +42,7 @@
             ],
             "support": {
                 "issues": "https://github.com/Cecilapp/theme-garth/issues",
-                "source": "https://github.com/Cecilapp/theme-garth/tree/1.7.0"
+                "source": "https://github.com/Cecilapp/theme-garth/tree/1.8.0"
             },
             "funding": [
                 {
@@ -58,7 +58,7 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2023-03-27T11:03:05+00:00"
+            "time": "2023-04-06T23:23:23+00:00"
         },
         {
             "name": "cecil/theme-hyde",
