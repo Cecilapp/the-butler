@@ -14,6 +14,8 @@ languages:
     config:
       baseline: Votre assistant de blog
       description: Un blog statique prêt à l’emploi, propulsé par Cecil.
+      taxonomies:
+        tags: tag
 theme:
   - hyde
   - netlify
