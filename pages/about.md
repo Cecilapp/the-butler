@@ -1,5 +1,6 @@
 ---
 title: About
+description: About The Butler, a ready to use static blog.
 date: 2019-07-09
 menu:
   main:

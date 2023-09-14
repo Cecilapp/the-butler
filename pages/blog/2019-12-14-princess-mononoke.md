@@ -1,5 +1,6 @@
 ---
-title: "Princess Mononoke"
+title: Princess Mononoke
+description: Princess Mononoke is a 1997 Japanese animated fantasy film written and directed by Hayao Miyazaki, animated by Studio Ghibli.
 date: 2020-03-09
 image: /images/princess-mononoke.jpg
 tags:
