@@ -14,8 +14,8 @@
   "require": {
     "cecil/theme-hyde": "^2.4",
     "cecil/theme-garth": "^1.9",
-    "cecil/theme-netlify": "^1.4",
-    "cecil/theme-netlifycms": "^1.7"
+    "cecil/theme-netlify": "^2.0",
+    "cecil/theme-netlifycms": "^2.0"
   },
   "config": {
     "allow-plugins": {
