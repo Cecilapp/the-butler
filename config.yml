@@ -48,7 +48,9 @@ assets:
     quality: 75
     responsive:
       enabled: true
+      responsive:
+      widths: [768, 1024]
       sizes:
-        default: 100vw
+        default: "(max-width: 608px) 768px, 1024px"
     webp:
       enabled: true
