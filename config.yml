@@ -27,20 +27,21 @@ hyde:
   reverse: false  # Reverse layout
   fonts: 'google' # google or local
 
-body:
-  highlight:
-    enabled: true
-  images:
-    lazy:
+pages:
+  body:
+    highlight:
       enabled: true
-    resize:
-      enabled: true
-    responsive:
-      enabled: true
-    webp:
-      enabled: true
-    caption:
-      enabled: true
+    images:
+      lazy:
+        enabled: true
+      resize:
+        enabled: true
+      responsive:
+        enabled: true
+      webp:
+        enabled: true
+      caption:
+        enabled: true
 assets:
   images:
     optimize:

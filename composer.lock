@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6879b5fc3926ce80349bf5c194056fa7",
+    "content-hash": "7aa3926bdfd9eb01dfdf100892d4f24f",
     "packages": [
         {
             "name": "cecil/theme-garth",
@@ -178,16 +178,16 @@
         },
         {
             "name": "cecil/theme-netlify",
-            "version": "1.5.3",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Cecilapp/theme-netlify.git",
-                "reference": "5dee6bf92bb8332c646ad6ac5b1135832e02e1f8"
+                "reference": "22f2799058513cfe427f5b47b568d515e60f2932"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Cecilapp/theme-netlify/zipball/5dee6bf92bb8332c646ad6ac5b1135832e02e1f8",
-                "reference": "5dee6bf92bb8332c646ad6ac5b1135832e02e1f8",
+                "url": "https://api.github.com/repos/Cecilapp/theme-netlify/zipball/22f2799058513cfe427f5b47b568d515e60f2932",
+                "reference": "22f2799058513cfe427f5b47b568d515e60f2932",
                 "shasum": ""
             },
             "require": {
@@ -197,7 +197,7 @@
             "extra": {
                 "name": "netlify",
                 "branch-alias": {
-                    "dev-master": "1.x-dev"
+                    "dev-master": "2.x-dev"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -212,7 +212,7 @@
             ],
             "support": {
                 "issues": "https://github.com/Cecilapp/theme-netlify/issues",
-                "source": "https://github.com/Cecilapp/theme-netlify/tree/1.5.3"
+                "source": "https://github.com/Cecilapp/theme-netlify/tree/2.0.0"
             },
             "funding": [
                 {
@@ -224,20 +224,20 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2023-10-23T17:16:56+00:00"
+            "time": "2023-12-09T01:10:41+00:00"
         },
         {
             "name": "cecil/theme-netlifycms",
-            "version": "1.7.3",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Cecilapp/theme-netlifycms.git",
-                "reference": "a6affbd9917350eb4a66b26dcbeed7d5844a64bb"
+                "reference": "a7422d85eaa42cdaf4c6c9fb1530103218ba7741"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Cecilapp/theme-netlifycms/zipball/a6affbd9917350eb4a66b26dcbeed7d5844a64bb",
-                "reference": "a6affbd9917350eb4a66b26dcbeed7d5844a64bb",
+                "url": "https://api.github.com/repos/Cecilapp/theme-netlifycms/zipball/a7422d85eaa42cdaf4c6c9fb1530103218ba7741",
+                "reference": "a7422d85eaa42cdaf4c6c9fb1530103218ba7741",
                 "shasum": ""
             },
             "require": {
@@ -263,9 +263,13 @@
             ],
             "support": {
                 "issues": "https://github.com/Cecilapp/theme-netlifycms/issues",
-                "source": "https://github.com/Cecilapp/theme-netlifycms/tree/1.7.3"
+                "source": "https://github.com/Cecilapp/theme-netlifycms/tree/2.0.0"
             },
             "funding": [
+                {
+                    "url": "https://www.paypal.me/narno",
+                    "type": "custom"
+                },
                 {
                     "url": "https://github.com/ArnaudLigny",
                     "type": "github"
@@ -275,7 +279,7 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2023-11-05T02:01:25+00:00"
+            "time": "2023-04-22T01:45:02+00:00"
         }
     ],
     "packages-dev": [],
