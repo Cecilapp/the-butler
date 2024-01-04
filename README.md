@@ -2,7 +2,7 @@
 
 _The Butler_ is a ready to use static blog, powered by [Cecil](https://cecil.app).
 
-[![Cecil preview](assets/images/cecil-preview.png)](https://the-butler.cecil.app "the-butler.cecil.app")
+[![The Butler screenshot](/docs/screenshot.png)](https://the-butler.cecil.app "the-butler.cecil.app")
 
 ## There is a demo?
 
