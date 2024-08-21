@@ -38,8 +38,7 @@ pages:
         enabled: true
       responsive:
         enabled: true
-      webp:
-        enabled: true
+      formats: [webp]
       caption:
         enabled: true
 assets:
@@ -53,5 +52,4 @@ assets:
       widths: [768, 1024]
       sizes:
         default: "(max-width: 608px) 768px, 1024px"
-    webp:
-      enabled: true
+    formats: [webp]
