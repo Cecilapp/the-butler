@@ -1,9 +1,6 @@
 {
-  "builds": [{
-    "src": "package.json",
-    "use": "@vercel/static-build",
-    "config": { "distDir": "_site" }
-  }],
+  "buildCommand": "curl -sSOL https://cecil.app/build.sh && bash ./build.sh",
+  "outputDirectory": "_site",
   "headers": [
     {
       "source" : "/:all*(svg|jpg|jpeg|gif|png|webp|css|mp4|webm|woff|woff2|ttf|eot|ico|js|json|xml)",
