@@ -13,8 +13,8 @@
   ],
   "require": {
     "cecil/theme-hyde": "^2.5",
-    "cecil/theme-garth": "^1.10",
-    "cecil/theme-netlify": "^2.0",
+    "cecil/theme-garth": "^1.11",
+    "cecil/theme-netlify": "^2.1",
     "cecil/theme-netlifycms": "^2.0"
   },
   "scripts": {
