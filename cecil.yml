@@ -1,0 +1,56 @@
+title: The Butler
+baseline: Your blogging assistant
+description: A ready to use static blog, powered by Cecil.
+baseurl: /
+canonicalurl: true
+keywords: [Cecil, Static Site Generator, SSG]
+author: Arnaud Ligny
+language: en
+languages:
+  - code: en
+    locale: en
+  - code: fr
+    locale: fr_FR
+    config:
+      baseline: Votre assistant de blog
+      description: Un blog statique prêt à l’emploi, propulsé par Cecil.
+      taxonomies:
+        tags: tag
+theme:
+  - hyde
+  - netlify
+  - netlify-cms
+hyde:
+  sidebar:
+    sticky: true  # Content to the bottom of the sidebar
+  theme: ''       # red, orange, yellow, green, cyan, blue, magenta, brown or cecil
+  reverse: false  # Reverse layout
+  fonts: 'google' # google or local
+
+pages:
+  body:
+    highlight:
+      enabled: true
+    images:
+      lazy:
+        enabled: true
+      resize:
+        enabled: true
+      responsive:
+        enabled: true
+      formats: [webp]
+      caption:
+        enabled: true
+      placeholder: lqip
+assets:
+  images:
+    optimize:
+      enabled: true
+    quality: 75
+    responsive:
+      enabled: true
+      responsive:
+      widths: [768, 1024]
+      sizes:
+        default: "(max-width: 608px) 768px, 1024px"
+    formats: [webp]
