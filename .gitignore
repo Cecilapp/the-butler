@@ -1,5 +1,6 @@
 vendor/
 _site/
+_preview/
 .cecil/
 .cache/
 themes/*
