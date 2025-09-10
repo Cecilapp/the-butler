@@ -13,13 +13,7 @@ _The Butler_ is a ready to use static blog, powered by [Cecil](https://cecil.app
 
 ### Managing content
 
-#### Manually
-
 Create your own repository from the [GitHub template](https://github.com/Cecilapp/the-butler/generate), then just edit Markdown files in `pages/blog/`.
-
-#### Netlify CMS
-
-The easiest way to deploy and manage your blog is certainly with [Netlify](https://www.netlify.com) + [Netlify CMS](https://www.netlifycms.org).
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://cecil.app/hosting/netlify/deploy/ "Deploy to Netlify")
 
@@ -51,12 +45,6 @@ bash ./scripts/build.sh
 | [GitLab](https://about.gitlab.com/stages-devops-lifecycle/continuous-integration/) | <https://cecilapp.gitlab.io/the-butler/> | See [GitLab config file.](/.gitlab-ci.yml) |
 | ~~[Render](https://render.com)~~ | ~~<https://the-butler.onrender.com>~~ | [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://cecil.app/hosting/render/deploy/ "Deploy to Render") |
 | ~~[Travis CI](https://travis-ci.com)~~ | N/A | See [Travis config file.](/.travis.yml) |
-
-To use [**Netlify CMS**](https://www.netlifycms.org) ([demo](https://the-butler-demo.cecil.app/admin/)) you must:
-
-1. enable [Netlify Identity](https://docs.netlify.com/visitor-access/git-gateway/#setup-and-settings) and Git Gateway
-2. invite a user
-3. connect to `https://<your-blog>.netlify.com/admin/` with the user credentials
 
 ## Need Help?
 
