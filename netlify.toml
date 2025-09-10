@@ -3,7 +3,7 @@
   command = "curl -sSOL https://cecil.app/build.sh && bash ./build.sh"
 
 [build.environment]
-  PHP_VERSION = "8.1"
+  PHP_VERSION = "8.2"
 
 [context.production.environment]
   CECIL_ENV = "production"
