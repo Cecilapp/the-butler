@@ -9,9 +9,6 @@ concurrency:
   group: pages
   cancel-in-progress: true
 
-#env:
-#  CECIL_BASEURL: https://cecilapp.github.io/the-butler/
-
 jobs:
   build:
     runs-on: ubuntu-latest
