@@ -35,7 +35,7 @@ pages:
         enabled: true
       responsive:
         enabled: true
-      formats: [webp]
+      formats: [avif, webp]
       caption:
         enabled: true
       placeholder: lqip
@@ -49,4 +49,4 @@ assets:
       widths: [768, 1024]
       sizes:
         default: "(max-width: 608px) 768px, 1024px"
-    formats: [webp]
+    formats: [avif, webp]
