@@ -19,7 +19,6 @@ languages:
 theme:
   - hyde
   - netlify
-  - netlify-cms
 hyde:
   sidebar:
     sticky: true  # Content to the bottom of the sidebar
