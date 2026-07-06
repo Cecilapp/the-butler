@@ -28,8 +28,6 @@ hyde:
 
 pages:
   body:
-    highlight:
-      enabled: true
     images:
       lazy:
         enabled: true
