@@ -1,42 +1,50 @@
-image: phpdocker/phpdocker:8.1
+image: wordpress:cli-php8.4
 
 before_script:
-- |
-  echo "Downloading Cecil..."
-  if [[ -z "$CECIL_VERSION" ]]; then
-    curl -sSOL https://cecil.app/cecil.phar
-  else
-    curl -sSOL https://cecil.app/download/$CECIL_VERSION/cecil.phar
-  fi
-- php cecil.phar --version
-- |
-  echo "Installing themes..."
-  COMPOSER_CACHE_DIR=composer-cache composer install --prefer-dist --no-dev --no-progress --no-interaction
+  - |
+    if [ ! -f "./cecil.phar" ]; then
+      echo "Downloading Cecil..."
+      if [ -z $CECIL_VERSION ]; then
+        curl -sSOL https://cecil.app/cecil.phar
+      else
+        curl -sSOL https://cecil.app/download/$CECIL_VERSION/cecil.phar
+      fi
+    fi
+  - php cecil.phar --version
+  - |
+    if [ -f "./composer.json" ]; then
+      echo "Installing themes..."
+      if [ ! -f "./composer.phar" ]; then
+        curl -sS https://getcomposer.org/installer | php
+      fi
+      php composer.phar install --prefer-dist --no-dev --no-progress --no-interaction
+    fi
 
 # test build
 test:
   stage: test
   script:
-  - php cecil.phar build --verbose --output=test
+    - php cecil.phar build --verbose --output=test
   artifacts:
     paths:
-    - test
+      - test
   except:
-  - master
+    - master
 
 # build and deploy to pages
 pages:
   stage: deploy
   script:
-  - php cecil.phar build --output=public
+    - php cecil.phar build --output=public --baseurl=$CI_PAGES_URL
   artifacts:
     paths:
-    - public
+      - public
   only:
-  - master
+    - master
 
+# cache dependencies
 cache:
   paths:
-  - composer-cache/
-  - vendor/
-  - .cache/
+    - composer-cache/
+    - vendor/
+    - .cache/
