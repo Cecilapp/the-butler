@@ -10,3 +10,7 @@ This is an example blog post. It is used to demonstrate the blog feature of the 
 <!-- excerpt -->
 
 ![The butler](../../assets/images/butler.jpg)
+
+```php
+<?php echo "Hello, World!"; ?>
+```
