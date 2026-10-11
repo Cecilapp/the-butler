@@ -24,29 +24,24 @@ hyde:
     sticky: true  # Content to the bottom of the sidebar
   theme: ''       # red, orange, yellow, green, cyan, blue, magenta, brown or cecil
   reverse: false  # Reverse layout
-  fonts: 'google' # google or local
 
 pages:
   body:
     images:
-      lazy:
-        enabled: true
-      resize:
-        enabled: true
-      responsive:
-        enabled: true
+      lazy: true
+      responsive: true
       formats: [avif, webp]
-      caption:
-        enabled: true
+      caption: true
       placeholder: lqip
+layouts:
+  images:
+    responsive: true
+    formats: [avif, webp]
 assets:
   images:
-    optimize:
-      enabled: true
+    optimize: true
     quality: 75
     responsive:
-      enabled: true
       widths: [768, 1024]
       sizes:
         default: "(max-width: 608px) 768px, 1024px"
-    formats: [avif, webp]
