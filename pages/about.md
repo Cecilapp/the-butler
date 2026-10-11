@@ -10,6 +10,6 @@ _The Butler_ is a ready to use static blog, powered by [Cecil](https://cecil.app
 
 ## How to use?
 
-If your goal is deploying a new blog quickly, and manage content mannually, use the following button to configure and deploy your new blog on Netlify.
+If your goal is deploying a new blog quickly, and manage content manually, use the following button to configure and deploy your new blog on Netlify.
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Cecilapp/the-butler&stack=cms)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://cecil.app/hosting/netlify/deploy/ "Deploy to Netlify")
