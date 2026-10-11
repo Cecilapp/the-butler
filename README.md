@@ -19,7 +19,7 @@ Create your own repository from the [GitHub template](https://github.com/Cecilap
 
 ### Customize your blog
 
-1. Change configuration by editing [`config.yml`](https://github.com/Cecilapp/the-butler/blob/master/config.yml) file
+1. Change configuration by editing [`cecil.yml`](https://github.com/Cecilapp/the-butler/blob/master/cecil.yml) file
 2. Change templates by copying files from `themes/<theme>/layouts/` to your own `layouts/` directory to _override_ them
    - [Hyde](https://github.com/Cecilapp/theme-hyde#readme): [`themes/hyde/layouts/`](https://github.com/Cecilapp/theme-hyde/tree/master/layouts)
    - [Garth](https://github.com/Cecilapp/theme-garth#readme): [`themes/garth/layouts/`](https://github.com/Cecilapp/theme-garth/tree/master/layouts)
@@ -40,7 +40,7 @@ bash ./scripts/build.sh
 |------------------------------------|------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
 | [Netlify](https://www.netlify.com) | <https://the-butler-demo.cecil.app>      | [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://cecil.app/hosting/netlify/deploy/ "Deploy to Netlify") |
 | [Vercel](https://vercel.com)       | <https://the-butler.vercel.app>          | [![Deploy to Vercel](https://vercel.com/button)](https://cecil.app/hosting/vercel/deploy/ "Deploy to Vercel")                        |
-| [GitHub](https://github.com)       | <https://cecilapp.github.io/the-butler/> | See [GitHub Actions workflow file](/.github/workflows/build-and-deploy.yml).                                                         |
+| [GitHub](https://github.com)       | <https://cecilapp.github.io/the-butler/> | See [GitHub Actions workflow file](/.github/workflows/build-and-publish.yml).                                                        |
 | [GitLab](https://about.gitlab.com) | <https://cecilapp.gitlab.io/the-butler/> | See [GitLab config file.](/.gitlab-ci.yml)                                                                                           |
 
 ## Need Help?
