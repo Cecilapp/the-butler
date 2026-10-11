@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 # What this script do?
 #  1. install Cecil if `cecil.phar` is not found (set the `CECIL_VERSION` variable to use a specific version)
 #  2. install Composer if `composer.phar` is not found
